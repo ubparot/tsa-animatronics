@@ -1,0 +1,20 @@
+{
+  "id": "chr_0152",
+  "original_text": "Green wood warps, and seasoned wood behaves.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Green wood warps, and seasoned wood behaves.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21152
+  },
+  "request_id": "BaFnj4RWysiR280HCC56",
+  "character_cost": "22",
+  "fingerprint": "6051fdf6ea4401b30615f5fe20a9432020e1e6f3f8dc3ee2bd92090261bf31ce",
+  "audio_sha256": "2dfba78f6a104ca9222a4441a1c2230e7f60a9988d06171befc0ad029560aab2"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0147",
+  "original_text": "There is a knothole in the ceiling that lets in one star.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "There is a knothole in the ceiling that lets in one star.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21147
+  },
+  "request_id": "VYeVH0P4CgVN4iNtLsMZ",
+  "character_cost": "29",
+  "fingerprint": "0ae969e3c31a0ab70fa4937e4dd8714c490240477768621dfa10b2134509e179",
+  "audio_sha256": "596ae1052989f2d50d3b7eb05c8b84e648c12f8affd2467aa90bb464b3767ae4"
+}

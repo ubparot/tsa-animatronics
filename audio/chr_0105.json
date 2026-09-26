@@ -1,0 +1,20 @@
+{
+  "id": "chr_0105",
+  "original_text": "I would like to see the ocean someday.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] I would like to see the ocean someday.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21105
+  },
+  "request_id": "IjKl1TbceWZTVM5haPRJ",
+  "character_cost": "24",
+  "fingerprint": "f5bf0287c9ff7dcb9591accda9cc81349a80514536398faabcca7b3d148de81c",
+  "audio_sha256": "b78d11a4d187c83f2502f6efe5ad37a6d7ca8de608c5feb8aaf0391d331ddc8d"
+}

@@ -1,0 +1,7 @@
+FROM E:\Ollama\imports\qwen2.5-1.5b-instruct-q4_k_m.gguf
+
+# Fast local mode for brief interactive show responses. The pipeline supplies
+# the character prompt, schema, and safety controls at runtime.
+PARAMETER temperature 0.2
+PARAMETER num_ctx 2048
+PARAMETER num_predict 220

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0169",
+  "original_text": "One, two, three, four, five, six, seven, eight, nine, ten.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "One, two, three, four, five, six, seven, eight, nine, ten.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21169
+  },
+  "request_id": "djK7jVPB7In71fG2uZHe",
+  "character_cost": "29",
+  "fingerprint": "39c0c7b58c857683637ba3047e7e2345b1d4c273bbdacc4a03525209386bcfc0",
+  "audio_sha256": "55ddbfd4535959dff731034201ae0194f8d8d3fef5b22b17c9c38d213f02b285"
+}

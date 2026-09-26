@@ -1,0 +1,20 @@
+{
+  "id": "chr_0075",
+  "original_text": "I wanted you to be impressed with me.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I wanted you to be impressed with me.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21075
+  },
+  "request_id": "JQnhjfBoi5QG9CmItBdN",
+  "character_cost": "30",
+  "fingerprint": "fad09e3ae90a89c53cfa19834a4cdda1d619825b9002899d18380347db092c7d",
+  "audio_sha256": "577a1d7f3a611e8b3c4e447026d872cbe98c861510d37021e1aa33fd741a3143"
+}

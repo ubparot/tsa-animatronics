@@ -1,0 +1,20 @@
+{
+  "id": "chr_0143",
+  "original_text": "Every tool here has a shape worn by somebody's hand.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Every tool here has a shape worn by somebody's hand.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21143
+  },
+  "request_id": "EvpdE2UhIjhrMWMKMwqu",
+  "character_cost": "26",
+  "fingerprint": "70d23b86d802f13d8504bd891c93e5d6b1fd93150bd7f511703126038cde5e4d",
+  "audio_sha256": "1ff86b95f8303865b0e81dc309bb65302a9d840f095397c350fc829cc6459d5b"
+}

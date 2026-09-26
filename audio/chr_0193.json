@@ -1,0 +1,20 @@
+{
+  "id": "chr_0193",
+  "original_text": "He brought bread, cheese, apples, and a very small cake.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "He brought bread, cheese, apples, and a very small cake.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21193
+  },
+  "request_id": "LomOijysq618uYLK0vd3",
+  "character_cost": "28",
+  "fingerprint": "f3d5b67cc525128b360fae37d08959cffeb95c78ffcbcf044dd968c9e48cd2a6",
+  "audio_sha256": "e8332ec71c09368f0f3e22e2d44fcb4a3c7405ae4099e8ff1f6a6abc7e64a8d6"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0051",
+  "original_text": "Everybody says I am the cleverest boy they know!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Everybody says I am the CLEVEREST boy they know!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21051
+  },
+  "request_id": "dnDlI1tR3l27Fj6TJ5b1",
+  "character_cost": "29",
+  "fingerprint": "9949c087cfed9070a1bb63e2cb6dd529015c2456371558c526951530d2b2fdc1",
+  "audio_sha256": "1cefeb560906032fc3922e11fde81cde1cf33741fe8cce086c6e25a5589d9e55"
+}

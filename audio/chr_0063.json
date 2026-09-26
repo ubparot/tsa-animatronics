@@ -1,0 +1,20 @@
+{
+  "id": "chr_0063",
+  "original_text": "Three whole barrels, and I carried every one!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Three whole barrels, and I carried EVERY ONE!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21063
+  },
+  "request_id": "T9BYWRuIYlB5fhicWHCU",
+  "character_cost": "28",
+  "fingerprint": "80a45f34e7db369089b116968c82942cce07ac8a30bb51f15c694724c1e8265d",
+  "audio_sha256": "7264f66a495f7b912864404bbdbfd1dce84f1cd43e12b171bfd97937c64988f7"
+}

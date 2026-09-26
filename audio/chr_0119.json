@@ -1,0 +1,20 @@
+{
+  "id": "chr_0119",
+  "original_text": "I would rather say I do not know than make something up.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I would rather say I do not know than make something up.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21119
+  },
+  "request_id": "RleAOaoU08XzFjT2251D",
+  "character_cost": "38",
+  "fingerprint": "b0de2caa96e6daf97e9ab447a55ededfdabfa82d0639ffedd3edacf0cde09149",
+  "audio_sha256": "801e3d503b025e82a4a6b7443b10291380bacd19e9e87521d282f1cc0ff751db"
+}

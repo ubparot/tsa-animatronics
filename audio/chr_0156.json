@@ -1,0 +1,20 @@
+{
+  "id": "chr_0156",
+  "original_text": "The year was eighteen eighty-three.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The year was eighteen eighty-three.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21156
+  },
+  "request_id": "7tgptdbopvWGm3nm0v4W",
+  "character_cost": "18",
+  "fingerprint": "b1be2f269aeabd241b4afc9e8cd7149a407e36ca097a171af33164a73beee958",
+  "audio_sha256": "a12473f7dcbaf24f66e18dfe62946a124b5795f0bdcae1ae7353c89a2f2f9d4f"
+}

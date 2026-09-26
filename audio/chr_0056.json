@@ -1,0 +1,20 @@
+{
+  "id": "chr_0056",
+  "original_text": "I am strong enough to lift the anvil with one hand!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I am strong enough to lift the anvil with ONE HAND!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21056
+  },
+  "request_id": "r7Iri1ZsNrK3t7lgiRLD",
+  "character_cost": "30",
+  "fingerprint": "583e7a8110edf9719d13c7db51a51519fff83a27773fae7bbcdf6fbda81f0627",
+  "audio_sha256": "ec0c2e53fbeacc6c601d68fb6ba044c180b07f03ced9a859fda5ca8f49b9e141"
+}

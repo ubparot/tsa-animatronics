@@ -1,0 +1,20 @@
+{
+  "id": "chr_0072",
+  "original_text": "I am sorry. I made that up.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I am sorry. I made that up.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21072
+  },
+  "request_id": "SBe9sfi8vUl5NwiEzBho",
+  "character_cost": "24",
+  "fingerprint": "12bc10933096fbb0302811fdabf9703399dc521f9121d3e072e5d2171c2a0810",
+  "audio_sha256": "9db04d1698ab11f1ea3e0a1b43bf11fde03cf57a782fcb860aeac72aad616b4c"
+}

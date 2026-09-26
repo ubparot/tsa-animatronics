@@ -1,0 +1,20 @@
+{
+  "id": "chr_0128",
+  "original_text": "A sharp blade is safer than a dull one.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "A sharp blade is safer than a dull one.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21128
+  },
+  "request_id": "IeMTfpuKyv9Xx3PCLsxb",
+  "character_cost": "20",
+  "fingerprint": "ad53e45140f98606c4a2bd104182c6e3c3e27c038561698bb41b40cade585fbd",
+  "audio_sha256": "52e2cab01c6b39e8ac87c68a6625f2ee3cf6b9b5615b1c3654f8db6e439cbb98"
+}

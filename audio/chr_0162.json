@@ -1,0 +1,20 @@
+{
+  "id": "chr_0162",
+  "original_text": "It weighs about eleven and a half pounds.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "It weighs about eleven and a half pounds.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21162
+  },
+  "request_id": "DWGCJH79bo9EoJbV3qhu",
+  "character_cost": "20",
+  "fingerprint": "aa4ff8397e81645fac4ad603167d113c71db8c4b0f086d5aa4636f1a71c849e9",
+  "audio_sha256": "53a5dacd0389d19939977a8c5b998074c3743748e829bedabd5781db8cabbe58"
+}

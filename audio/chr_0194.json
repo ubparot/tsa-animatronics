@@ -1,0 +1,20 @@
+{
+  "id": "chr_0194",
+  "original_text": "Look up, look down, look left, look right.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Look up, look down, look left, look right.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21194
+  },
+  "request_id": "YQJSwT9eVURpy1hSQ0LV",
+  "character_cost": "21",
+  "fingerprint": "3ac9a0d25dcb7ae86142ffcbe8046d09c09f17667e0cdd91fab4c8641d06a944",
+  "audio_sha256": "218053e6f1ad5238b0cb81ad8db8ad4ffcac5249fea1a6d32a4b2d2eb5282ce1"
+}

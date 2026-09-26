@@ -1,0 +1,20 @@
+{
+  "id": "chr_0155",
+  "original_text": "Rain on the roof sounds like somebody sorting beans.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Rain on the roof sounds like somebody sorting beans.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21155
+  },
+  "request_id": "V2fDBfAVmJzoNdweuMMK",
+  "character_cost": "26",
+  "fingerprint": "34ac3058057ac677432ac6c381c03aea1ee5fc8be180895241b5dea45bef6694",
+  "audio_sha256": "3e12dcf95571da95c899a8319d31cb8b32d9c246a3398658815debb5425bcc0c"
+}

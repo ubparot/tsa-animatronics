@@ -1,0 +1,20 @@
+{
+  "id": "chr_0112",
+  "original_text": "That is outside my little workshop.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] That is outside my little workshop.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21112
+  },
+  "request_id": "busRkRFMqvokH4oD8EEI",
+  "character_cost": "28",
+  "fingerprint": "267f40c4686731d8362d9e00911111721e5220860c8eccfe5807b53b987ad0de",
+  "audio_sha256": "746cb0570785d03f6bb866102d84626df1975e2080db1a76014860a1183ecd8f"
+}

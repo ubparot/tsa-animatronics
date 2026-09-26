@@ -1,0 +1,20 @@
+{
+  "id": "chr_0043",
+  "original_text": "What should I do with all this sawdust?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] What should I do with all this sawdust?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21043
+  },
+  "request_id": "3bgRgF4KyaookWKzLGdz",
+  "character_cost": "24",
+  "fingerprint": "057f075de5f897a4e5d3fe7467e86167daf07330f83bcd79ba06f2448b9c7946",
+  "audio_sha256": "fea63d8dda7e9b9c6d790ab1ed7049aec708ce9aee5d189a84ad18e08638c795"
+}

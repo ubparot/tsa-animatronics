@@ -1,0 +1,20 @@
+{
+  "id": "chr_0032",
+  "original_text": "Is it cold outside, or just cold in here?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Is it cold outside, or just cold in here?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21032
+  },
+  "request_id": "VaP1xGTey9TvDcxE9W6C",
+  "character_cost": "26",
+  "fingerprint": "adb37b8b83fb555dfbabe81f01c94528e0bbc9b9e53f66cbf76fb13cddac5c8c",
+  "audio_sha256": "3a59e08eb606a901816c8c56be5d31fabbb1645918be686c452ab8bb9e731b6d"
+}

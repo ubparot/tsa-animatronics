@@ -1,0 +1,20 @@
+{
+  "id": "chr_0061",
+  "original_text": "Oh, I am tremendously good at this. Tremendously!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Oh, I am tremendously good at this. TREMENDOUSLY!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21061
+  },
+  "request_id": "nFnrG9hbWfT5DDbt8pPo",
+  "character_cost": "30",
+  "fingerprint": "04bd155b181dca32fa06ba6a19fddad9e442b9358941df5db00dd6bdc4c597d7",
+  "audio_sha256": "76ede5e89fec70d617bc0753a2afa0032e1add737899edbc6f1f71582c105cc5"
+}

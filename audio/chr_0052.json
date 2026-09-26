@@ -1,0 +1,20 @@
+{
+  "id": "chr_0052",
+  "original_text": "I can name every tool on that wall backwards!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I can name every tool on that wall BACKWARDS!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21052
+  },
+  "request_id": "ryTA8vxPK00jUWZPrv9p",
+  "character_cost": "28",
+  "fingerprint": "8dd2946436f0567c241c998c06c977ff0637e67120447ba4fed84777753abcbf",
+  "audio_sha256": "1ea85d4ecb7874be1b3418bdeae43bcd74f06203082b16f67dd12275494cd03d"
+}

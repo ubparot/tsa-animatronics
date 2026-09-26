@@ -1,0 +1,20 @@
+{
+  "id": "chr_0146",
+  "original_text": "Nails split the grain if you drive them too close to the end.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Nails split the grain if you drive them too close to the end.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21146
+  },
+  "request_id": "wfYN5cL9ZASEHDl9SOSI",
+  "character_cost": "30",
+  "fingerprint": "b34a50297be9136e9465fdb046ee5fe8e5ec293af1d2fa70e096e706907af71c",
+  "audio_sha256": "e831e4f4f88a9eb018dc2181b26914dbe32251519c1c7919bd15496c770d7513"
+}

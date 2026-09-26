@@ -1,0 +1,20 @@
+{
+  "id": "chr_0084",
+  "original_text": "I said it before I thought about it.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I said it before I thought about it.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21084
+  },
+  "request_id": "dwdzxEDyibQYiOVuheuo",
+  "character_cost": "29",
+  "fingerprint": "4912d68ac31f8b772b3f2dd1d4cd6848e74a60a22da6c65292b0983cfd04d8c8",
+  "audio_sha256": "d2cc2412fc8b29fb49c8497f143596a0d0a1a6e5435cc99e6c912efff0d6901c"
+}

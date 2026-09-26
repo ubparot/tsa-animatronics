@@ -1,0 +1,20 @@
+{
+  "id": "chr_0066",
+  "original_text": "You are looking at the finest craftsman in the county!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] You are looking at the FINEST craftsman in the county!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21066
+  },
+  "request_id": "62LuKcnbJTLEv7CcMSnU",
+  "character_cost": "32",
+  "fingerprint": "0b6499cb83eac0b82a69115c22b24727b58e666424545d75afac01f6f3ccfd96",
+  "audio_sha256": "0d9a0e97d4654b47065a578aff5a66039523630614adf73d2713e5f814904eff"
+}

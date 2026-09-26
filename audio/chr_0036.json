@@ -1,0 +1,20 @@
+{
+  "id": "chr_0036",
+  "original_text": "What time is it out there in the world?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] What time is it out there in the world?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21036
+  },
+  "request_id": "aGbCFo5FPdIOYAU3XOn6",
+  "character_cost": "24",
+  "fingerprint": "e34b50b8ad19699a67862beccc1c362cd48d989390c90e3f8ac3a0df965e6dec",
+  "audio_sha256": "47c6a3ac866414d825296fc9e7804ad24e8ec83e34a9eafb825992dc167bd0be"
+}

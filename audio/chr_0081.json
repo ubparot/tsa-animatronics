@@ -1,0 +1,20 @@
+{
+  "id": "chr_0081",
+  "original_text": "My nose is honest even when I am not.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] My nose is honest even when I am not.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21081
+  },
+  "request_id": "rF1pAjOR3vFgCi2PVROu",
+  "character_cost": "30",
+  "fingerprint": "f33b983b48f97a684c2cdc207c0c79ea8c135de8abb646e6048b045fee4bb128",
+  "audio_sha256": "6d7e005912b629270ee0c6467ed3928f6dd84e2d56b1acc37ad002a11b397d18"
+}

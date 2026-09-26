@@ -1,0 +1,20 @@
+{
+  "id": "chr_0189",
+  "original_text": "Sweep the floor, close the window, bank the stove, and lock the door.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Sweep the floor, close the window, bank the stove, and lock the door.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21189
+  },
+  "request_id": "WERip8FricQXKSQg9Ggr",
+  "character_cost": "34",
+  "fingerprint": "a1bc47028de7a0418ff116b2d6f79f800822eae24d68c6af5efb731190ce53d8",
+  "audio_sha256": "5de05731dfeaa73d8fa46d684dae37fab1bcb17acf524ccfb0c8314b0086514c"
+}

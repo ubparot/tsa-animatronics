@@ -1,0 +1,20 @@
+{
+  "id": "chr_0203",
+  "original_text": "The clock has been running since before I was carved, and it will probably still be running long after I have gone soft at the joints.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The clock has been running since before I was carved, and it will probably still be running long after I have gone soft at the joints.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21203
+  },
+  "request_id": "2zCEGIgugvAnH6R4QEFs",
+  "character_cost": "67",
+  "fingerprint": "866903ed2b215cd917e2776cfc9da8b4aac59dad96fd3351a9d75f310ac4aef2",
+  "audio_sha256": "c9a4f13e1d2393507a57d05f6964096639f2799814ab9fe1b838f69e5ade133d"
+}

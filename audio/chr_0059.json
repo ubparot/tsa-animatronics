@@ -1,0 +1,20 @@
+{
+  "id": "chr_0059",
+  "original_text": "The mayor asked me for advice, and I gave it!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] The mayor asked me for advice, and I gave it!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21059
+  },
+  "request_id": "kYLJWhYbFJDoaRxWvN5G",
+  "character_cost": "28",
+  "fingerprint": "19966e279429eff4849fcc60ac96d23157fec96f205a0899aaba0f93acb1e2a1",
+  "audio_sha256": "63841491f33a1989146325432e7501513e6067b4cb7fcd01af711b9a3f43eb24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0058",
+  "original_text": "I know a hundred songs and I never forget one!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I know A HUNDRED songs and I never forget one!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21058
+  },
+  "request_id": "ZaZxBaOVmDG4uuFgtblc",
+  "character_cost": "28",
+  "fingerprint": "ca557679506aa38d14c5e6008ecd65abcad72e2b5b2b33c832a60f618f431f6a",
+  "audio_sha256": "0925468d62a897c50d241ea655023cce3e8508f6048598f8a8ef34587958b9b2"
+}

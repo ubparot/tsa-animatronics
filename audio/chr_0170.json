@@ -1,0 +1,20 @@
+{
+  "id": "chr_0170",
+  "original_text": "The recipe needs two and three quarters cups.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The recipe needs two and three quarters cups.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21170
+  },
+  "request_id": "jXii03hk1ZWAcD1scPQB",
+  "character_cost": "22",
+  "fingerprint": "685d1cbde322797da4cb6519651268f81656007844ef4f7b0a2c85691adf5856",
+  "audio_sha256": "685362b8723ff630527eca06c8628d8ea3219606e0aab01d4804ac0472d3fd6f"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0122",
+  "original_text": "Ask me something about the workshop instead.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] Ask me something about the workshop instead.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21122
+  },
+  "request_id": "EX2DsjwYg9QMrbnCxmFP",
+  "character_cost": "32",
+  "fingerprint": "a6c3a9f4b43f571f0cef8fc4151604d645fdeb7950f673329092e241dd87efb7",
+  "audio_sha256": "985a40dd007f144fa04401cbffccf4001dc38c19b4bcd7899c68ca498a357c12"
+}

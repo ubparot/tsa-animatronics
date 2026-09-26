@@ -1,0 +1,20 @@
+{
+  "id": "chr_0091",
+  "original_text": "I wonder what is under all that snow.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] I wonder what is under all that snow.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21091
+  },
+  "request_id": "boSrI02l4wXy0zxf0Vc3",
+  "character_cost": "24",
+  "fingerprint": "cbf88940227f639004eeaf417651763ba38a03c56e160f9c063227239a43bf35",
+  "audio_sha256": "c9ea3287e9348dc13d7aa8ee04e242b488214c042da2d0761a961bae6c8418ec"
+}

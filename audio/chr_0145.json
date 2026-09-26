@@ -1,0 +1,20 @@
+{
+  "id": "chr_0145",
+  "original_text": "The plane leaves curls that spill onto the floor.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The plane leaves curls that spill onto the floor.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21145
+  },
+  "request_id": "F7qddBrT8i7hKzaWVGn4",
+  "character_cost": "24",
+  "fingerprint": "8701cbc523f9177280c22f6402cbb05e80cc60157bcee4e8bb779f0ad09dd576",
+  "audio_sha256": "3ab54ba9deca7a80ae53387abf9dbdf5a1cbe85a36395dfe564ea4d1b332e0cf"
+}

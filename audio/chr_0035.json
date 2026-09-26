@@ -1,0 +1,20 @@
+{
+  "id": "chr_0035",
+  "original_text": "Who taught you the things you know?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Who taught you the things you know?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21035
+  },
+  "request_id": "cZJU8nkHKnU77lY0RX9L",
+  "character_cost": "22",
+  "fingerprint": "9ca3cb98655e5eee3849a5bb66920ba52c2dbb577a95e3eecb36eaa800229d6d",
+  "audio_sha256": "7e2236cc3d46ebeea616d88901151ea514f986a00a34f43009f9add6b123b99e"
+}

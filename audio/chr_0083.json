@@ -1,0 +1,20 @@
+{
+  "id": "chr_0083",
+  "original_text": "Nobody applauded. It was very quiet, actually.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] Nobody applauded. It was very quiet, actually.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21083
+  },
+  "request_id": "ZUETkw2LTJB8DWScR33w",
+  "character_cost": "34",
+  "fingerprint": "c814506ea7905abd01b9c7ceba833535c03995c7e960151dc65520391d7f770e",
+  "audio_sha256": "f063c0e2e5f2d243371336681006aac631578e9dc76b9806414ded8fa4286333"
+}

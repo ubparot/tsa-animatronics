@@ -1,0 +1,20 @@
+{
+  "id": "chr_0030",
+  "original_text": "Why do people say honesty is hard?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Why do people say honesty is hard?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21030
+  },
+  "request_id": "OhwYn4lpYNq3OyI4qehR",
+  "character_cost": "22",
+  "fingerprint": "7cdf9e8053b638d551a24e6cca668dd4df61bd829c4fca35e54f3726c7d319b1",
+  "audio_sha256": "903f92cf08c4a02a00a40ce56f94390b6dd811e734f6027dec94505e4d29df66"
+}

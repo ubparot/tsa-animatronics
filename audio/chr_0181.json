@@ -1,0 +1,20 @@
+{
+  "id": "chr_0181",
+  "original_text": "I need a saw, a chisel, a mallet, and a steady hand.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "I need a saw, a chisel, a mallet, and a steady hand.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21181
+  },
+  "request_id": "ZlojkfCBgs5ZmQTQO3vM",
+  "character_cost": "26",
+  "fingerprint": "cd9a257193fad20250293dd7ba20093a352320322d62c0c07854bfb694d80faf",
+  "audio_sha256": "503fcf74be25e13bd1dae5e36656850af1c4f5117d24902c70669cf4652d47c1"
+}

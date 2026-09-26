@@ -1,0 +1,20 @@
+{
+  "id": "chr_0120",
+  "original_text": "That is beyond me, honestly.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] That is beyond me, honestly.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21120
+  },
+  "request_id": "HtBJe3xz8D6LKhkyrbAI",
+  "character_cost": "24",
+  "fingerprint": "35957a6e8d2d40564628eb3413bd3c4fc4012b126ddfef66efa653faf856534c",
+  "audio_sha256": "a4027c3bb3e3c6ac1a119cf45937c1e2dbe9e55d3f30a1496d6fb334d4db4970"
+}

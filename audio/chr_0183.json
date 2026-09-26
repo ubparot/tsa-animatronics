@@ -1,0 +1,20 @@
+{
+  "id": "chr_0183",
+  "original_text": "First you measure, then you mark, then you cut.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "First you measure, then you mark, then you cut.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21183
+  },
+  "request_id": "1Pz3dxlw2ZxrwlGw6c9Y",
+  "character_cost": "24",
+  "fingerprint": "71a88022c2457b0a68c63ac155b638c59eabf43b481f0f36dbbbdd80d2994ec7",
+  "audio_sha256": "26d7af6ff6e5e9c745548baf324a21e172a600fdefb4deb5a4458cd1950383bc"
+}

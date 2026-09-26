@@ -1,0 +1,20 @@
+{
+  "id": "chr_0096",
+  "original_text": "There is a whole world past that window.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] There is a whole world past that window.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21096
+  },
+  "request_id": "dXNiyUPrfgRtmMWJxIRj",
+  "character_cost": "25",
+  "fingerprint": "3beb121951a0797fab3ab9ba40ec44da370ee4af533f99358e4d128eea6f7039",
+  "audio_sha256": "d29fb6c5e0c59a010fb353d215ada5ad1b2ebded59dedcd9f3a820ad1dd146b7"
+}

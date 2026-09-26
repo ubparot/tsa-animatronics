@@ -1,0 +1,20 @@
+{
+  "id": "chr_0150",
+  "original_text": "I keep the smallest screws in a tin by the window.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "I keep the smallest screws in a tin by the window.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21150
+  },
+  "request_id": "picy25m6buirxrbLAt5e",
+  "character_cost": "25",
+  "fingerprint": "834fe7f980e8ef0ac47f907d212422131e3634424c3515422491f91f0c01e613",
+  "audio_sha256": "bb7d553e483043d0447901fdbc494a1a621203d0be291dcacd35f322160e66d2"
+}

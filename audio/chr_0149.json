@@ -1,0 +1,20 @@
+{
+  "id": "chr_0149",
+  "original_text": "Varnish takes a full day to cure properly.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Varnish takes a full day to cure properly.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21149
+  },
+  "request_id": "fdKQXAnkytS2BagF1yHa",
+  "character_cost": "21",
+  "fingerprint": "acc2c78e0cfc3416730226e43995527be740e11025e9bf4a7e330fedb183c1b2",
+  "audio_sha256": "9f8e7b49af9dd2aa0c36b93747f2fba0716c4ef377365b84311df6004e8c3a72"
+}

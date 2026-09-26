@@ -1,0 +1,20 @@
+{
+  "id": "chr_0073",
+  "original_text": "I should not have said it like that.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I should not have said it like that.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21073
+  },
+  "request_id": "B9QX3TLBKvnzFHDgsk88",
+  "character_cost": "29",
+  "fingerprint": "78f0e2be72f4bdfdcdfc3b152d43e7dc3403f53326f21ccd65f6f400222d6606",
+  "audio_sha256": "4af179f6821f93dd58ddc45bda31526c1e8597a2a942593ccfe9019f48734e21"
+}

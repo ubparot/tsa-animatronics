@@ -1,0 +1,20 @@
+{
+  "id": "chr_0139",
+  "original_text": "There are seven clamps, and I need eight.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "There are seven clamps, and I need eight.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21139
+  },
+  "request_id": "UOsgV8p7ESpw77HXuCzs",
+  "character_cost": "20",
+  "fingerprint": "59d4163d590c95dffbb4ccfc9ff630dd82cfa14526c8c8531d033e90a35ff5cf",
+  "audio_sha256": "4c327f2a8b247e50b0e507a4b0e8bbe827f0f558f00a05c3e47e4a1349687cad"
+}

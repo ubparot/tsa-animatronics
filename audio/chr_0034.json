@@ -1,0 +1,20 @@
+{
+  "id": "chr_0034",
+  "original_text": "Do you think a wooden boy can learn?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Do you think a wooden boy can learn?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21034
+  },
+  "request_id": "Tem1IxrROfP5qtE3IRwy",
+  "character_cost": "23",
+  "fingerprint": "4d72fb9588f5fabbc5e7ff71e3e5c2d1946a6cefbc81fa74815949a48c907ce4",
+  "audio_sha256": "4fb029795d8589cb157ea2f8a8b89329f8a2d3d9809edf7001ee0d4d32fb4be9"
+}

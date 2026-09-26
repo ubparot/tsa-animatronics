@@ -1,0 +1,20 @@
+{
+  "id": "chr_0029",
+  "original_text": "How many friends do you have?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] How many friends do you have?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21029
+  },
+  "request_id": "zMgkSE6Vf2ShMRK8LWUO",
+  "character_cost": "20",
+  "fingerprint": "32ce95e527f5896dfa9925d2ab8df5cee5e1ce7b46575089e526810971ed70e0",
+  "audio_sha256": "83061ae6210699d52ff2af616920884e874d22068801ea7f5b89600824dff304"
+}

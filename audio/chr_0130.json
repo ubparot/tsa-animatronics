@@ -1,0 +1,20 @@
+{
+  "id": "chr_0130",
+  "original_text": "Sawdust collects in the corners no matter how often I sweep.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Sawdust collects in the corners no matter how often I sweep.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21130
+  },
+  "request_id": "aGnp9FDWSsFe5uQlBW6i",
+  "character_cost": "30",
+  "fingerprint": "56e17547bec1bed210ac02392d887d4f112043eed5f32664f504edc4e72a7454",
+  "audio_sha256": "7f76403ea2b8a2b8d0102482719f425cc1efb7b20255e49f12f191b5a22958f7"
+}

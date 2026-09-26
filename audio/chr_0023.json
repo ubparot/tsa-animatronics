@@ -1,0 +1,20 @@
+{
+  "id": "chr_0023",
+  "original_text": "Do you know how a clock keeps time?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Do you know how a clock keeps time?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21023
+  },
+  "request_id": "aDHA2WKuP5crTEdEbQ1s",
+  "character_cost": "22",
+  "fingerprint": "e621cae1182b388062b7e88eab92031d63fa1e18c97a205fba3acc007a0b6b80",
+  "audio_sha256": "8a1923ed2d8ff3d369511ba6e674b378e983e52609eb4f283add18ae582c02e0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0199",
+  "original_text": "My father says that a thing worth building is worth building twice, once badly so you learn, and once well so you keep it.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "My father says that a thing worth building is worth building twice: once badly so you learn, and once well so you keep it.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21199
+  },
+  "request_id": "T6E3tIC2gYkfzpBMRMPq",
+  "character_cost": "61",
+  "fingerprint": "d1a266429775a675cad408c8c108d25681e3d67c4ec0f52f8deb4d20b96f9267",
+  "audio_sha256": "fa8aac64666bfb40e4210d2dfc351808df9936872c0153ff233cb3dcea834e56"
+}

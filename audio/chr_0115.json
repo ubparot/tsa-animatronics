@@ -1,0 +1,20 @@
+{
+  "id": "chr_0115",
+  "original_text": "That is a question for someone with more years than me.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] That is a question for someone with more years than me.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21115
+  },
+  "request_id": "WcEHaM1J7TkOPHUyctYW",
+  "character_cost": "38",
+  "fingerprint": "8fe167d40357bc252dad6366aae234fe862e3c1cc553b0d1322051de03d56d5f",
+  "audio_sha256": "1bcbd540a030594d76b4f3a20d7bbdb959e6db197ea09159fde2fffc631c1607"
+}

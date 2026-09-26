@@ -1,0 +1,20 @@
+{
+  "id": "chr_0088",
+  "original_text": "Let me try that again, properly this time.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] Let me try that again, properly this time.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21088
+  },
+  "request_id": "07B5AgbJVQXkPxLaXh63",
+  "character_cost": "32",
+  "fingerprint": "8afd5759a3b396a8a09bb86b100f8c3f897776d0ffc7418f868c4d734bc270b6",
+  "audio_sha256": "be026a2f82885e005a05606ed8146d510e2abe425459044e4ffebe1158bf6bbd"
+}

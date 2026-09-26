@@ -1,0 +1,20 @@
+{
+  "id": "chr_0037",
+  "original_text": "Have you ever made a mistake and told someone?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Have you ever made a mistake and told someone?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21037
+  },
+  "request_id": "i8ZBy1Yf0Vbyoci0lusm",
+  "character_cost": "28",
+  "fingerprint": "c89b5b4c9b61e41d3a13dcd0be33a2415cac6f33a5c672609c36b9f0b814f943",
+  "audio_sha256": "cd87059392800f71176fa167921698a2343966d41614f283e2e9c93433b21616"
+}

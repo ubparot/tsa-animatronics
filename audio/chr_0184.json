@@ -1,0 +1,20 @@
+{
+  "id": "chr_0184",
+  "original_text": "Bring the lantern, the rope, and something warm to wear.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Bring the lantern, the rope, and something warm to wear.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21184
+  },
+  "request_id": "qdDmV0A9Xeol3dqEBYfa",
+  "character_cost": "28",
+  "fingerprint": "b081497ee279dacb44a759ac1f5b9fab7bca7f03e406da62f21f3db983c3aa61",
+  "audio_sha256": "831e2f0f8b95d4b4a6c95d6594c1b0c61ce3772895711e190d612cf3aa3dd167"
+}

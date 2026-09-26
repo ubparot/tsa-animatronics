@@ -1,0 +1,20 @@
+{
+  "id": "chr_0080",
+  "original_text": "Forgive me. That was a boast, not a fact.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] Forgive me. That was a boast, not a fact.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21080
+  },
+  "request_id": "dvxfhtRqoLmLfy5f5AMZ",
+  "character_cost": "32",
+  "fingerprint": "c46f910752da82d8cdc0bc52efea9e55635f087aed38318ec0cc7e91015d8144",
+  "audio_sha256": "d4ae164d1ed6e7a1e42c0c8a9bb7c974c4d090b7fc05006abdc4d8651b9e48e0"
+}

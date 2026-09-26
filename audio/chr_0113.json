@@ -1,0 +1,20 @@
+{
+  "id": "chr_0113",
+  "original_text": "I have never heard of that before.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I have never heard of that before.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21113
+  },
+  "request_id": "ppInrjaYZVHFRpByzkzi",
+  "character_cost": "27",
+  "fingerprint": "d8e07df7dfba19095268b2a4b79dc784084c1f43b4bc792514e0c85abd6fb580",
+  "audio_sha256": "8a5d670bd4a63405532d60dee8fdacdea2981dde432dc1dfffad3dd8b8be4a2d"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0176",
+  "original_text": "The address is forty-seven Mill Road.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The address is forty-seven Mill Road.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21176
+  },
+  "request_id": "pYnSIHpDnXnNBPPROIgI",
+  "character_cost": "18",
+  "fingerprint": "4e7e357f6c668a8b06812befee1fa1aec3346c3dd5e7da29118aada89e5659d5",
+  "audio_sha256": "c8843e8ccfce6d0c9c78407093fd670a3254bc82d36c94384e7d1a20e188d6e1"
+}

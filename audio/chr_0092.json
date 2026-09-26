@@ -1,0 +1,20 @@
+{
+  "id": "chr_0092",
+  "original_text": "Somebody made this a long, long time ago.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Somebody made this a long, long time ago.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21092
+  },
+  "request_id": "1rEFK5LGo5xNJ4sO5UXs",
+  "character_cost": "26",
+  "fingerprint": "66b437655cbc2c3198a14eecbfedf55e2d9508cd4d6be2e5b6da73f79274ef9a",
+  "audio_sha256": "4b7e6ad23d230a723da5124533bd19243acb91d0a7686633dc7cf3d3fdfc79a6"
+}

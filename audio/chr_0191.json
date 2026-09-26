@@ -1,0 +1,20 @@
+{
+  "id": "chr_0191",
+  "original_text": "Nails, screws, dowels, pegs, and good strong glue.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Nails, screws, dowels, pegs, and good strong glue.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21191
+  },
+  "request_id": "n7mvSSKn8YqzpXezNtMz",
+  "character_cost": "25",
+  "fingerprint": "db1e9b2caddd892f446ac2ef070f4e9f06da4d9a26a1c750fa1ba80158ae414f",
+  "audio_sha256": "61701d9c6008a207e32d19dc4cd77785f785f8953e30ca673294d73806e25bc2"
+}

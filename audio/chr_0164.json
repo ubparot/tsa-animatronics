@@ -1,0 +1,20 @@
+{
+  "id": "chr_0164",
+  "original_text": "Half past nine in the morning.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Half past nine in the morning.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21164
+  },
+  "request_id": "gB2rmY8hg6UdgYQO1FuJ",
+  "character_cost": "15",
+  "fingerprint": "b2b1b9ab5e6af5758ad7bfdabb0252101ed9e0e6fd4d08b075e6640ffa4888c7",
+  "audio_sha256": "70096d6b83443419528518584c00b1074121fbc60739224ce1568948c2106c09"
+}

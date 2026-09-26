@@ -1,0 +1,20 @@
+{
+  "id": "chr_0201",
+  "original_text": "Every board in this room used to be a tree somewhere, standing in the rain, and now it is a shelf, a chair, or a small boy who talks too much.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Every board in this room used to be a tree somewhere, standing in the rain. And now it is a shelf, a chair, or a small boy who talks too much.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21201
+  },
+  "request_id": "i4kGYpIW9F29iSMBMsmM",
+  "character_cost": "71",
+  "fingerprint": "d2c800e3ee52dc0f9e5aa93b1c62f4147dbfb37e2bc545457711e107b9cee2eb",
+  "audio_sha256": "e0281469e9603b8ec33b7207f544b2e3353f08c5290ba8ce6a885c03e9499092"
+}

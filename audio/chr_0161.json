@@ -1,0 +1,20 @@
+{
+  "id": "chr_0161",
+  "original_text": "The meeting is on Tuesday, March the fourth.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The meeting is on Tuesday, March the fourth.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21161
+  },
+  "request_id": "nUCLebJ3UDifAEGuandY",
+  "character_cost": "22",
+  "fingerprint": "7b98a3283a2ed0f1afa3ee93a4827ded9328b3a37e7ee36951dacdaa8c13d4ed",
+  "audio_sha256": "c33df0f78464c18d2d50750c83e2031a8b68cfb70131d2b39862a9b08620ce14"
+}

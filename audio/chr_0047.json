@@ -1,0 +1,20 @@
+{
+  "id": "chr_0047",
+  "original_text": "Watch this, watch this, you will not believe it!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Watch this, watch this! You will not believe it!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21047
+  },
+  "request_id": "OmlJvBTYBCvXinfK0XS9",
+  "character_cost": "29",
+  "fingerprint": "3a789fe6588984692ed5b356cb7f530bfb1b2369b7315d097d0cd7a79e9cbe9c",
+  "audio_sha256": "c6cc54cee2f67fbd014f1ee155813beafd9005185c04926466008966bf0c128e"
+}

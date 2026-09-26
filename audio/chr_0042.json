@@ -1,0 +1,20 @@
+{
+  "id": "chr_0042",
+  "original_text": "How does it feel to grow taller every year?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] How does it feel to grow taller every year?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21042
+  },
+  "request_id": "Alr3wPOTnbttT5dzlTF3",
+  "character_cost": "26",
+  "fingerprint": "6385a3d1c57512c51c36e94b7e5eb96cf2b85aabf46f4ef2ea27a26b4d250183",
+  "audio_sha256": "b0e504187c8214be9698520c02f14eb1fdb5dec3edc4611d519fcd28322b2a75"
+}

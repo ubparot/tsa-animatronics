@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4ead5" />
+    <title>Pinocchio Humor Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="masthead">
+        <a class="brand" href="/" aria-label="Pinocchio Humor Lab home">
+          <span class="brand-mark" aria-hidden="true"><i></i></span>
+          <span><small>PINOCCHIO WORKSHOP</small><strong>Humor Lab</strong></span>
+        </a>
+        <div class="save-state" id="save-state" aria-live="polite">
+          <span></span> Saved locally
+        </div>
+      </header>
+
+      <section class="intro">
+        <div>
+          <p class="kicker">A QUICK TASTE TEST</p>
+          <h1>What actually makes<br /><em>this puppet</em> funny?</h1>
+        </div>
+        <p class="intro-copy">
+          Rate your first reaction to each line. There are no right answers—the useful signal is
+          your taste. Joke labels stay hidden while you rate.
+        </p>
+      </section>
+
+      <section class="experiment-grid">
+        <section class="rating-stage" aria-labelledby="line-heading">
+          <div class="progress-row">
+            <div>
+              <span id="progress-copy">Loading lines…</span>
+              <strong id="progress-percent">0%</strong>
+            </div>
+            <div class="progress-track" aria-hidden="true"><span id="progress-fill"></span></div>
+          </div>
+
+          <article class="line-card" id="line-card">
+            <p class="line-number" id="line-heading">LINE <span id="line-number">—</span></p>
+            <blockquote id="line-text">Opening the joke drawer…</blockquote>
+            <p class="first-reaction">Go with your first reaction. Do not overthink the joke.</p>
+          </article>
+
+          <fieldset class="likert" id="likert" disabled>
+            <legend>How funny is this line?</legend>
+            <div class="scale-labels" aria-hidden="true"><span>Not funny</span><span>Extremely funny</span></div>
+            <div class="rating-buttons" id="rating-buttons"></div>
+          </fieldset>
+
+          <div class="stage-actions">
+            <button class="quiet-button" id="previous-button" type="button" disabled>← Edit previous</button>
+            <button class="quiet-button" id="skip-button" type="button">Skip for now →</button>
+          </div>
+          <p class="keyboard-tip"><kbd>1</kbd>–<kbd>7</kbd> rate · <kbd>S</kbd> skips · ratings can be edited</p>
+        </section>
+
+        <aside class="side-panel">
+          <section class="score-card">
+            <p class="kicker">YOUR SESSION</p>
+            <div class="score-number"><strong id="rated-count">0</strong><span>/ 72 rated</span></div>
+            <dl>
+              <div><dt>Your average</dt><dd id="rating-average">—</dd></div>
+              <div><dt>Model status</dt><dd id="model-status">Needs 12 ratings</dd></div>
+            </dl>
+          </section>
+
+          <section class="model-card">
+            <div class="model-heading">
+              <span class="spark" aria-hidden="true">✦</span>
+              <div><p class="kicker">PREFERENCE MODEL</p><h2>Teach the writer your taste</h2></div>
+            </div>
+            <p id="model-explanation">
+              After 12 ratings, train a small local reranker. More ratings make its pattern estimates steadier.
+            </p>
+            <button class="train-button" id="train-button" type="button" disabled>
+              Train after 12 ratings
+            </button>
+            <div class="insights" id="insights" hidden>
+              <p class="insight-label">Your strongest joke patterns</p>
+              <div id="favorite-devices" class="tag-row"></div>
+              <p class="model-note" id="model-note"></p>
+            </div>
+          </section>
+
+          <details class="method-card">
+            <summary>What gets trained?</summary>
+            <p>
+              A transparent candidate reranker learns your preferences for joke structure,
+              delivery, topic, length, and character callbacks. Chatterbox still handles the voice.
+            </p>
+          </details>
+        </aside>
+      </section>
+
+      <footer>
+        <p>Everything stays on this computer.</p>
+        <div>
+          <a href="/api/export.csv">Export CSV</a>
+          <button id="new-profile-button" type="button">Start a separate rating profile</button>
+        </div>
+      </footer>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

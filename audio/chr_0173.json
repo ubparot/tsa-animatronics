@@ -1,0 +1,20 @@
+{
+  "id": "chr_0173",
+  "original_text": "The board measures eight feet by four feet.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The board measures eight feet by four feet.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21173
+  },
+  "request_id": "4bixDF64bCNFxqNRBLwO",
+  "character_cost": "21",
+  "fingerprint": "096b7ebdf64f3f00a6c9649ece1fe0f8b6843c82e99da29d7a927d7db8bbed47",
+  "audio_sha256": "520f142486747000080671ec18f24c645861c1a8c076d2cfd9359327bbc8a376"
+}

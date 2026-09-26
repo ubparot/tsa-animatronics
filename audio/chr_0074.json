@@ -1,0 +1,20 @@
+{
+  "id": "chr_0074",
+  "original_text": "All right. It was not a hundred. It was two.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] All right. It was not a hundred... It was two.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21074
+  },
+  "request_id": "E71NtY9nnhu0HVciGhQg",
+  "character_cost": "34",
+  "fingerprint": "1cf7a240722b7b774d6158dffd9cdd28e8fcb2bae3d28c8f5b4e73d106393e88",
+  "audio_sha256": "d9b8a0652dc0eaf5ee9c9cfdd2e09040cf68d2985d9fd570389549e3ca8efc7a"
+}

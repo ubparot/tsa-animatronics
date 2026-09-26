@@ -1,0 +1,20 @@
+{
+  "id": "chr_0049",
+  "original_text": "Oh, that is nothing. I have done far better!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Oh, that is nothing. I have done far better!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21049
+  },
+  "request_id": "jYTSfBgY6U1TMkcgzz34",
+  "character_cost": "27",
+  "fingerprint": "40ae7a7298074bd2014fd95d60d1b082238a06f1f6dbec6ff5ab1f9d951175cc",
+  "audio_sha256": "28444fe0a4043201a7ecb8bb40fecf40492c28affc94e7ff0a9df4c310bb32d3"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0102",
+  "original_text": "I keep looking at the door, wondering who is next.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] I keep looking at the door, wondering who is next.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21102
+  },
+  "request_id": "l6fyT6HpGhpPhCNWQbM1",
+  "character_cost": "30",
+  "fingerprint": "d14b35a1dde4b858195d7b3ec2b69f437e544364175e5495785ae7c64efd6fcd",
+  "audio_sha256": "d59c351eb8596dfa38472d6c08ec19b1a4d0acbca3a38f3be5bd0befcc4a6b45"
+}

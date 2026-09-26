@@ -1,0 +1,20 @@
+{
+  "id": "chr_0117",
+  "original_text": "I am only a wooden boy. I do not know everything.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I am only a wooden boy. I do not know everything.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21117
+  },
+  "request_id": "rIekyRzz9pmljRpaMjd8",
+  "character_cost": "34",
+  "fingerprint": "6f62fb13d72c7312b20a059a6cdf332518bc2fcd6a35e097e5a2c5b6635367d7",
+  "audio_sha256": "404d19e7d5aa314212b6f6b1b44cc8802cca11e508a8d417568f1d1947decbc3"
+}

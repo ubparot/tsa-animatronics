@@ -1,0 +1,20 @@
+{
+  "id": "chr_0057",
+  "original_text": "That clock? I fixed it! Me! All by myself!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] That clock? I fixed it! ME! All by myself!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21057
+  },
+  "request_id": "yYQkysHl3G93kpRzDTnc",
+  "character_cost": "26",
+  "fingerprint": "22228350f7ae51e4fcea3a7737eb2b98a2b2fa51171bf912d909643e4a79baed",
+  "audio_sha256": "d5c8fe407ee141c8773a901a64774d4a0e0f94834e36dccfd2a186601fa59a7e"
+}

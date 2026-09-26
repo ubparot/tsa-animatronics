@@ -1,0 +1,20 @@
+{
+  "id": "chr_0045",
+  "original_text": "Which is harder, starting or finishing?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Which is harder, starting or finishing?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21045
+  },
+  "request_id": "hOlmJUuCJPvxbljiUkdX",
+  "character_cost": "24",
+  "fingerprint": "4fc1e365989a096d383a72f6458035362a41b5418dec0fefcbc7a61c3abe8082",
+  "audio_sha256": "1da3dccf128f9f5178d7ce243cd81e69556a587985ee396495aab292cc74de44"
+}

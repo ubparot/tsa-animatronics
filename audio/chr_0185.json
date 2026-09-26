@@ -1,0 +1,20 @@
+{
+  "id": "chr_0185",
+  "original_text": "Sanding, staining, sealing, and finally waiting.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Sanding, staining, sealing, and finally waiting.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21185
+  },
+  "request_id": "yFkFJx75fQLXR9tvJebv",
+  "character_cost": "24",
+  "fingerprint": "2a4212338b7fcab86a47ef27b63b83724c946e86220662790f13f3ece0eab6a2",
+  "audio_sha256": "a541eb69f6457fce59f86ad1e11b5e0c1578f0b06eb888b55aa3c47bb216a8bc"
+}

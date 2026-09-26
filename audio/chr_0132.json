@@ -1,0 +1,20 @@
+{
+  "id": "chr_0132",
+  "original_text": "Glue needs time and pressure, and there is no shortcut.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Glue needs time and pressure, and there is no shortcut.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21132
+  },
+  "request_id": "4WOdMRMvLoPZAhBhEzaw",
+  "character_cost": "28",
+  "fingerprint": "8e0ce24c888846b549584946c81c5df67aa91f3f9249b552d7137daecfb33394",
+  "audio_sha256": "08c4bb6a2233a89e0b4b71c9d8a88a46247fde7d14ce4ee2bce5d051f884f747"
+}

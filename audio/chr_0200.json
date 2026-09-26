@@ -1,0 +1,20 @@
+{
+  "id": "chr_0200",
+  "original_text": "There is a difference between a story that grows in the telling and a lie that you tell on purpose, and I am still working out where the line falls.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "There is a difference between a story that grows in the telling and a lie that you tell on purpose, and I am still working out where the line falls.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21200
+  },
+  "request_id": "Vyd310M4DYCKjyFAkAch",
+  "character_cost": "74",
+  "fingerprint": "e5ebd09076905d62e5145eab021697fd88436eaacae73b5abb82d82624fcfdc2",
+  "audio_sha256": "df504dc30c54e78e872b3776d9a18d4de2edb8bf8962e449353191e9a754cc3c"
+}

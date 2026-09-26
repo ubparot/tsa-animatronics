@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#13100e" />
+    <title>Pinocchio Workshop</title>
+    <link rel="stylesheet" href="/ui.css" />
+  </head>
+  <body>
+    <main class="workshop-shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">LOCAL SHOW CONTROL</p>
+          <h1>Pinocchio Workshop</h1>
+          <a class="lab-link" href="/performance">Open Audio Performance Lab →</a>
+        </div>
+        <div class="system-status" id="system-status" aria-live="polite">
+          <span class="status-dot"></span>
+          <span>Starting local system</span>
+        </div>
+      </header>
+
+      <section class="control-grid" aria-label="Show controls">
+        <section class="panel ask-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">VISITOR INPUT</p>
+              <h2>Ask Pinocchio</h2>
+            </div>
+            <span class="mic-label" id="microphone-label">Microphone</span>
+          </div>
+
+          <button class="record-button" id="record-button" type="button">
+            <span class="record-icon" aria-hidden="true"></span>
+            <span class="record-copy">
+              <strong>Record question</strong>
+              <small>Speak, then pause to finish</small>
+            </span>
+          </button>
+
+          <div class="or-divider"><span>or test by typing</span></div>
+          <label class="sr-only" for="text-question">Type a question for Pinocchio</label>
+          <textarea id="text-question" maxlength="500" placeholder="What did you build today?"></textarea>
+          <div class="prompt-suggestions" aria-labelledby="prompt-suggestions-label">
+            <div class="suggestion-heading">
+              <span id="prompt-suggestions-label">Try asking</span>
+              <small>Choose one, then select the outcome</small>
+            </div>
+            <div class="suggestion-list">
+              <button type="button" data-question="What did you build today?">What did you build today?</button>
+              <button type="button" data-question="Did you really build this whole workshop?">Did you build this workshop?</button>
+              <button type="button" data-question="What is the biggest mistake you have ever made?">Your biggest mistake?</button>
+              <button type="button" data-question="What makes you a real boy?">What makes you real?</button>
+              <button type="button" data-question="Can you keep a secret?">Can you keep a secret?</button>
+              <button type="button" data-question="What are you afraid of?">What are you afraid of?</button>
+              <button type="button" data-question="What is your favorite tool in the workshop?">Your favorite tool?</button>
+              <button type="button" data-question="What happens when you tell a lie?">What happens when you lie?</button>
+              <button type="button" data-question="What is seven times six?">What is seven times six?</button>
+              <button type="button" data-question="Tell me something amazing about yourself.">Tell me something amazing.</button>
+              <button type="button" data-question="What does it mean to think on your feet?">Think on your feet?</button>
+              <button type="button" data-question="Do you always listen to Geppetto?">Do you listen to Geppetto?</button>
+            </div>
+          </div>
+          <button class="text-button" id="text-button" type="button">Send typed question</button>
+
+          <fieldset class="outcome-picker">
+            <legend>Demonstration outcome</legend>
+            <div class="choice-row">
+              <label><input type="radio" name="outcome" value="" checked /><span>Truth (default)</span></label>
+              <label><input type="radio" name="outcome" value="TRUTH" /><span>Truth</span></label>
+              <label><input type="radio" name="outcome" value="LIE" /><span>Lie</span></label>
+              <label><input type="radio" name="outcome" value="CONFESSION" /><span>Confession</span></label>
+            </div>
+          </fieldset>
+
+          <label class="model-picker" for="model-mode">
+            <span>Response model</span>
+            <select id="model-mode">
+              <option value="pinocchio-fast" selected>Fast · 1.5B (recommended)</option>
+              <option value="pinocchio-ai">Large · 3B (experimental)</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="panel puppet-panel" aria-label="Virtual puppet state">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">VIRTUAL PUPPET</p>
+              <h2>Show outcome</h2>
+            </div>
+            <span id="truth-badge" class="truth-badge neutral">Waiting</span>
+          </div>
+          <div class="puppet-stage">
+            <div class="puppet-head">
+              <span class="eye left-eye"></span><span class="eye right-eye"></span>
+              <span class="nose" id="nose" aria-label="Nose position"></span>
+              <span class="mouth"></span>
+            </div>
+            <div class="nose-readout"><span>Nose position</span><strong id="nose-value">0%</strong></div>
+          </div>
+          <div class="motion-list" id="motion-list">
+            <p class="empty-copy">Motion commands will appear here.</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="panel response-panel" aria-live="polite">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">SHOW RESPONSE</p>
+            <h2 id="response-title">Ready for a visitor</h2>
+          </div>
+          <span class="source-label" id="source-label">LOCAL</span>
+        </div>
+        <p class="transcript" id="transcript">Your spoken or typed question will appear here.</p>
+        <blockquote id="spoken-text">Pinocchio is ready to listen.</blockquote>
+        <audio id="response-audio" controls preload="none" hidden></audio>
+        <p class="helper-text" id="helper-text">Chatterbox speaks locally after the show controls validate the AI response.</p>
+      </section>
+    </main>
+    <script src="/ui.js"></script>
+  </body>
+</html>

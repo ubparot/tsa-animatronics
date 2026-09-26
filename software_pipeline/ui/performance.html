@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#120f0d" />
+    <title>Audio Performance Lab · Pinocchio Workshop</title>
+    <link rel="stylesheet" href="/performance.css" />
+  </head>
+  <body>
+    <main class="lab-shell">
+      <header class="lab-header">
+        <div>
+          <a class="back-link" href="/">← Show control</a>
+          <p class="eyebrow">PINOCCHIO VOICE RESEARCH</p>
+          <h1>Audio Performance Lab</h1>
+          <p class="lede">Find the voice that performs best—not merely the one with the most impressive settings.</p>
+        </div>
+        <div class="model-pill" id="model-pill"><span></span> Loading Chatterbox</div>
+      </header>
+
+      <section class="step-card compose-card" id="compose-card">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <div class="section-heading">
+            <div><p class="eyebrow">DESIGN THE ROUND</p><h2>Several settings, several lines, several seeds</h2></div>
+            <span class="round-time" id="round-estimate">about 75 sec</span>
+          </div>
+          <label class="field-label" for="performance-line">Your line (the round adds show lines from the test script to it)</label>
+          <textarea id="performance-line" maxlength="500">I carved myself from a mighty tree. Geppetto helped by doing absolutely all of it.</textarea>
+          <div class="preset-row" id="preset-row"></div>
+
+          <fieldset class="mode-picker">
+            <legend>What should this round test?</legend>
+            <label class="mode-option">
+              <input type="radio" name="mode" value="reference" />
+              <span><strong>Voice match</strong><small>Compare source recordings with identical delivery settings.</small></span>
+            </label>
+            <label class="mode-option">
+              <input type="radio" name="mode" value="delivery" />
+              <span><strong>Delivery</strong><small>Keep the voice source fixed; move temperature and repetition penalty one at a time.</small></span>
+            </label>
+            <label class="mode-option">
+              <input type="radio" name="mode" value="mixed" checked />
+              <span><strong>Mixed exploration</strong><small>Search voice source and delivery together for a strong starting point.</small></span>
+            </label>
+          </fieldset>
+          <div class="generate-row">
+            <label for="config-count">Settings <select id="config-count"><option>2</option><option selected>3</option><option>4</option></select></label>
+            <label for="line-count">Lines <select id="line-count"><option>2</option><option selected>3</option><option>4</option></select></label>
+            <label for="seed-count">Seeds each <select id="seed-count"><option>2</option><option selected>3</option><option>4</option></select></label>
+            <button class="primary-button" id="generate-button" type="button">Generate blind round</button>
+          </div>
+          <p class="design-note">
+            Every setting speaks every line at every seed. You rate the group, not a single lucky take —
+            at these temperatures one clip mostly tells you which seed got lucky.
+          </p>
+          <p class="inline-message" id="compose-message" role="status"></p>
+        </div>
+      </section>
+
+      <section class="step-card progress-card hidden" id="progress-card" aria-live="polite">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <p class="eyebrow">GENERATING LOCALLY</p>
+          <h2 id="progress-title">Preparing the audition</h2>
+          <div class="progress-track"><span id="progress-fill"></span></div>
+          <p class="progress-copy" id="progress-copy">Waiting for the voice engine…</p>
+        </div>
+      </section>
+
+      <section class="step-card audition-card hidden" id="audition-card">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <div class="section-heading">
+            <div><p class="eyebrow">BLIND LISTENING</p><h2 id="clip-heading">Group A</h2></div>
+            <span class="counter" id="rating-counter">1 of 9</span>
+          </div>
+          <p class="blind-note">Settings stay hidden until every group is scored. Trust your ears.</p>
+          <blockquote class="cell-line" id="cell-line"></blockquote>
+          <p class="take-note">Play all takes before you score. Rate the group as a whole, including how much it wobbles between takes.</p>
+          <div class="take-list" id="take-list"></div>
+          <div class="rating-grid" id="rating-grid"></div>
+          <button class="primary-button save-button" id="save-rating" type="button">Save ratings &amp; hear next</button>
+          <p class="inline-message" id="rating-message" role="status"></p>
+        </div>
+      </section>
+
+      <section class="step-card results-card hidden" id="results-card">
+        <div class="step-number">04</div>
+        <div class="step-content">
+          <div class="section-heading">
+            <div><p class="eyebrow">SETTINGS REVEALED</p><h2>Your ranked settings</h2></div>
+            <button class="secondary-button" id="new-round" type="button">New round</button>
+          </div>
+          <p class="results-note">
+            Each score is the mean across every line: 30% similarity, 25% naturalness, 25% character fit, 20% funny delivery.
+            <strong>Spread</strong> is the gap between a setting's best and worst line — a steady setting beats a spiky one for a live show.
+            Applying a setting leaves the live seed alone, because the round judged it across seeds on purpose.
+          </p>
+          <div class="results-list" id="results-list"></div>
+          <p class="inline-message" id="results-message" role="status"></p>
+        </div>
+      </section>
+    </main>
+    <script src="/performance.js"></script>
+  </body>
+</html>

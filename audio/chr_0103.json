@@ -1,0 +1,20 @@
+{
+  "id": "chr_0103",
+  "original_text": "Somebody carved their initials here, ages ago.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Somebody carved their initials here, ages ago.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21103
+  },
+  "request_id": "xE4e8QSELXr1aNhL7pM7",
+  "character_cost": "28",
+  "fingerprint": "cd4e46f33ce3c45017285cb8039d7b9799906c771878e7c21ccb2f6c537221bf",
+  "audio_sha256": "6db9f2a1ef6ffc11b59922cb22774a8a6357be995de7f8a98640297098592c65"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0148",
+  "original_text": "The vise squeaks unless somebody oils it.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The vise squeaks unless somebody oils it.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21148
+  },
+  "request_id": "9FEZWgyF6ljsLbSigoPV",
+  "character_cost": "20",
+  "fingerprint": "e243b1dab588d191d4f3cee1203c0340d34fcfd5e967d04e5494b2236153927f",
+  "audio_sha256": "e1179e054bd08a5bcd0dcec5d9b3a13c3b3c2bc8fb0672a7fe72143a133873b7"
+}

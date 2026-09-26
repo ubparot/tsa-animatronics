@@ -1,0 +1,20 @@
+{
+  "id": "chr_0118",
+  "original_text": "Hmm. You have stumped me completely.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] Hmm... You have stumped me completely.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21118
+  },
+  "request_id": "MFa8a2IeRoiSL8bW7pAu",
+  "character_cost": "29",
+  "fingerprint": "307a8cacb6fa454259e762ddcb2ff7f560bd508d367f5f49e1b15531341f4b26",
+  "audio_sha256": "f697b625c2ab86fc8156ae181ceb1c492f804ad22488d8666d1bc68b2d1fa98b"
+}

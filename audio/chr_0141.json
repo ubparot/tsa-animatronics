@@ -1,0 +1,20 @@
+{
+  "id": "chr_0141",
+  "original_text": "A dovetail joint holds without any glue at all.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "A dovetail joint holds without any glue at all.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21141
+  },
+  "request_id": "cXSKObtQ0A82ZJtS377E",
+  "character_cost": "24",
+  "fingerprint": "336c8a6a2313e1bf3db6bedcacf71614c053b55939d2f44585d6a95c2d809dfb",
+  "audio_sha256": "5c0aa5384af70e8aed234e5de304aa6b4a4bdc4e32281aff6ba95a300feea4f3"
+}

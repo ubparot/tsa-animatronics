@@ -1,0 +1,20 @@
+{
+  "id": "chr_0062",
+  "original_text": "I taught the cat to count, and now she does!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I taught the cat to count, and now she does!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21062
+  },
+  "request_id": "SeEsVVvH5xTHLDOmlTc4",
+  "character_cost": "27",
+  "fingerprint": "1fdcd2e84c383fad223775583d20c211a751a3f511e75cbdf008a79c453ab532",
+  "audio_sha256": "287a078a9fea8a7dac02610e754e2aec4bb91667df818daee6f7544291a6c035"
+}

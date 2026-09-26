@@ -1,0 +1,20 @@
+{
+  "id": "chr_0121",
+  "original_text": "I have no idea, and that is the plain truth.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I have no idea, and that is the plain truth.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21121
+  },
+  "request_id": "qBqUDqiVaOZmOXJXui3k",
+  "character_cost": "32",
+  "fingerprint": "0ff5d9fd89121d270c61f65a27ed410b047920406f9672a2f7d6b209c88ee4b1",
+  "audio_sha256": "06e2dc9ab2d7eac88fe517a3e3d8df60fb7763213f304e3271d8224766c3cf2c"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0158",
+  "original_text": "My name is spelled P, I, N, O, C, C, H, I, O.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "My name is spelled: P. I. N. O. C. C. H. I. O.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21158
+  },
+  "request_id": "CvZpynt8so1JhUsFmbZo",
+  "character_cost": "23",
+  "fingerprint": "22aea7ce766e4b66de4903342d734f9a442ad5c9f30ae10587f6088a19c735a5",
+  "audio_sha256": "e31e6cbc80fd9e3bc03ab2c2c2f782546468d8499f17bb701dd5a56f2355d71f"
+}

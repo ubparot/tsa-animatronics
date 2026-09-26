@@ -1,0 +1,20 @@
+{
+  "id": "chr_0048",
+  "original_text": "I am the fastest whittler in the whole village!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I am the FASTEST whittler in the whole village!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21048
+  },
+  "request_id": "IsT0e3vzK98YK30d9fGk",
+  "character_cost": "29",
+  "fingerprint": "411a122c2825976a58ba55a1712114a0462439f380a611f3f400e114bf508295",
+  "audio_sha256": "651cf72666790d4b12dd9db7b4648db27a4731bf017af1316d184fe9b2ee5970"
+}

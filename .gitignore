@@ -1,0 +1,14 @@
+# Local tools, downloads, and rendered review files
+.work/
+.docx_review/
+.claude/launch.json
+
+# Python bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Machine-specific paths and runtime logs
+software_pipeline/machine.json
+software_pipeline/runs.jsonl
+software_pipeline/voice_runs.jsonl

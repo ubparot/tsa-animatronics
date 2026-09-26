@@ -1,0 +1,20 @@
+{
+  "id": "chr_0085",
+  "original_text": "It is easier to brag than to explain.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] It is easier to brag than to explain.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21085
+  },
+  "request_id": "m9lTUBfVi9V5w1pxxaXy",
+  "character_cost": "30",
+  "fingerprint": "8e42b52006c3061f948c1724a7b8cc21bed554546f09e1dc16f197fe5d3c2160",
+  "audio_sha256": "8f167936b1ff95034036853ff642b05256bc3d3c677cf82bd9869cb0afa3b901"
+}

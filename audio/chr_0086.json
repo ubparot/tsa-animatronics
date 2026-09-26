@@ -1,0 +1,20 @@
+{
+  "id": "chr_0086",
+  "original_text": "I wanted to sound bigger than I am.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I wanted to sound bigger than I am.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21086
+  },
+  "request_id": "2HpezinQQxydZh5HXEDl",
+  "character_cost": "29",
+  "fingerprint": "85dac7dc39611353c3da215b2a49c5d82ab1aac1d61093f47a61620ab44523a2",
+  "audio_sha256": "c7ae6a39feb21ea03d684e8fbc778b61393ab184dea8a2c2b1504f990ac7c7ac"
+}

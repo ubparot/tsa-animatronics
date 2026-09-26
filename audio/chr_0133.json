@@ -1,0 +1,20 @@
+{
+  "id": "chr_0133",
+  "original_text": "Measure twice before you cut anything.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Measure twice before you cut anything.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21133
+  },
+  "request_id": "TgVDGeNel2dMhPyLKro1",
+  "character_cost": "19",
+  "fingerprint": "472bb1b7e84eda452bb024e29c821e344e91341c08aa7b7d28d6b5cb09c4b42d",
+  "audio_sha256": "510fd8308dc6b5e6b6d8fa9ce5844609407612d2327bbf9a47596863ba1f1f0d"
+}

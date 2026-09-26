@@ -1,0 +1,20 @@
+{
+  "id": "chr_0025",
+  "original_text": "Would you like to hear about the workshop?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Would you like to hear about the workshop?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21025
+  },
+  "request_id": "VX8EyJP9nimrhemnvbDE",
+  "character_cost": "26",
+  "fingerprint": "bfae590ea5244bb12761fc519620b844bfd3cc3cb6372ae48a14b39185bc5603",
+  "audio_sha256": "0baa1fb659f8cfb8dbcfddec37a990d64b23e958eca1d8392a38b07232ddf4df"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0151",
+  "original_text": "The saw hangs teeth-down so nobody reaches into it.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The saw hangs teeth-down so nobody reaches into it.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21151
+  },
+  "request_id": "E927PT5qaUrrBKah9GkM",
+  "character_cost": "26",
+  "fingerprint": "c51535c9ddf8e1018e3fef6c19eb756c89c3ea58cb93b81eadc4859cd8cb9db4",
+  "audio_sha256": "d98660889fcb3dd040c554029b2ecc35ba31baef5ab415a806dcf3c3dd50d806"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0198",
+  "original_text": "I have been sitting on this chest for what feels like a very long time, watching the dust drift, listening to the clock, and waiting for somebody exactly like you.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "I have been sitting on this chest for what feels like a very long time, watching the dust drift, listening to the clock, and waiting for somebody exactly like you.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21198
+  },
+  "request_id": "RbPkWu1I1Qw8VxjvcQM1",
+  "character_cost": "82",
+  "fingerprint": "debc9124be9e8eff7435bf42b35db75324ef0180f05be61334963862110d88f8",
+  "audio_sha256": "87de3aeb1f304329ada8f22f39adff49262f30ce7958b1f1c49fd1c553c5dccd"
+}

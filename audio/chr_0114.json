@@ -1,0 +1,20 @@
+{
+  "id": "chr_0114",
+  "original_text": "I would only be guessing, and I would rather not.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I would only be guessing, and I would rather not.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21114
+  },
+  "request_id": "QImDuP5H0jLU5DxvwEih",
+  "character_cost": "34",
+  "fingerprint": "610fae2568ca8089b81f09bd4711b1c7ed9d714dde19bf691e020082c58dc527",
+  "audio_sha256": "c77a1e139dbc7a40fd98c8694e8e6ee8e5bbba0f6d9bdcaa394411099758af8a"
+}

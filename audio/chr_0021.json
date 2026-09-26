@@ -1,0 +1,20 @@
+{
+  "id": "chr_0021",
+  "original_text": "What is your name?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] What is your name?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21021
+  },
+  "request_id": "NrpeLFMCCVib1hynNggY",
+  "character_cost": "14",
+  "fingerprint": "5293a50b8b190a534a74ae9baa8b6fb484eeebb0607ad1d21ea28c389fb523a3",
+  "audio_sha256": "03161003807a221ea2681c4a4273ca70319fd5e5b64bacb2941d998f98568767"
+}

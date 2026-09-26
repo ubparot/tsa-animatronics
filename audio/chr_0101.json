@@ -1,0 +1,20 @@
+{
+  "id": "chr_0101",
+  "original_text": "The dust turns gold when the sun comes through.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] The dust turns gold when the sun comes through.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21101
+  },
+  "request_id": "0ovV69HkGJIQY5fxOZfd",
+  "character_cost": "29",
+  "fingerprint": "ae936a4d7c28b4262f8679556d1e2ff525b737eb0dee58788fa9bfdb177d807c",
+  "audio_sha256": "eff8f055daa95cd842907fdfd05f88e8cccf9b57ae5b8efc518b3abcec581988"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0208",
+  "original_text": "He taught me to sharpen a blade by feel rather than by sight, and it took me a hundred tries before my hands understood what he meant.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "He taught me to sharpen a blade by feel rather than by sight, and it took me a hundred tries before my hands understood what he meant.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21208
+  },
+  "request_id": "fxUA1R28lfUf5GJ5GT69",
+  "character_cost": "67",
+  "fingerprint": "459e3032a8f9681052d4bf352588b8aa20ad35690aa871842ce4bfbcef0ccebf",
+  "audio_sha256": "3c5a939574d13819cdaa6c38aef371855ac5824c776defa20dcd53e6eda1495f"
+}

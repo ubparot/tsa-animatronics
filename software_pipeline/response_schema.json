@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PinocchioResponse",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["spoken_text", "truth_tag", "emotion_intensity", "source_id", "motion", "next_state"],
+  "properties": {
+    "spoken_text": {"type": "string", "maxLength": 110},
+    "truth_tag": {"type": "string", "enum": ["TRUTH", "LIE", "CONFESSION"]},
+    "emotion_intensity": {"type": "number", "minimum": 0, "maximum": 1},
+    "source_id": {"type": "string", "pattern": "^[a-z0-9_\\-]+$"},
+    "motion": {
+      "type": "array",
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["axis", "position", "speed", "duration_ms"],
+        "properties": {
+          "axis": {"type": "string", "enum": ["jaw", "nose", "eyes", "head", "hands", "feet", "lantern"]},
+          "position": {"type": "number", "minimum": 0, "maximum": 1},
+          "speed": {"type": "number", "minimum": 0, "maximum": 1},
+          "duration_ms": {"type": "integer", "minimum": 0, "maximum": 5000}
+        }
+      }
+    },
+    "next_state": {"type": "string", "enum": ["SPEAK_TRUTH", "SPEAK_LIE", "CONFESSION", "IDLE"]}
+  }
+}

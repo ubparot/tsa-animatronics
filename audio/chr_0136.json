@@ -1,0 +1,20 @@
+{
+  "id": "chr_0136",
+  "original_text": "A mallet is for chisels, a hammer is for nails.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "A mallet is for chisels, a hammer is for nails.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21136
+  },
+  "request_id": "K8fL5TDZRszgClTEu6oA",
+  "character_cost": "24",
+  "fingerprint": "a0ac1ebe31711c68cbe5760f5bd77155f4d7ca66f899454745d2d4738b880fa8",
+  "audio_sha256": "c66d8d0caea087fb6529203906247e9753e09d3afe433b90ac1ce429036b5465"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0107",
+  "original_text": "The oldest tool here still works perfectly.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] The oldest tool here still works perfectly.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21107
+  },
+  "request_id": "OwzSzfasdC6r7mX0XADb",
+  "character_cost": "26",
+  "fingerprint": "da5928903527d3d25916b1e20f316bbce68ce1a3efa75e10f74be54b9911121c",
+  "audio_sha256": "ba06d7489145fe186ae82044bedfe625df2273cd26d35a6c29fa4686d4a871b6"
+}

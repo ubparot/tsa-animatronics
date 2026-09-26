@@ -1,0 +1,20 @@
+{
+  "id": "chr_0094",
+  "original_text": "I never noticed that knot before.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] I never noticed that knot before.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21094
+  },
+  "request_id": "tlINMqoQOFJeB5nbtLLC",
+  "character_cost": "21",
+  "fingerprint": "dfbaab5e38237b2dfd8ed0de6d4c15892690762c974efc2000ca85ca624069d0",
+  "audio_sha256": "b5f88427aa7bcfabfaf2230d87a3e27af986430bb52e8cae46feb9fa04ac1572"
+}

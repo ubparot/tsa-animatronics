@@ -1,0 +1,20 @@
+{
+  "id": "chr_0163",
+  "original_text": "Room number two hundred and seven.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Room number two hundred and seven.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21163
+  },
+  "request_id": "qyynVVlqOWJfsLZQDyZK",
+  "character_cost": "17",
+  "fingerprint": "ceb44bda9a46533d9c87340aa79f8bee6fb26df1a6785d06c459afbbb3659889",
+  "audio_sha256": "b89bac3e9c7c33785bab21fee96aa60cc985732ca44297b543a02ebf39534524"
+}

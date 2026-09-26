@@ -1,0 +1,20 @@
+{
+  "id": "chr_0070",
+  "original_text": "Wait until you hear what I did yesterday!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Wait until you hear what I did YESTERDAY!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21070
+  },
+  "request_id": "iEXWA6hhHQumaeiHdSA8",
+  "character_cost": "26",
+  "fingerprint": "802c9ec99bb606eb219df1f1312bb62eec5fb06e6f6600ec88b41bddd7b2ae3d",
+  "audio_sha256": "86bcebf1140a717b61079b9f6d3276a13a82bd9ecd066d21b51a1054a60694fd"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0039",
+  "original_text": "What is your favorite tool on this wall?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] What is your favorite tool on this wall?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21039
+  },
+  "request_id": "ufJBjrg7wSNSbAwoXOiK",
+  "character_cost": "25",
+  "fingerprint": "09141a8e1b6da5803bbce765ed0b88bd10d75432f8251f7e5652cb7acf223601",
+  "audio_sha256": "6a6407175fd1cc30453549b342500e7cc117707808b2400de6a12f34b80fb316"
+}

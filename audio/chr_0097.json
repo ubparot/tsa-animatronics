@@ -1,0 +1,20 @@
+{
+  "id": "chr_0097",
+  "original_text": "Listen to how the wood settles at night.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Listen to how the wood settles at night.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21097
+  },
+  "request_id": "c1wB8nOTts4c6GPFwNoH",
+  "character_cost": "25",
+  "fingerprint": "0bdb55bcd04fae28893982af4b3fa42ffe2e65fdb1f8383c0379feb26338e37e",
+  "audio_sha256": "8e2d30991a3677e19fba6d923d2a05318eb4854ec11a7158274c5b671cc4545c"
+}

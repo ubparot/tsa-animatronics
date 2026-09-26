@@ -1,0 +1,20 @@
+{
+  "id": "chr_0168",
+  "original_text": "Call it forty-eight point six millimeters.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Call it forty-eight point six millimeters.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21168
+  },
+  "request_id": "iQZpvoH1dXjG6c9e1n3v",
+  "character_cost": "21",
+  "fingerprint": "9f2934895acab1d8926649d88d2b5e06307a309fdd55baae606bca299052350b",
+  "audio_sha256": "6ada056340d66ba5709986cb37e1bd17d07c207918b8dd11e18c378dfe802a16"
+}

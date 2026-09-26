@@ -1,0 +1,20 @@
+{
+  "id": "chr_0067",
+  "original_text": "I did it faster than anyone, and I did it twice!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I did it faster than anyone, and I did it TWICE!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21067
+  },
+  "request_id": "ZK0DeffiDqYQop1f3GCf",
+  "character_cost": "29",
+  "fingerprint": "fbc6daa7ca173142e726b24d97c0262a3d78b60d173342fa4bcff6a83c42ae7c",
+  "audio_sha256": "8f6f8356da034dc5a657b91644451c458ba59f0a4a6be9cc7a50b3f4b28a6d23"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0166",
+  "original_text": "The temperature dropped to negative five degrees.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The temperature dropped to negative five degrees.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21166
+  },
+  "request_id": "eaeKSDss3AlU75P6uQ7i",
+  "character_cost": "24",
+  "fingerprint": "810b1c2eafb1cf345703a92613ed34de520edb3e7c9ece831e3c39d233e558fc",
+  "audio_sha256": "b6a48f5554fe9db7c1c052b2df4fac5a7f8e901a665b0cf64f4f01a26ef9f94a"
+}

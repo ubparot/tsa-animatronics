@@ -1,0 +1,20 @@
+{
+  "id": "chr_0076",
+  "original_text": "That is not how it happened, not really.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] That is not how it happened... not really.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21076
+  },
+  "request_id": "n6ECuyccdjIb48ZkWzpR",
+  "character_cost": "32",
+  "fingerprint": "0e672a174973e3713dfd5fb09bf1fc2940dc4282d5b64b8e88090fbe6ab134a5",
+  "audio_sha256": "44a8c1a9ccd51e20c4e2076a423274a7e3220ccae9659535f1c790f394fcd7de"
+}

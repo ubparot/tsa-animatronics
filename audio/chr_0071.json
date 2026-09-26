@@ -1,0 +1,20 @@
+{
+  "id": "chr_0071",
+  "original_text": "That was not entirely true.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] That was not... entirely true.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21071
+  },
+  "request_id": "T11R5Ifc2fZCaTgul88c",
+  "character_cost": "26",
+  "fingerprint": "d0522057b2a4013e793d15b07deb8209aa15fa998c704b583275bfca4bc47138",
+  "audio_sha256": "8f153d3932c48bcab224bf9ce694a2019e5a22127e79ddd390e020256b4c1e97"
+}

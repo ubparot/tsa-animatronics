@@ -1,0 +1,20 @@
+{
+  "id": "chr_0137",
+  "original_text": "The lantern hangs on a hook beside the door.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The lantern hangs on a hook beside the door.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21137
+  },
+  "request_id": "pGJ2cU6bnmPvGYFqlMgY",
+  "character_cost": "22",
+  "fingerprint": "197cd3868fe320f651dca4a9c8350c89e464bc7ff2bbdb9ca2fd40a029303137",
+  "audio_sha256": "7f083d7376db89e474702689ea964dfa6d945e7ad3b0a7ff83a4639d3086f41c"
+}

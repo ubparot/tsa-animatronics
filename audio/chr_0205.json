@@ -1,0 +1,20 @@
+{
+  "id": "chr_0205",
+  "original_text": "Somebody built this workshop by hand, board by board, without a single drawing, and it has stood through forty winters without complaining once.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Somebody built this workshop by hand, board by board, without a single drawing, and it has stood through forty winters without complaining once.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21205
+  },
+  "request_id": "5jt9vgFAF2yDxvu57Om6",
+  "character_cost": "72",
+  "fingerprint": "ae0353c886cbf9bc3656335500596e60289c9035170e6719035227ed31a6b8a7",
+  "audio_sha256": "5d07af1fe1c43d9e8101b8f30cd60140d000b0caf64443b03bd7036fde57fbfa"
+}

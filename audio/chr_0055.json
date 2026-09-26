@@ -1,0 +1,20 @@
+{
+  "id": "chr_0055",
+  "original_text": "Nobody has ever done what I did last Tuesday!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Nobody has ever done what I did last Tuesday!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21055
+  },
+  "request_id": "BHXuuLlt8f2U1nJIzanZ",
+  "character_cost": "28",
+  "fingerprint": "38d02c59e0eeb889b1960382aa2efa88b5a50b51891c66adf22dd927b14f87e7",
+  "audio_sha256": "0b09b9e647e4b0f1bd64dcf435b5e524d01ee1dbf005c4b83b7ea2b2e9ac2b29"
+}

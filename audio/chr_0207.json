@@ -1,0 +1,20 @@
+{
+  "id": "chr_0207",
+  "original_text": "The best part of the day is the hour before dark, when the work is done, the tools are put away, and there is nothing left to do but sit.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The best part of the day is the hour before dark, when the work is done, the tools are put away, and there is nothing left to do but sit.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21207
+  },
+  "request_id": "ZPUvI74hM5oGITKywvJK",
+  "character_cost": "68",
+  "fingerprint": "7960326445f19784e846c485fc49a496c55179eefa8df564cd4c46c8206d296b",
+  "audio_sha256": "95ad8dae930ce596885c68212af0f8699f754c013c45ea70a6d1ec6f6766c726"
+}

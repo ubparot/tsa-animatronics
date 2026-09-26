@@ -1,0 +1,20 @@
+{
+  "id": "chr_0024",
+  "original_text": "Where did you come from this morning?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Where did you come from this morning?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21024
+  },
+  "request_id": "g4QtwoVsXU5xlIhvCtZT",
+  "character_cost": "24",
+  "fingerprint": "e8a38a64e16c6bdc21ee2b2be5f790eb62cb4f83b8638887e6c145309199fc17",
+  "audio_sha256": "ac5fe4c399b523a5bf5b5114316ecbadeeb4471c3a532fdba1d80b409141caa4"
+}

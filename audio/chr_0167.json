@@ -1,0 +1,20 @@
+{
+  "id": "chr_0167",
+  "original_text": "Nineteen forty, nineteen sixty-two, and two thousand twenty-six.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Nineteen forty, nineteen sixty-two, and two thousand twenty-six.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21167
+  },
+  "request_id": "1e4Pq7LJ9TF1UwgdaFsk",
+  "character_cost": "32",
+  "fingerprint": "4aff393967de595369422c8999c659c348e353c0f43ea01d10429b0ccc9a668d",
+  "audio_sha256": "1497a45a496441a785ad9b80e75de91d9c7d65296661ead721c58d880bc3c14a"
+}

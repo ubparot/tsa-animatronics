@@ -1,0 +1,20 @@
+{
+  "id": "chr_0100",
+  "original_text": "Everything in here has a story I do not know yet.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Everything in here has a story I do not know yet.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21100
+  },
+  "request_id": "G7H4JHL6g1Gxo2b8ETGP",
+  "character_cost": "30",
+  "fingerprint": "03d8427aea29799600157590f3820379c4adc9e72f307072e1e8b36f7471fc9b",
+  "audio_sha256": "e0c2431905977a57ac115f35818502890ee3814e9654fe207dd99c985b3c8eba"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0116",
+  "original_text": "I cannot help with that, but I can tell you a story.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I cannot help with that, but I can tell you a story.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21116
+  },
+  "request_id": "Y2oIuQQQFN5hHwtL9CFu",
+  "character_cost": "36",
+  "fingerprint": "dbe2ac01d1eb3cbd9a55f7c519c1a5e2daba319b6bcb0021935d9dacbc732b8b",
+  "audio_sha256": "6323c87d1f112c77c3a9a69a89687f26c30a2a86d14a93748715f0179ce51748"
+}

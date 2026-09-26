@@ -1,0 +1,20 @@
+{
+  "id": "chr_0065",
+  "original_text": "I invented that! Well, mostly. Almost entirely!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I invented that! [hesitant] Well... mostly. Almost entirely!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21065
+  },
+  "request_id": "JqFUShSdvlarkkrJ1C99",
+  "character_cost": "35",
+  "fingerprint": "1ee5898b77fa960bd030c383e9095cb6e5d1e50950507c08d516d425e4929825",
+  "audio_sha256": "58388e4621901d08daa48b217852e3f782387610ddbfde108ec344de049da249"
+}

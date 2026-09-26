@@ -1,0 +1,20 @@
+{
+  "id": "chr_0090",
+  "original_text": "Thank you for letting me take it back.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] Thank you for letting me take it back.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21090
+  },
+  "request_id": "WebxT6KSBMrmILHNc9BK",
+  "character_cost": "30",
+  "fingerprint": "f422eeb1fcfb554704aa3244e388c5ef56b299f06a7c1e6832a86b518e83ec52",
+  "audio_sha256": "b6ce686b811c60ba16aa35e50a9932734d6d35dcdda4caa7c09ba5d2c5c609a2"
+}

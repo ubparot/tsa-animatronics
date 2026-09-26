@@ -1,0 +1,20 @@
+{
+  "id": "chr_0077",
+  "original_text": "I got carried away. I do that sometimes.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I got carried away. I do that sometimes.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21077
+  },
+  "request_id": "pZ1wGVJszkLKIhq8T7po",
+  "character_cost": "31",
+  "fingerprint": "918ad48d4d103f64fd7d93d5886f63fed2439ed2a16dadc2759ee9593b792358",
+  "audio_sha256": "65fa29407c3c020312450ef02adb5e3bf5fceb12fec317f82777e384533c8585"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0179",
+  "original_text": "Add three eighths of an inch for the kerf.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Add three eighths of an inch for the kerf.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21179
+  },
+  "request_id": "ZTmD9AiRqMAZKk19WHZW",
+  "character_cost": "21",
+  "fingerprint": "5a7ba7f2024c77e94155fd473d5ec06a4d622d309d592e04fe372f9252467b17",
+  "audio_sha256": "1e7faa07cc793b114ba4700ca824788ed372bfcedeebc4a8af7bcfe292075928"
+}

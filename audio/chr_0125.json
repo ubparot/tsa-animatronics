@@ -1,0 +1,20 @@
+{
+  "id": "chr_0125",
+  "original_text": "I will have to think about it and get back to you.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I will have to think about it and get back to you.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21125
+  },
+  "request_id": "wapN54T5QNCGM9jjgftq",
+  "character_cost": "35",
+  "fingerprint": "bebcbf1a78f37ba4065440f529bda94d04fbfe2392cf70165e7be69f189068f1",
+  "audio_sha256": "70b148f15e360665c312bcb52dae6347fac6929e78c17bcbcde0314db86e5392"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0098",
+  "original_text": "I think about that almost every day.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] I think about that almost every day.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21098
+  },
+  "request_id": "M1g3RjT7OL9BmkixHdh3",
+  "character_cost": "23",
+  "fingerprint": "10487f97a09a80c5b5bd4ecbcb11bcbb678bbe7228fe6ebf472c800ddf037f13",
+  "audio_sha256": "9a6da2f6940de4e6c77945acc0bc459a0dcd70c865874280ba36748dc40cfb05"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0140",
+  "original_text": "The floorboards creak in the same three places.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The floorboards creak in the same three places.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21140
+  },
+  "request_id": "flWRhXmLbb7V6qO1VMyG",
+  "character_cost": "24",
+  "fingerprint": "9aaa8c2ec1525e61d332e179d8d1143c207740b90db11f153d40fd122fe8db23",
+  "audio_sha256": "d106d8040ba06aa43ec71e098acf965b380e7a2558810a18af97424bd3a12808"
+}

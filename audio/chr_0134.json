@@ -1,0 +1,20 @@
+{
+  "id": "chr_0134",
+  "original_text": "The clock on the shelf runs three minutes fast.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The clock on the shelf runs three minutes fast.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21134
+  },
+  "request_id": "NkUpYezGE9lO7erLzPvV",
+  "character_cost": "24",
+  "fingerprint": "f0e88c2ed21ca7c2b9f69a7dcd00f4fda574a6b5cd0855971fbd7e5a0aa22a57",
+  "audio_sha256": "938335b0417e4ff22bbf8bf6d98c48abd3d6cbb3b2e52dfdb5d65e4f3e4cf113"
+}

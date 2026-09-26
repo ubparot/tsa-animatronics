@@ -1,0 +1,21 @@
+{
+  "sample_rate": 16000,
+  "channels": 1,
+  "input_device": 3,
+  "max_record_seconds": 7.0,
+  "start_timeout_seconds": 5.0,
+  "end_silence_seconds": 0.65,
+  "speech_rms_threshold": 0.015,
+  "whisper_model": "base.en",
+  "whisper_device": "cuda",
+  "whisper_compute_type": "float16",
+  "tts_engine": "chatterbox",
+  "chatterbox_variant": "turbo",
+  "chatterbox_device": "cuda",
+  "chatterbox_reference": "wavs/chr_0200.wav",
+  "chatterbox_temperature": 0.8,
+  "chatterbox_top_p": 0.95,
+  "chatterbox_top_k": 1000,
+  "chatterbox_repetition_penalty": 1.2,
+  "chatterbox_seed": 0
+}

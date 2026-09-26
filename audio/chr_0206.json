@@ -1,0 +1,20 @@
+{
+  "id": "chr_0206",
+  "original_text": "I used to think that being real meant being made of something softer, but now I think it might just mean caring what happens to somebody else.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "I used to think that being real meant being made of something softer, but now I think it might just mean caring what happens to somebody else.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21206
+  },
+  "request_id": "I5z8Yp78nEJ3MwOFcn6c",
+  "character_cost": "71",
+  "fingerprint": "8a639db59a34226dfd0856f955a80bce1e4170d2a598522128731aaf6ed3df40",
+  "audio_sha256": "02941b4348d73883999f41ec6e222c0777e7b74f24d7b188951901f5aaabbcba"
+}

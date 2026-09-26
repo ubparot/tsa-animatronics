@@ -1,0 +1,191 @@
+﻿id,section,duration_seconds,sample_rate,bytes,text
+chr_0021,B,2.038,44100,33062,What is your name?
+chr_0022,B,2.351,44100,38078,Have you ever carved anything out of wood?
+chr_0023,B,2.351,44100,38078,Do you know how a clock keeps time?
+chr_0024,B,1.959,44100,31808,Where did you come from this morning?
+chr_0025,B,2.038,44100,33062,Would you like to hear about the workshop?
+chr_0026,B,2.586,44100,41839,Are you taller than you were last year?
+chr_0027,B,3.474,44100,56050,What do you do when nobody is watching?
+chr_0028,B,2.586,44100,41839,Can you tell when someone is telling the truth?
+chr_0029,B,1.802,44100,29301,How many friends do you have?
+chr_0030,B,2.429,44100,39332,Why do people say honesty is hard?
+chr_0031,B,2.691,44100,43511,"Did you walk here, or did you ride?"
+chr_0032,B,3.396,44100,54796,"Is it cold outside, or just cold in here?"
+chr_0033,B,3.396,44100,54796,What is the strangest thing you have ever seen?
+chr_0034,B,2.847,44100,46019,Do you think a wooden boy can learn?
+chr_0035,B,2.194,44100,35570,Who taught you the things you know?
+chr_0036,B,2.351,44100,38078,What time is it out there in the world?
+chr_0037,B,2.691,44100,43511,Have you ever made a mistake and told someone?
+chr_0038,B,3.396,44100,54796,Would you rather be clever or kind?
+chr_0039,B,2.351,44100,38078,What is your favorite tool on this wall?
+chr_0040,B,2.847,44100,46019,Does the rain sound different on a tin roof?
+chr_0041,B,2.586,44100,41839,Are those your real shoes?
+chr_0042,B,2.847,44100,46019,How does it feel to grow taller every year?
+chr_0043,B,2.351,44100,38078,What should I do with all this sawdust?
+chr_0044,B,3.082,44100,49781,"Can you keep a secret, or should I not ask?"
+chr_0045,B,3.239,44100,52288,"Which is harder, starting or finishing?"
+chr_0046,C,3.082,44100,49781,I built this entire bench before breakfast!
+chr_0047,C,3.318,44100,53542,"Watch this, watch this, you will not believe it!"
+chr_0048,C,3.396,44100,54796,I am the fastest whittler in the whole village!
+chr_0049,C,3.396,44100,54796,"Oh, that is nothing. I have done far better!"
+chr_0050,C,4.127,44100,66499,I once carved a horse so real it tried to run away!
+chr_0051,C,3.631,44100,58558,Everybody says I am the cleverest boy they know!
+chr_0052,C,3.553,44100,57304,I can name every tool on that wall backwards!
+chr_0053,C,3.553,44100,57304,Look how straight that cut is! Perfectly straight!
+chr_0054,C,4.362,44100,70261,I finished the whole roof by myself in one afternoon!
+chr_0055,C,3.239,44100,52288,Nobody has ever done what I did last Tuesday!
+chr_0056,C,4.049,44100,65245,I am strong enough to lift the anvil with one hand!
+chr_0057,C,4.206,44100,67753,That clock? I fixed it! Me! All by myself!
+chr_0058,C,3.971,44100,63991,I know a hundred songs and I never forget one!
+chr_0059,C,3.396,44100,54796,"The mayor asked me for advice, and I gave it!"
+chr_0060,C,4.206,44100,67753,I have traveled farther than anyone in this town!
+chr_0061,C,4.441,44100,71515,"Oh, I am tremendously good at this. Tremendously!"
+chr_0062,C,3.004,44100,48527,"I taught the cat to count, and now she does!"
+chr_0063,C,3.788,44100,61066,"Three whole barrels, and I carried every one!"
+chr_0064,C,4.441,44100,71515,"My hands never shake. Never, not even once!"
+chr_0065,C,4.833,44100,77784,"I invented that! Well, mostly. Almost entirely!"
+chr_0066,C,4.284,44100,69007,You are looking at the finest craftsman in the county!
+chr_0067,C,3.396,44100,54796,"I did it faster than anyone, and I did it twice!"
+chr_0068,C,3.553,44100,57304,Everyone applauded. They would not stop clapping!
+chr_0069,C,3.553,44100,57304,I have never once needed any help at all!
+chr_0070,C,3.318,44100,53542,Wait until you hear what I did yesterday!
+chr_0071,D,3.082,44100,49781,That was not entirely true.
+chr_0072,D,3.161,44100,51035,I am sorry. I made that up.
+chr_0073,D,2.273,44100,36824,I should not have said it like that.
+chr_0074,D,4.598,44100,74022,All right. It was not a hundred. It was two.
+chr_0075,D,2.586,44100,41839,I wanted you to be impressed with me.
+chr_0076,D,3.004,44100,48527,"That is not how it happened, not really."
+chr_0077,D,3.082,44100,49781,I got carried away. I do that sometimes.
+chr_0078,D,3.318,44100,53542,"The truth is smaller, but it is the truth."
+chr_0079,D,3.553,44100,57304,I did not build it. I only watched.
+chr_0080,D,3.709,44100,59812,"Forgive me. That was a boast, not a fact."
+chr_0081,D,3.004,44100,48527,My nose is honest even when I am not.
+chr_0082,D,3.396,44100,54796,I am still learning how to tell it straight.
+chr_0083,D,3.474,44100,56050,"Nobody applauded. It was very quiet, actually."
+chr_0084,D,2.586,44100,41839,I said it before I thought about it.
+chr_0085,D,3.082,44100,49781,It is easier to brag than to explain.
+chr_0086,D,2.194,44100,35570,I wanted to sound bigger than I am.
+chr_0087,D,3.004,44100,48527,That story grows every time I tell it.
+chr_0088,D,3.082,44100,49781,"Let me try that again, properly this time."
+chr_0089,D,4.833,44100,77784,I am not the fastest. I am somewhere in the middle.
+chr_0090,D,2.586,44100,41839,Thank you for letting me take it back.
+chr_0091,E,2.586,44100,41839,I wonder what is under all that snow.
+chr_0092,E,3.553,44100,57304,"Somebody made this a long, long time ago."
+chr_0093,E,2.273,44100,36824,The grain in this board looks like a river.
+chr_0094,E,2.429,44100,39332,I never noticed that knot before.
+chr_0095,E,3.631,44100,58558,"It is strange, being made of the same stuff as the floor."
+chr_0096,E,3.318,44100,53542,There is a whole world past that window.
+chr_0097,E,2.691,44100,43511,Listen to how the wood settles at night.
+chr_0098,E,2.769,44100,44765,I think about that almost every day.
+chr_0099,E,3.396,44100,54796,Maybe the answer has been here the entire time.
+chr_0100,E,3.318,44100,53542,Everything in here has a story I do not know yet.
+chr_0101,E,3.161,44100,51035,The dust turns gold when the sun comes through.
+chr_0102,E,3.553,44100,57304,"I keep looking at the door, wondering who is next."
+chr_0103,E,3.631,44100,58558,"Somebody carved their initials here, ages ago."
+chr_0104,E,2.847,44100,46019,It smells like cedar when it rains.
+chr_0105,E,2.769,44100,44765,I would like to see the ocean someday.
+chr_0106,E,3.709,44100,59812,Do you ever stop and just listen to a room?
+chr_0107,E,3.474,44100,56050,The oldest tool here still works perfectly.
+chr_0108,E,3.239,44100,52288,I am not sure what I am yet.
+chr_0109,E,2.847,44100,46019,There must be a hundred kinds of wood in the world.
+chr_0110,E,3.474,44100,56050,Sometimes the clock ticks and I forget to move.
+chr_0111,F,3.082,44100,49781,"I do not know that one, I am afraid."
+chr_0112,F,2.691,44100,43511,That is outside my little workshop.
+chr_0113,F,2.429,44100,39332,I have never heard of that before.
+chr_0114,F,3.788,44100,61066,"I would only be guessing, and I would rather not."
+chr_0115,F,3.866,44100,62319,That is a question for someone with more years than me.
+chr_0116,F,4.049,44100,65245,"I cannot help with that, but I can tell you a story."
+chr_0117,F,4.676,44100,75276,I am only a wooden boy. I do not know everything.
+chr_0118,F,3.709,44100,59812,Hmm. You have stumped me completely.
+chr_0119,F,4.049,44100,65245,I would rather say I do not know than make something up.
+chr_0120,F,2.429,44100,39332,"That is beyond me, honestly."
+chr_0121,F,5.146,44100,82799,"I have no idea, and that is the plain truth."
+chr_0122,F,2.769,44100,44765,Ask me something about the workshop instead.
+chr_0123,F,2.847,44100,46019,I am not certain enough to answer that.
+chr_0124,F,2.586,44100,41839,That one is a mystery to me too.
+chr_0125,F,3.971,44100,63991,I will have to think about it and get back to you.
+chr_0126,G,2.508,44100,40586,The chisel goes back on the wall when I finish.
+chr_0127,G,2.691,44100,43511,Pine is soft and oak is stubborn.
+chr_0128,G,2.847,44100,46019,A sharp blade is safer than a dull one.
+chr_0129,G,3.161,44100,51035,The workbench has four drawers and one broken handle.
+chr_0130,G,3.866,44100,62319,Sawdust collects in the corners no matter how often I sweep.
+chr_0131,G,2.926,44100,47273,"The window faces east, so the mornings are bright."
+chr_0132,G,3.866,44100,62319,"Glue needs time and pressure, and there is no shortcut."
+chr_0133,G,2.429,44100,39332,Measure twice before you cut anything.
+chr_0134,G,3.239,44100,52288,The clock on the shelf runs three minutes fast.
+chr_0135,G,3.239,44100,52288,"Sandpaper comes in grades, coarse through fine."
+chr_0136,G,3.396,44100,54796,"A mallet is for chisels, a hammer is for nails."
+chr_0137,G,2.847,44100,46019,The lantern hangs on a hook beside the door.
+chr_0138,G,3.082,44100,49781,"Wood moves with the weather, even after it is cut."
+chr_0139,G,2.769,44100,44765,"There are seven clamps, and I need eight."
+chr_0140,G,3.161,44100,51035,The floorboards creak in the same three places.
+chr_0141,G,3.474,44100,56050,A dovetail joint holds without any glue at all.
+chr_0142,G,2.926,44100,47273,The stove burns scrap and keeps the room warm.
+chr_0143,G,3.553,44100,57304,Every tool here has a shape worn by somebody's hand.
+chr_0144,G,3.971,44100,63991,"Cherry darkens as it ages, and walnut lightens."
+chr_0145,G,3.004,44100,48527,The plane leaves curls that spill onto the floor.
+chr_0146,G,3.318,44100,53542,Nails split the grain if you drive them too close to the end.
+chr_0147,G,3.553,44100,57304,There is a knothole in the ceiling that lets in one star.
+chr_0148,G,2.847,44100,46019,The vise squeaks unless somebody oils it.
+chr_0149,G,2.926,44100,47273,Varnish takes a full day to cure properly.
+chr_0150,G,3.239,44100,52288,I keep the smallest screws in a tin by the window.
+chr_0151,G,3.709,44100,59812,The saw hangs teeth-down so nobody reaches into it.
+chr_0152,G,3.318,44100,53542,"Green wood warps, and seasoned wood behaves."
+chr_0153,G,2.926,44100,47273,"A carving knife should be pulled, not pushed."
+chr_0154,G,3.161,44100,51035,The bench is bolted to the floor so it does not wander.
+chr_0155,G,3.239,44100,52288,Rain on the roof sounds like somebody sorting beans.
+chr_0156,H,2.351,44100,38078,The year was eighteen eighty-three.
+chr_0157,H,2.691,44100,43511,It costs four dollars and fifty cents.
+chr_0158,H,6.348,44100,102026,"My name is spelled P, I, N, O, C, C, H, I, O."
+chr_0159,H,3.318,44100,53542,"Three hundred and twelve steps, I counted them all."
+chr_0160,H,1.959,44100,31808,Turn it ninety degrees to the left.
+chr_0161,H,2.691,44100,43511,"The meeting is on Tuesday, March the fourth."
+chr_0162,H,2.847,44100,46019,It weighs about eleven and a half pounds.
+chr_0163,H,1.959,44100,31808,Room number two hundred and seven.
+chr_0164,H,2.508,44100,40586,Half past nine in the morning.
+chr_0165,H,2.351,44100,38078,That is roughly sixty percent finished.
+chr_0166,H,3.239,44100,52288,The temperature dropped to negative five degrees.
+chr_0167,H,5.721,44100,91995,"Nineteen forty, nineteen sixty-two, and two thousand twenty-six."
+chr_0168,H,3.082,44100,49781,Call it forty-eight point six millimeters.
+chr_0169,H,7.314,44100,117490,"One, two, three, four, five, six, seven, eight, nine, ten."
+chr_0170,H,3.318,44100,53542,The recipe needs two and three quarters cups.
+chr_0171,H,2.351,44100,38078,It is the twenty-first of December.
+chr_0172,H,3.004,44100,48527,A hundred thousand is a very large number.
+chr_0173,H,2.847,44100,46019,The board measures eight feet by four feet.
+chr_0174,H,3.161,44100,51035,"Chapter fifteen, page two hundred and thirty."
+chr_0175,H,3.161,44100,51035,I waited nineteen minutes and forty seconds.
+chr_0176,H,2.926,44100,47273,The address is forty-seven Mill Road.
+chr_0177,H,3.866,44100,62319,Version two point one works better than version one point nine.
+chr_0178,H,2.769,44100,44765,It happened at six forty-five in the evening.
+chr_0179,H,2.508,44100,40586,Add three eighths of an inch for the kerf.
+chr_0180,H,8.359,44100,134208,"Zero, one, one, two, three, five, eight, thirteen."
+chr_0181,I,3.866,44100,62319,"I need a saw, a chisel, a mallet, and a steady hand."
+chr_0182,I,4.362,44100,70261,"Cedar, pine, oak, maple, walnut, and cherry."
+chr_0183,I,3.318,44100,53542,"First you measure, then you mark, then you cut."
+chr_0184,I,3.396,44100,54796,"Bring the lantern, the rope, and something warm to wear."
+chr_0185,I,4.284,44100,69007,"Sanding, staining, sealing, and finally waiting."
+chr_0186,I,4.676,44100,75276,"There are hammers, files, rasps, planes, and squares."
+chr_0187,I,3.318,44100,53542,"Monday, Wednesday, and Friday, but never Sunday."
+chr_0188,I,4.284,44100,69007,"Red, orange, yellow, green, blue, and violet."
+chr_0189,I,4.441,44100,71515,"Sweep the floor, close the window, bank the stove, and lock the door."
+chr_0190,I,3.631,44100,58558,"Truth, patience, courage, and a little bit of luck."
+chr_0191,I,4.676,44100,75276,"Nails, screws, dowels, pegs, and good strong glue."
+chr_0192,I,4.754,44100,76530,"Loud, then quiet, then loud again."
+chr_0193,I,4.989,44100,80292,"He brought bread, cheese, apples, and a very small cake."
+chr_0194,I,3.318,44100,53542,"Look up, look down, look left, look right."
+chr_0195,I,4.754,44100,76530,"Beginning, middle, end, and then the part nobody expects."
+chr_0196,J,7.889,44100,126685,"When the sun comes through the east window in the morning, the whole workshop turns the color of honey, and even the old tools look new."
+chr_0197,J,6.348,44100,102026,"If you push too hard on a chisel, the wood will tell you immediately, and it will not be polite about it."
+chr_0198,J,10.841,44100,173915,"I have been sitting on this chest for what feels like a very long time, watching the dust drift, listening to the clock, and waiting for somebody exactly like you."
+chr_0199,J,7.628,44100,122506,"My father says that a thing worth building is worth building twice, once badly so you learn, and once well so you keep it."
+chr_0200,J,9.482,44100,152181,"There is a difference between a story that grows in the telling and a lie that you tell on purpose, and I am still working out where the line falls."
+chr_0201,J,10.031,44100,160958,"Every board in this room used to be a tree somewhere, standing in the rain, and now it is a shelf, a chair, or a small boy who talks too much."
+chr_0202,J,7.001,44100,112475,"When I finish a carving and set the knife down, there is a quiet moment where I cannot tell if I made the thing or found it."
+chr_0203,J,8.046,44100,129193,"The clock has been running since before I was carved, and it will probably still be running long after I have gone soft at the joints."
+chr_0204,J,9.718,44100,155942,"If you ask me a question I cannot answer, I will tell you so plainly, because pretending to know things is how a nose gets long."
+chr_0205,J,10.109,44100,162212,"Somebody built this workshop by hand, board by board, without a single drawing, and it has stood through forty winters without complaining once."
+chr_0206,J,9.091,44100,145911,"I used to think that being real meant being made of something softer, but now I think it might just mean caring what happens to somebody else."
+chr_0207,J,9.326,44100,149673,"The best part of the day is the hour before dark, when the work is done, the tools are put away, and there is nothing left to do but sit."
+chr_0208,J,8.594,44100,137970,"He taught me to sharpen a blade by feel rather than by sight, and it took me a hundred tries before my hands understood what he meant."
+chr_0209,J,8.516,44100,136716,"When the wind comes off the hill and finds the gap under the door, the lantern flickers, the shavings scatter, and the whole place feels alive."
+chr_0210,J,8.594,44100,137970,"I would rather tell you something small and true than something enormous and invented, even though the enormous one is usually more fun to say."

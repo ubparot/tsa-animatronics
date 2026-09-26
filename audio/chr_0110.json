@@ -1,0 +1,20 @@
+{
+  "id": "chr_0110",
+  "original_text": "Sometimes the clock ticks and I forget to move.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Sometimes the clock ticks and I forget to move.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21110
+  },
+  "request_id": "Qn317ZeJU9PGMbTIb6Kb",
+  "character_cost": "29",
+  "fingerprint": "1ef6e69a1c29d05c97f24dbdc0a526499c17d30d0e61bf36571b63f92c8be69a",
+  "audio_sha256": "a4d952803d8a774b021b5a5fa71cc84ff4dd127439f255f62d820dbab46b1ee4"
+}

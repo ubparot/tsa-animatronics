@@ -1,0 +1,20 @@
+{
+  "id": "chr_0135",
+  "original_text": "Sandpaper comes in grades, coarse through fine.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Sandpaper comes in grades, coarse through fine.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21135
+  },
+  "request_id": "mrVFlezZ47OXtarHtTMO",
+  "character_cost": "24",
+  "fingerprint": "23d41a72d0fcdc8371f2f2acdfd5b2cf77fd37b155a2ee9cece92dd651851360",
+  "audio_sha256": "a1ae3d7628b85f3ce0b4cfa8909cc571616249705158900759335c973347ffa6"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0031",
+  "original_text": "Did you walk here, or did you ride?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Did you walk here, or did you ride?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21031
+  },
+  "request_id": "C7zbMnvKNFaxOI8G4P1Q",
+  "character_cost": "22",
+  "fingerprint": "5d96fb0002ac0ab0a78004aeda1802986c3ac868ee045501fdafd87bffb04a0f",
+  "audio_sha256": "e719bac02acaee80d4ba3df0ffe0a6760e10bacfdae76e1e3781956902c48e27"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0126",
+  "original_text": "The chisel goes back on the wall when I finish.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The chisel goes back on the wall when I finish.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21126
+  },
+  "request_id": "WawgIp31pUr84DgRLqZA",
+  "character_cost": "24",
+  "fingerprint": "07e4bf3a5f23209aab887ad75ed16c3fbec7bda0e7cea1b77e4e68df0fba705d",
+  "audio_sha256": "d9d39b70e9509758af3cc0f37073856e9030251efc294a030afc0b226da6d9c3"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0109",
+  "original_text": "There must be a hundred kinds of wood in the world.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] There must be a hundred kinds of wood in the world.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21109
+  },
+  "request_id": "ZREekvs37rhNmQRoae16",
+  "character_cost": "30",
+  "fingerprint": "a8fe7a731379607115166c2ecf17dca5fc682c8e350e1a8c7d90e9f4bf7ef590",
+  "audio_sha256": "de93ecb7866c9bc684c907552577607462ef727ba48a2ba9cf76182eb473fc44"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0033",
+  "original_text": "What is the strangest thing you have ever seen?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] What is the strangest thing you have ever seen?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21033
+  },
+  "request_id": "7m2BvCDJe175OlIX2GAl",
+  "character_cost": "29",
+  "fingerprint": "1ac557efc53a805bbf8c31706644642c5830d36bc923cf85eb50fc7d3306a645",
+  "audio_sha256": "af1ff5f9bea7191e30dc9e0ff9b22242ff806a3248d91ae51ed1d2f8dcf6bf24"
+}

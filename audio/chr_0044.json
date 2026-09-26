@@ -1,0 +1,20 @@
+{
+  "id": "chr_0044",
+  "original_text": "Can you keep a secret, or should I not ask?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Can you keep a secret, or should I not ask?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21044
+  },
+  "request_id": "pC4Y6x2gRAPSTJR7dEC6",
+  "character_cost": "26",
+  "fingerprint": "0a808903dd41968d119877e6c233d59b7a18c455c413beea29d55b82b3010fcd",
+  "audio_sha256": "ca801bede4f1ad5f3967b9113f38fe44bd4e753864fa73b12471973cc109fe31"
+}

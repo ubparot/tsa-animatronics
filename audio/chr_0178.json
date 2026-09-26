@@ -1,0 +1,20 @@
+{
+  "id": "chr_0178",
+  "original_text": "It happened at six forty-five in the evening.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "It happened at six forty-five in the evening.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21178
+  },
+  "request_id": "FLVf55HUfAU8nrJtwnWk",
+  "character_cost": "22",
+  "fingerprint": "7ec0d1cb13c6ac8855a389f1ab6235bb0d897abf816122e76298a4b051011853",
+  "audio_sha256": "c774e857bf3ede52131513138c29d61a2b8d2b39c780af045caf49b812b1c0d3"
+}

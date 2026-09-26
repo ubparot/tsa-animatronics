@@ -1,0 +1,20 @@
+{
+  "id": "chr_0174",
+  "original_text": "Chapter fifteen, page two hundred and thirty.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Chapter fifteen, page two hundred and thirty.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21174
+  },
+  "request_id": "qu0W6X8f9f4AZ8fFzTgD",
+  "character_cost": "22",
+  "fingerprint": "c7f69320b4f3c987a79d6fb40156c74a80206d38d71648d3f8825eb54ef43931",
+  "audio_sha256": "5d097f08407971fe858d5f265fc91e45ff33c295747f11f1894a6104fa65bd55"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0079",
+  "original_text": "I did not build it. I only watched.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I did not build it. I only watched.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21079
+  },
+  "request_id": "DPK17hgHWH4tx7USXk6S",
+  "character_cost": "29",
+  "fingerprint": "e6490aa666dbf65f318def46a7d0e414fcff0bbd8bc2341af717e80639d42fc2",
+  "audio_sha256": "7ae24f8a5f3f0752492392229ecaf6383b0dd4a9ea1e80ce2c77e16e0f794dd0"
+}

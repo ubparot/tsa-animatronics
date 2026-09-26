@@ -1,0 +1,20 @@
+{
+  "id": "chr_0069",
+  "original_text": "I have never once needed any help at all!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I have never once needed ANY HELP at all!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21069
+  },
+  "request_id": "aSQavyCdYfumvJqxDUCl",
+  "character_cost": "26",
+  "fingerprint": "cf9d3d6f516042c0b69967796ae927c225e279522a56a64464d9a42f44dedcb6",
+  "audio_sha256": "bf5e992db3611994fc586c5568fc16f523615851acce3057bdfd525c1f3e64c5"
+}

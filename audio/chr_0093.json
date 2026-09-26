@@ -1,0 +1,20 @@
+{
+  "id": "chr_0093",
+  "original_text": "The grain in this board looks like a river.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] The grain in this board looks like a river.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21093
+  },
+  "request_id": "0JcskU5NKjdjw8uJAXBS",
+  "character_cost": "26",
+  "fingerprint": "e24d86dac102c769b4ccfdc2331648e2520cb0d308b055c79011453af4651d76",
+  "audio_sha256": "c8d991b083862afbb2e35a5adc1569cb75f75b8c08988cf24c0cab71fd38fbfc"
+}

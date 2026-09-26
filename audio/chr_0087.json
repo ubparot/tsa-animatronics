@@ -1,0 +1,20 @@
+{
+  "id": "chr_0087",
+  "original_text": "That story grows every time I tell it.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] That story grows every time I tell it.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21087
+  },
+  "request_id": "d9J7cbNI4C0hfp4YnvMW",
+  "character_cost": "30",
+  "fingerprint": "487b436be3dff8703911279e7b0d232ab2944adf362d87bc1ea0ab85af6b8577",
+  "audio_sha256": "9f6cc10684403603d3eaabb9c1f8b269aeb281d276e306b41d50593bd52c7863"
+}

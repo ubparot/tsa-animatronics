@@ -1,0 +1,20 @@
+{
+  "id": "chr_0182",
+  "original_text": "Cedar, pine, oak, maple, walnut, and cherry.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Cedar, pine, oak, maple, walnut, and cherry.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21182
+  },
+  "request_id": "pDPLWul00Ynv5YXre1rV",
+  "character_cost": "22",
+  "fingerprint": "9a39bf5fb431db750a8a13aaa5072ec115a03a6176efa742a483bd9cafb82a4f",
+  "audio_sha256": "d1eef425eade32958ecacc270231d28e6cd8fe228bec787462e779f3fa2e33d7"
+}

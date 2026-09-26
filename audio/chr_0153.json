@@ -1,0 +1,20 @@
+{
+  "id": "chr_0153",
+  "original_text": "A carving knife should be pulled, not pushed.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "A carving knife should be pulled, not pushed.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21153
+  },
+  "request_id": "ltF4RskgNLOjNgwfpm6q",
+  "character_cost": "22",
+  "fingerprint": "66c6397fb81277ed4f8530e3635b4da3d864fb9c903476619f717285005b5be1",
+  "audio_sha256": "88491c7086b60f079910b1bde8df2e3dba9705925f73b3637b7c7eb23252ec1a"
+}

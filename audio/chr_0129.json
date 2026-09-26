@@ -1,0 +1,20 @@
+{
+  "id": "chr_0129",
+  "original_text": "The workbench has four drawers and one broken handle.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The workbench has four drawers and one broken handle.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21129
+  },
+  "request_id": "PSz40IOkqbnJgk8s6VsH",
+  "character_cost": "26",
+  "fingerprint": "4f5e357cdf8590caeb09b118bb183d00e34945e20921232846844807a44e07c0",
+  "audio_sha256": "51b461fe48d1eb9e333aee13d24031c718df1395e7581a1a47e74bd82757eb86"
+}

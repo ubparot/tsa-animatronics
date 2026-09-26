@@ -1,0 +1,76 @@
+{
+  "_comment": "Fixed voice test script. text is plain (works on every engine); tagged adds paralinguistic tags for engines that support them. Keep ids stable so runs stay comparable.",
+  "lines": [
+    {"id": "greet_01", "category": "greeting", "text": "Hello there! Welcome to Geppetto's workshop.", "tagged": "Hello there! Welcome to Geppetto's workshop."},
+    {"id": "greet_02", "category": "greeting", "text": "Oh, a visitor! Come closer, I don't bite. I'm made of wood.", "tagged": "Oh, a visitor! [chuckle] Come closer, I don't bite. I'm made of wood."},
+    {"id": "greet_03", "category": "greeting", "text": "Good morning! Did you sleep well? Puppets don't sleep, you know.", "tagged": "Good morning! Did you sleep well? Puppets don't sleep, you know."},
+    {"id": "greet_04", "category": "greeting", "text": "Goodbye, my friend. Come back and tell me what you build!", "tagged": "Goodbye, my friend. Come back and tell me what you build!"},
+
+    {"id": "answer_01", "category": "answer", "text": "A clock keeps time with a swinging pendulum and a lot of patient little gears.", "tagged": "A clock keeps time with a swinging pendulum and a lot of patient little gears."},
+    {"id": "answer_02", "category": "answer", "text": "Geppetto carved me from a single log of pine.", "tagged": "Geppetto carved me from a single log of pine."},
+    {"id": "answer_03", "category": "answer", "text": "The best way to learn carving is to start slowly and keep your fingers behind the blade.", "tagged": "The best way to learn carving is to start slowly and keep your fingers behind the blade."},
+    {"id": "answer_04", "category": "answer", "text": "My nose grows when I tell a lie, so I try very hard to be honest.", "tagged": "My nose grows when I tell a lie, so I try very hard to be honest."},
+    {"id": "answer_05", "category": "answer", "text": "Seven times six is forty-two.", "tagged": "Seven times six is forty-two."},
+    {"id": "answer_06", "category": "answer", "text": "The workshop smells like sawdust, varnish, and warm bread from next door.", "tagged": "The workshop smells like sawdust, varnish, and warm bread from next door."},
+    {"id": "answer_07", "category": "answer", "text": "Motors and strings help me move, but the stories are all mine.", "tagged": "Motors and strings help me move, but the stories are all mine."},
+    {"id": "answer_08", "category": "answer", "text": "I don't know that one, but I would love to find out with you.", "tagged": "I don't know that one, but I would love to find out with you."},
+
+    {"id": "question_01", "category": "question", "text": "What is your name?", "tagged": "What is your name?"},
+    {"id": "question_02", "category": "question", "text": "Have you ever built something that surprised you?", "tagged": "Have you ever built something that surprised you?"},
+    {"id": "question_03", "category": "question", "text": "Do you think I could become a real boy one day?", "tagged": "Do you think I could become a real boy one day?"},
+    {"id": "question_04", "category": "question", "text": "Wait, you came all the way here just to see me?", "tagged": "[gasp] Wait, you came all the way here just to see me?"},
+    {"id": "question_05", "category": "question", "text": "Is it a bird, a boat, or a very clever sandwich?", "tagged": "Is it a bird, a boat, or a very clever sandwich?"},
+    {"id": "question_06", "category": "question", "text": "Can you keep a secret?", "tagged": "Can you keep a secret?"},
+
+    {"id": "excited_01", "category": "excited", "text": "You built a robot? That is the most wonderful thing I have ever heard!", "tagged": "You built a robot? That is the most wonderful thing I have ever heard!"},
+    {"id": "excited_02", "category": "excited", "text": "Look, look! My arm moved all by itself!", "tagged": "Look, look! [laugh] My arm moved all by itself!"},
+    {"id": "excited_03", "category": "excited", "text": "Yes! Yes! Let's do it again!", "tagged": "Yes! Yes! Let's do it again!"},
+    {"id": "excited_04", "category": "excited", "text": "A whole box of new paints? I'm going to be the most colorful puppet in town!", "tagged": "A whole box of new paints? I'm going to be the most colorful puppet in town!"},
+    {"id": "excited_05", "category": "excited", "text": "Hooray! You got it right on the very first try!", "tagged": "Hooray! You got it right on the very first try!"},
+
+    {"id": "truth_01", "category": "truth", "text": "The honest answer is that I was a little bit scared.", "tagged": "The honest answer is that I was a little bit scared."},
+    {"id": "truth_02", "category": "truth", "text": "Truthfully, Geppetto did most of the work, and I mostly watched.", "tagged": "Truthfully, Geppetto did most of the work, and I mostly watched."},
+    {"id": "truth_03", "category": "truth", "text": "I really do love stories more than almost anything.", "tagged": "I really do love stories more than almost anything."},
+    {"id": "truth_04", "category": "truth", "text": "No, I have never been to the moon, but I would like to go.", "tagged": "No, I have never been to the moon, but I would like to go."},
+
+    {"id": "lie_01", "category": "lie", "text": "Oh, I built this entire workshop with a spoon before breakfast.", "tagged": "Oh, I built this entire workshop with a spoon before breakfast."},
+    {"id": "lie_02", "category": "lie", "text": "I am, of course, the king of a tiny kingdom hidden inside a clock.", "tagged": "I am, of course, the king of a tiny kingdom hidden inside a clock."},
+    {"id": "lie_03", "category": "lie", "text": "My favorite pet is a dragon who tells jokes and does my homework.", "tagged": "My favorite pet is a dragon who tells jokes and does my homework."},
+    {"id": "lie_04", "category": "lie", "text": "I never, ever eat the cookies Geppetto leaves on the windowsill.", "tagged": "I never, ever eat the cookies Geppetto leaves on the windowsill."},
+    {"id": "lie_05", "category": "lie", "text": "Tired? Me? I could dance for a hundred years without stopping.", "tagged": "Tired? Me? I could dance for a hundred years without stopping."},
+
+    {"id": "confess_01", "category": "confession", "text": "Okay, okay, I admit it. There was no dragon.", "tagged": "[sigh] Okay, okay, I admit it. There was no dragon."},
+    {"id": "confess_02", "category": "confession", "text": "I might have eaten one cookie. Maybe two.", "tagged": "I might have eaten one cookie. [chuckle] Maybe two."},
+    {"id": "confess_03", "category": "confession", "text": "I said I built it alone, but many careful hands helped me.", "tagged": "I said I built it alone, but many careful hands helped me."},
+    {"id": "confess_04", "category": "confession", "text": "My nose is itching, which means I should tell you the truth.", "tagged": "My nose is itching, which means I should tell you the truth."},
+    {"id": "confess_05", "category": "confession", "text": "I'm sorry. I wanted you to think I was braver than I am.", "tagged": "I'm sorry. I wanted you to think I was braver than I am."},
+
+    {"id": "sheepish_01", "category": "sheepish", "text": "Oh no. I think I tangled my strings again.", "tagged": "Oh no. [sigh] I think I tangled my strings again."},
+    {"id": "sheepish_02", "category": "sheepish", "text": "Sometimes I feel lonely when the workshop is quiet.", "tagged": "Sometimes I feel lonely when the workshop is quiet."},
+    {"id": "sheepish_03", "category": "sheepish", "text": "I didn't mean to scare you. I'm still learning how to be polite.", "tagged": "I didn't mean to scare you. I'm still learning how to be polite."},
+    {"id": "sheepish_04", "category": "sheepish", "text": "Well, that did not go the way I planned.", "tagged": "Well, that did not go the way I planned."},
+
+    {"id": "whisper_01", "category": "whisper", "text": "Psst. Don't tell Geppetto, but I hid his hammer.", "tagged": "[whisper] Psst. Don't tell Geppetto, but I hid his hammer."},
+    {"id": "whisper_02", "category": "whisper", "text": "Listen closely. The cat understands every word we say.", "tagged": "[whisper] Listen closely. The cat understands every word we say."},
+    {"id": "whisper_03", "category": "whisper", "text": "Shh, the cricket is sleeping.", "tagged": "[whisper] Shh, the cricket is sleeping."},
+
+    {"id": "long_01", "category": "long", "text": "When Geppetto first carved my face, he laughed so hard that he dropped his chisel, and we have been the best of friends ever since.", "tagged": "When Geppetto first carved my face, he laughed so hard that he dropped his chisel, and we have been the best of friends ever since."},
+    {"id": "long_02", "category": "long", "text": "If you want to build an animatronic, start with one simple motion, test it a hundred times, and only then add the next one.", "tagged": "If you want to build an animatronic, start with one simple motion, test it a hundred times, and only then add the next one."},
+    {"id": "long_03", "category": "long", "text": "The cricket told me that being brave is not about never feeling afraid; it's about doing the right thing even when you are.", "tagged": "The cricket told me that being brave is not about never feeling afraid; it's about doing the right thing even when you are."},
+    {"id": "long_04", "category": "long", "text": "Every evening, after the lamps are lit and the tools are put away, Geppetto tells me one new story about the sea.", "tagged": "Every evening, after the lamps are lit and the tools are put away, Geppetto tells me one new story about the sea."},
+    {"id": "long_05", "category": "long", "text": "I used to think real boys were made of something special, but now I think they are made of choices, just like me.", "tagged": "I used to think real boys were made of something special, but now I think they are made of choices, just like me."},
+
+    {"id": "reaction_01", "category": "reaction", "text": "Oh!", "tagged": "[gasp] Oh!"},
+    {"id": "reaction_02", "category": "reaction", "text": "Hmm, let me think.", "tagged": "Hmm, let me think."},
+    {"id": "reaction_03", "category": "reaction", "text": "Really?", "tagged": "Really?"},
+    {"id": "reaction_04", "category": "reaction", "text": "Ha! Wonderful!", "tagged": "[laugh] Wonderful!"},
+    {"id": "reaction_05", "category": "reaction", "text": "Oops.", "tagged": "Oops."},
+    {"id": "reaction_06", "category": "reaction", "text": "Well, you see...", "tagged": "Well, you see..."},
+
+    {"id": "nonverbal_01", "category": "nonverbal", "text": "Ha ha! That tickles!", "tagged": "[laugh] That tickles!"},
+    {"id": "nonverbal_02", "category": "nonverbal", "text": "Oh dear. What a long day it has been.", "tagged": "[sigh] What a long day it has been."},
+    {"id": "nonverbal_03", "category": "nonverbal", "text": "Whoa! Did you see that?", "tagged": "[gasp] Did you see that?"},
+    {"id": "nonverbal_04", "category": "nonverbal", "text": "Hee hee, I know something you don't know.", "tagged": "[giggle] I know something you don't know."},
+    {"id": "nonverbal_05", "category": "nonverbal", "text": "Achoo! Sorry, sawdust.", "tagged": "[sneeze] Sorry, sawdust."}
+  ]
+}

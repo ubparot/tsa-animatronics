@@ -1,0 +1,20 @@
+{
+  "id": "chr_0040",
+  "original_text": "Does the rain sound different on a tin roof?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Does the rain sound different on a tin roof?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21040
+  },
+  "request_id": "23xA830GZYcbZSB8NLjh",
+  "character_cost": "27",
+  "fingerprint": "6aa5f4b4fcf2bda8b94d0ee143e8f959b6376450648c7bcb0786053dc753d031",
+  "audio_sha256": "ac8872669c0d45761e3d531f529dbf5dfddc2542713e612452c71a87125e8649"
+}

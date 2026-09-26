@@ -1,0 +1,20 @@
+{
+  "id": "chr_0026",
+  "original_text": "Are you taller than you were last year?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Are you taller than you were last year?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21026
+  },
+  "request_id": "4svLpSOpDn1ZKl4grub8",
+  "character_cost": "24",
+  "fingerprint": "f98f1bc2190f3d02fd4c296e5b44d68561a0e074caf158c8273cca4dfc20a154",
+  "audio_sha256": "d8310d6d395776f8f6d4d6b19808ead363e637d2bd053654010d840f0dab19b2"
+}

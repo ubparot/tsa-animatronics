@@ -1,0 +1,20 @@
+{
+  "id": "chr_0186",
+  "original_text": "There are hammers, files, rasps, planes, and squares.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "There are hammers, files, rasps, planes, and squares.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21186
+  },
+  "request_id": "DkI3NKwTSvlK7R5DvSFV",
+  "character_cost": "26",
+  "fingerprint": "ca4be809bf54bb0711f6ddc9be16b46ba3af2c5f077dc75b49660359a25d5855",
+  "audio_sha256": "37608f336961568bd3bbc41626a6344cc9776caa80f1d3507e9014e3e942f9a4"
+}

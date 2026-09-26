@@ -1,0 +1,20 @@
+{
+  "id": "chr_0202",
+  "original_text": "When I finish a carving and set the knife down, there is a quiet moment where I cannot tell if I made the thing or found it.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "When I finish a carving and set the knife down, there is a quiet moment where I cannot tell if I made the thing or found it.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21202
+  },
+  "request_id": "0VpxpET2MmxgPhxwqld9",
+  "character_cost": "62",
+  "fingerprint": "ef36f300ec277296c961cba3d3c703ececb0bf51185d4250d411923845aa9033",
+  "audio_sha256": "4a45c578fb6f31a846f09a6fb015498b38643915e6def79d0433ed926354a28f"
+}

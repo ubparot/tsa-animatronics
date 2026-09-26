@@ -1,0 +1,20 @@
+{
+  "id": "chr_0095",
+  "original_text": "It is strange, being made of the same stuff as the floor.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] It is strange, being made of the same stuff as the floor.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21095
+  },
+  "request_id": "YoH0A949lDr21bhfkZ4e",
+  "character_cost": "34",
+  "fingerprint": "68b00e36545548c420dab4284d7288288124103f301608da0d06204aa1687f51",
+  "audio_sha256": "17237717aa5c7a54f0bb4158f5121b2efe88db472d49fc8e4b4e0511bd4d22d9"
+}

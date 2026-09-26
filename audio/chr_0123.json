@@ -1,0 +1,20 @@
+{
+  "id": "chr_0123",
+  "original_text": "I am not certain enough to answer that.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I am not certain enough to answer that.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21123
+  },
+  "request_id": "vbnfRYGlEk2KIOgDdNjZ",
+  "character_cost": "30",
+  "fingerprint": "60c8f2bb253f9ddd9b8f9e812a7dc7b1c9c23a47df3a0ff41bae3935391e6203",
+  "audio_sha256": "ffe62914caa9855bf0f6e1a511bd40fba5f2a05c39cce9d9d72e4de9b3bcc4f0"
+}

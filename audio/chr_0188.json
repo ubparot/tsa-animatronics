@@ -1,0 +1,20 @@
+{
+  "id": "chr_0188",
+  "original_text": "Red, orange, yellow, green, blue, and violet.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Red, orange, yellow, green, blue, and violet.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21188
+  },
+  "request_id": "8z0vxSPWJBsuOecpUxYi",
+  "character_cost": "22",
+  "fingerprint": "4b101820cef83570ca9c2c3e960c775c30faba3674d025b39480a628e3cd476b",
+  "audio_sha256": "d629b07acd08c304adc9f844797a8f67db2321840d5753155f4c28abcd382643"
+}

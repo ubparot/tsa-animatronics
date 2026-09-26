@@ -1,0 +1,20 @@
+{
+  "id": "chr_0196",
+  "original_text": "When the sun comes through the east window in the morning, the whole workshop turns the color of honey, and even the old tools look new.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "When the sun comes through the east window in the morning, the whole workshop turns the color of honey, and even the old tools look new.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21196
+  },
+  "request_id": "F7X6WmxDzfp51dGunBZT",
+  "character_cost": "68",
+  "fingerprint": "c8243f34da060c1cc45b5056dae5c6497d2682ddfb1066970f2e9de094036de2",
+  "audio_sha256": "168b7493a2a6c5f625d6e07a9f582f0ed9665ac0b5cbe83df46b71a68ac5e43a"
+}

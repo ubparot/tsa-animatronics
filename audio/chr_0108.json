@@ -1,0 +1,20 @@
+{
+  "id": "chr_0108",
+  "original_text": "I am not sure what I am yet.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] I am not sure... what I am yet.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21108
+  },
+  "request_id": "ttAlaV9pydIds1ORhLJX",
+  "character_cost": "20",
+  "fingerprint": "1d7ba87985b221cb72a85eab569ec979b05f5859b46ef5d297bfd90156335087",
+  "audio_sha256": "0ba1aecc078cbcaa0df94bdb531ce9268b643c2fa33c66d4904c4df67625507a"
+}

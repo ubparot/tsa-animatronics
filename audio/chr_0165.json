@@ -1,0 +1,20 @@
+{
+  "id": "chr_0165",
+  "original_text": "That is roughly sixty percent finished.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "That is roughly sixty percent finished.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21165
+  },
+  "request_id": "yFD6mdafVUOGFJWT6Rxh",
+  "character_cost": "20",
+  "fingerprint": "f80cf52577acccd296d84e9cc50776eb63ba923b27bf92728b8e08abf84c66fa",
+  "audio_sha256": "0a79d51a0f08bf2718e4936f751cbbfa9692972af4d5f16b4bc848e1d2de971c"
+}

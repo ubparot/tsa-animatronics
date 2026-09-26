@@ -1,0 +1,20 @@
+{
+  "id": "chr_0027",
+  "original_text": "What do you do when nobody is watching?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] What do you do when nobody is watching?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21027
+  },
+  "request_id": "QQ9jZDOMHTskVOp2EMDV",
+  "character_cost": "24",
+  "fingerprint": "45717549d2098e924a27426ec9e1baa8df739228b7ddf1a7e09e28c87fe658ce",
+  "audio_sha256": "9a9510c0f1da92dbff6d00edbedc041ce878fa8d57148abc9552dadf78768c61"
+}

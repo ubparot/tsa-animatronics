@@ -1,0 +1,20 @@
+{
+  "id": "chr_0028",
+  "original_text": "Can you tell when someone is telling the truth?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Can you tell when someone is telling the truth?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21028
+  },
+  "request_id": "K62LdFc01VgOMBQjIrtq",
+  "character_cost": "29",
+  "fingerprint": "c8595ee26301efdb87b5e0c5dcf19f93b9bfe2063a4fd0d39a8f1ad736cca477",
+  "audio_sha256": "1ec854c8bf6b209cfcdaea7a9a9979db9fb5a316df8c381741f1e90a0d7bd5d9"
+}

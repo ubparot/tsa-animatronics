@@ -1,0 +1,20 @@
+{
+  "id": "chr_0209",
+  "original_text": "When the wind comes off the hill and finds the gap under the door, the lantern flickers, the shavings scatter, and the whole place feels alive.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "When the wind comes off the hill and finds the gap under the door, the lantern flickers, the shavings scatter, and the whole place feels alive.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21209
+  },
+  "request_id": "tWOKQEvoUU598A1Stsr6",
+  "character_cost": "72",
+  "fingerprint": "e44b9163e538624bb7a8e28f781e60aeef88bd0179958d200f33ba560b59ebb4",
+  "audio_sha256": "5468b3d62cfd1e6f31b734a588106242ad4a9973bdb309d61d42e9ed04a70338"
+}

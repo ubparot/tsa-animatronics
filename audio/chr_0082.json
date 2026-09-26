@@ -1,0 +1,20 @@
+{
+  "id": "chr_0082",
+  "original_text": "I am still learning how to tell it straight.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[apologetic] [softly] I am still learning how to tell it straight.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21082
+  },
+  "request_id": "qf5K7idzqWbpmVQU4F18",
+  "character_cost": "33",
+  "fingerprint": "bbcff08497cb412f83e50aeeef8fbcb4845b981cb68ac3680f80fa5e0bc5e81c",
+  "audio_sha256": "47077f543d161b56a9d4fc92ce0a3e9136c4e0a935da9fe2af399ccacb0a1e6a"
+}

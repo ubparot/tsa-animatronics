@@ -1,0 +1,20 @@
+{
+  "id": "chr_0127",
+  "original_text": "Pine is soft and oak is stubborn.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Pine is soft and oak is stubborn.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21127
+  },
+  "request_id": "8o5gF2WOjN3Kc31wEPSQ",
+  "character_cost": "16",
+  "fingerprint": "5924b111cedc0599672ee7b3285df398418b3db3c431a4e473736d0fd7b345f9",
+  "audio_sha256": "af29cb904e8a8ac7aeef5ba798db1f550d751ed4eca3b9e76e80792abac70108"
+}

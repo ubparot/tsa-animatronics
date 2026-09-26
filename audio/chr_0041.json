@@ -1,0 +1,20 @@
+{
+  "id": "chr_0041",
+  "original_text": "Are those your real shoes?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Are those your real shoes?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21041
+  },
+  "request_id": "L6ebyOLUlvqLJcWB4NOk",
+  "character_cost": "18",
+  "fingerprint": "64b6539c34483338f83cf8eac6ac304efc51e0413b2fd9a3c78c96c9e8fbbc70",
+  "audio_sha256": "232cd994bfbe6c7c2e3fac49ee4af798f357e32735b56a5b71a0682dca0fa459"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0068",
+  "original_text": "Everyone applauded. They would not stop clapping!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] Everyone applauded. They would NOT STOP clapping!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21068
+  },
+  "request_id": "rY0HxR9RBvB6WLSo2xlE",
+  "character_cost": "30",
+  "fingerprint": "47d0ff21460f1be3d90c452481ecd690cf819a7c11c49ed40759d37858dab8f9",
+  "audio_sha256": "63805557ed4e7d6f0919d40e3e0598ec3bbc63a26fe40cf005fc92b20ba75b70"
+}

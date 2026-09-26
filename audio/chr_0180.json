@@ -1,0 +1,20 @@
+{
+  "id": "chr_0180",
+  "original_text": "Zero, one, one, two, three, five, eight, thirteen.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Zero, one, one, two, three, five, eight, thirteen.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21180
+  },
+  "request_id": "R9H7bfC1JGarC0hMmTV4",
+  "character_cost": "25",
+  "fingerprint": "42014d524a8a109ab7a0cb68293bce0ac0d60d5ada515bc4874e53ab3405074e",
+  "audio_sha256": "e39213dc7f6e93a668e2ca1f6b83c1a092e7bcbc662bb243efd61b254739e2a9"
+}

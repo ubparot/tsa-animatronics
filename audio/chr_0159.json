@@ -1,0 +1,20 @@
+{
+  "id": "chr_0159",
+  "original_text": "Three hundred and twelve steps, I counted them all.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Three hundred and twelve steps, I counted them all.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21159
+  },
+  "request_id": "nDNc8uvXPKsMzSrxbX2F",
+  "character_cost": "26",
+  "fingerprint": "8fb8150245a7d79895faf7a3cf3ea4f2289d2066eebd3f34870f8efd8ed99724",
+  "audio_sha256": "039c8efac71f63ee40f934f2999ed6fdf1274b9c0303363b0b42fecbab893318"
+}

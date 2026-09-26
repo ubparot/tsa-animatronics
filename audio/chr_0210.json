@@ -1,0 +1,20 @@
+{
+  "id": "chr_0210",
+  "original_text": "I would rather tell you something small and true than something enormous and invented, even though the enormous one is usually more fun to say.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "I would rather tell you something small and true than something enormous and invented, even though the enormous one is usually more fun to say.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21210
+  },
+  "request_id": "mVVyIpXBF4Fv3qXb6Yqc",
+  "character_cost": "72",
+  "fingerprint": "b8b291a72284a45071f788a940942fdbc5d9156cbde68d2a81f21bdbe548997e",
+  "audio_sha256": "1fee033ad6440a6e0673b13eef1b361d8fc385442725fde376f239f633a4bcc0"
+}

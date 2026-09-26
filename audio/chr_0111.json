@@ -1,0 +1,20 @@
+{
+  "id": "chr_0111",
+  "original_text": "I do not know that one, I am afraid.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[hesitant] [softly] I do not know that one, I am afraid.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21111
+  },
+  "request_id": "7gaLummJOB8vWr7AjtZd",
+  "character_cost": "28",
+  "fingerprint": "0d6dad15cc1dbf072fb361eb0c8859d04dfad2b8a141c56cc0c6117303bb1fa4",
+  "audio_sha256": "580af6198f4d9827b20377c12852921c1c2bab008aa9f4a96b7398b38292cb0d"
+}

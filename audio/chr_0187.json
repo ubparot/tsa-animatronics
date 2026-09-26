@@ -1,0 +1,20 @@
+{
+  "id": "chr_0187",
+  "original_text": "Monday, Wednesday, and Friday, but never Sunday.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Monday, Wednesday, and Friday, but never Sunday.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21187
+  },
+  "request_id": "RxboxHnSLvcgUYRZezA2",
+  "character_cost": "24",
+  "fingerprint": "d62b0d6a4d7484683ee11ab1f82bf82836e4f47a086bce40be7924be9cf83c8d",
+  "audio_sha256": "f4146c021521f10f061b33fb4b3d13ae379ee5da011fde1f5c8864ba6d17f6bf"
+}

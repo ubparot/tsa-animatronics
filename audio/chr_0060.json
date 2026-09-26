@@ -1,0 +1,20 @@
+{
+  "id": "chr_0060",
+  "original_text": "I have traveled farther than anyone in this town!",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[excited] I have traveled FARTHER than anyone in this town!",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21060
+  },
+  "request_id": "3u3mSUbIFRoksZobhTte",
+  "character_cost": "30",
+  "fingerprint": "7ac23acc5539519a55442b3cd9e530b68516025ad0e2993dbd970a2a7515b5c8",
+  "audio_sha256": "fa3396bf8e65aa4ec7fdd00419f41ef9e73837c9c2db69572f78c724d892a0b7"
+}

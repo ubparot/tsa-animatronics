@@ -1,0 +1,20 @@
+{
+  "id": "chr_0204",
+  "original_text": "If you ask me a question I cannot answer, I will tell you so plainly, because pretending to know things is how a nose gets long.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "If you ask me a question I cannot answer, I will tell you so plainly, because pretending to know things is how a nose gets long.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21204
+  },
+  "request_id": "GQ5zJLZOnLbYkZizOELs",
+  "character_cost": "64",
+  "fingerprint": "305b042bb9b563a38216e18eeba2b6e79aae21f7964326050ad95474bbcd60e3",
+  "audio_sha256": "683279bd047df35942c98189bc75a50107ca6853c8097e25459762c781b8d43f"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0138",
+  "original_text": "Wood moves with the weather, even after it is cut.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Wood moves with the weather, even after it is cut.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21138
+  },
+  "request_id": "9td5UuDHLzCEYk1PzHnA",
+  "character_cost": "25",
+  "fingerprint": "27d4b246015f7814bdd63dd6af2efe854c06063741615d8f0be06cdfea19b6a2",
+  "audio_sha256": "e82d95070084f1d1887dfa8c0058445d12967dc7c88665428eb5a6e2395aa715"
+}

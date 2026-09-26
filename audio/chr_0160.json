@@ -1,0 +1,20 @@
+{
+  "id": "chr_0160",
+  "original_text": "Turn it ninety degrees to the left.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Turn it ninety degrees to the left.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21160
+  },
+  "request_id": "mhbx4iyJeMpx0tn09Vq7",
+  "character_cost": "18",
+  "fingerprint": "efcf33f0dd2b6246b8ffe972709ed04e9e532322a267f2856150ddc412432140",
+  "audio_sha256": "a7d62c3ed3a885318076617d1eb68b48ae8fc532ceb8e4904d1236068d099f6b"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chr_0142",
+  "original_text": "The stove burns scrap and keeps the room warm.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "The stove burns scrap and keeps the room warm.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21142
+  },
+  "request_id": "MPacGgGqMGFnNMp3y09w",
+  "character_cost": "23",
+  "fingerprint": "1b47af33fdaf06ef2e7f62df5a882bcfb821b3f6b71ab17f5b7c15db2ac341d4",
+  "audio_sha256": "896252e14586c763e16d2fd03fd30d808d29cd50f2b17dd8be05cec6fcd8d475"
+}

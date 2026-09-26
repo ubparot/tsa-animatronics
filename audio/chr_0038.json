@@ -1,0 +1,20 @@
+{
+  "id": "chr_0038",
+  "original_text": "Would you rather be clever or kind?",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "[curious] Would you rather be clever or kind?",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 0.5
+    },
+    "seed": 21038
+  },
+  "request_id": "DHbjvbYvU1cDCK53K8kp",
+  "character_cost": "22",
+  "fingerprint": "d0e3871d1ca7a60d63c88490992dccd7b14abebebe21ab65c5908c0fa9958c58",
+  "audio_sha256": "16ac5e2058b892901911af6d093124a7985db5274bad70aff6b14fad32650158"
+}

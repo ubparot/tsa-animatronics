@@ -1,0 +1,12 @@
+{
+  "_comment": "Template for a new computer (e.g. the show PC): copy to machine.json and set root. Relative paths below are resolved against root. Leave base_python empty to use the py launcher (py -3.10) during setup.",
+  "root": "D:/Pinocchio",
+  "paths": {
+    "runtime": "runtime",
+    "rvc": "rvc",
+    "ollama_exe": "ollama/ollama.exe",
+    "ollama_models": "ollama/models",
+    "voice_training": "voice_training"
+  },
+  "base_python": ""
+}

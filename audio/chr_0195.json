@@ -1,0 +1,20 @@
+{
+  "id": "chr_0195",
+  "original_text": "Beginning, middle, end, and then the part nobody expects.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "Beginning, middle, end, and then the part nobody expects.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21195
+  },
+  "request_id": "lAYy1g9BNJR7m0Q3h8J3",
+  "character_cost": "29",
+  "fingerprint": "1a3024b66d5de620d5df8c9fe41b92ba5e52d111b4d2e5e895cff7d2fc52fb59",
+  "audio_sha256": "3e09872bf7d8f2e77fd6c5be2eef9a60b366849fbb185d9373ee3ab34858edeb"
+}

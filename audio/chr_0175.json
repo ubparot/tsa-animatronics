@@ -1,0 +1,20 @@
+{
+  "id": "chr_0175",
+  "original_text": "I waited nineteen minutes and forty seconds.",
+  "voice_id": "CwcM0J91cJ85Sr8b6c9W",
+  "output_format": "mp3_44100_128",
+  "request": {
+    "text": "I waited nineteen minutes and forty seconds.",
+    "model_id": "eleven_v3",
+    "language_code": "en",
+    "apply_text_normalization": "off",
+    "voice_settings": {
+      "stability": 1.0
+    },
+    "seed": 21175
+  },
+  "request_id": "NRCGGHJgCQI989RXscKU",
+  "character_cost": "22",
+  "fingerprint": "9fe540fb80e3a9314b4eb95ff463ce3a77e9e5e4b2d9bcc1e5a1c9c0acfdfee3",
+  "audio_sha256": "4d8a3948999fca47ddd2d01994a808f9e81b1b81c379fb8e77070e29b16090fc"
+}
