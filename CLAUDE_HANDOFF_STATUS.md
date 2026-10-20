@@ -371,3 +371,13 @@ Current face: `17_Face_Art_Direction/face_model_37` (v37).
 **Physical:** jaw pivot side play under ~0.3 mm.
 
 **Not yet updated:** sculpt kit 17 still has build 36 seams.
+
+## Update — mouth box, mouth design 02, 19 October 2026
+
+**Current mouth design:** `18_Mouth_Revamp/mouth_design_02`.
+- A fixed roof (bonded in the face), a jaw tray with tongue (bonded in the chin) and a fabric mouth bag hide the servos when the jaw opens.
+- The upper-lip hooks moved to x ±21.5.
+
+**Checks:** mouth clearance PASS vs face build 37; print details PASS.
+
+**Git:** the workspace previews were pushed earlier on branch `pinocchio-mouth-revamp` (*.blend excluded). The canonical CAD on Z: is not in git.
