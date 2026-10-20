@@ -381,3 +381,30 @@ Current face: `17_Face_Art_Direction/face_model_37` (v37).
 **Checks:** mouth clearance PASS vs face build 37; print details PASS.
 
 **Git:** the workspace previews were pushed earlier on branch `pinocchio-mouth-revamp` (*.blend excluded). The canonical CAD on Z: is not in git.
+
+## Update — corner pads vs moving chin, 19 October 2026
+
+**Finding:** the v1 corner pads collided with the opening chin (pre-existing bug; the checks used only the closed chin).
+
+**Now:**
+- `check_mouth` tests against the moving chin;
+- pads are trimmed clear (PASS);
+- a jaw/corner interlock has been added;
+- but the trimmed pads leave the corner slot visible.
+
+**Owner decision pending:** (A) corner travel above the mouth line, (B) silicone corner skin, or (C) accept the gaps. See PROGRESS_LOG.
+
+## Update — corner band, pad v3, face build 38, 19 October 2026
+
+**Owner chose option A** (corner travel above the mouth line).
+
+**Current versions:** `18_Mouth_Revamp/mouth_design_03` and `17_Face_Art_Direction/face_model_38`.
+- The corners move in a band >= 1.7 mm above the chin line.
+- The chin has no corner slots.
+- The pads are derived smile-crease crescents that stay >= 1.56 mm off the opening chin.
+- The frown is milder (narrow and down).
+- Interlock: corners >= 2.5 mm above the band's lower edge before any jaw < 0.
+
+**Checks:** mouth clearance PASS (8,866 measurements), face clearance and audit PASS (50), print details PASS, tests 9/9.
+
+**Not yet updated:** bench_rig_01 (v1 poses) and sculpt_kit_17 (build 36).
