@@ -1,0 +1,193 @@
+ClipID,MeanPitchHz,PitchRangeSemitones,PitchVariabilitySemitones,IntonationContour,TonalityLabel,PauseCount,LongestPauseSec,TotalPauseSec,PauseLabel,SpeechRateSylPerSec,PacingLabel,F1Hz,F2Hz,SpectralCentroidHz,ResonanceLabel,LoudnessDb,LoudnessRangeDb,DynamicsLabel,HNRdB,BreathinessLabel,VoicedFraction,TrailingSec,EndingBehavior
+C001,306.7,12.6,3.82,falling,very melodic,3,0.28,0.64,phrased with pauses,5.8,rushed,562,1998,1767,dark/warm,-26.7,17.6,some contrast,5.01,breathy/rough,0.628,0.37,clean stop
+C002,304.7,12.14,4.25,level,moderate melody,0,0.0,0,no internal pauses,5.32,moderate,602,2301,2077,bright/thin,-29.4,17.4,even volume,5.49,breathy/rough,0.668,0.19,clean stop
+C003,283.6,11.04,3.52,falling,moderate melody,0,0.0,0,no internal pauses,5.23,moderate,560,2152,1871,neutral,-29.1,16.8,even volume,7.01,clear/pure,0.813,0.25,clean stop
+C004,284.7,9.53,2.67,level,monotone,2,1.76,2.37,phrased with pauses,5.42,moderate,572,2075,2148,bright/thin,-29.3,18.3,some contrast,5.41,breathy/rough,0.399,0.19,clean stop
+C005,299.4,7.0,2.36,level,monotone,0,0.0,0,no internal pauses,5.25,moderate,533,2269,1885,neutral,-27.8,18.0,some contrast,6.62,moderate,0.742,0.53,clean stop
+C006,259.4,7.2,2.14,falling,monotone,1,11.91,11.91,one long pause,5.03,moderate,414,2216,2913,bright/thin,-26.5,16.6,even volume,8.11,clear/pure,0.184,0.13,clean stop
+C007,300.4,7.96,2.64,falling,monotone,4,0.36,1.07,"choppy, many pauses",5.88,rushed,514,1920,1672,dark/warm,-27.4,17.6,some contrast,5.82,breathy/rough,0.481,0.27,clean stop
+C008,252.2,6.67,2.18,level,monotone,1,0.18,0.18,phrased with pauses,5.37,moderate,498,2357,1796,dark/warm,-30.0,16.3,even volume,6.41,moderate,0.667,0.33,clean stop
+C009,273.8,12.83,4.03,falling,very melodic,1,0.88,0.88,one long pause,5.97,rushed,650,2246,2008,bright/thin,-29.3,17.3,even volume,6.41,moderate,0.641,0.37,clean stop
+C010,309.4,15.04,4.5,falling,very melodic,2,0.19,0.36,phrased with pauses,4.85,slow,602,2008,1698,dark/warm,-26.5,18.1,some contrast,5.86,breathy/rough,0.661,0.29,clean stop
+C011,291.9,11.36,3.48,falling,moderate melody,1,0.2,0.2,phrased with pauses,5.4,moderate,590,2354,1949,neutral,-29.7,17.3,even volume,5.54,breathy/rough,0.693,0.33,clean stop
+C012,292.1,9.93,3.42,level,monotone,1,0.22,0.22,phrased with pauses,5.9,rushed,611,2187,1944,neutral,-28.0,18.9,strong volume swings,6.14,moderate,0.778,0.27,clean stop
+C013,277.3,6.89,2.29,level,monotone,1,0.21,0.21,phrased with pauses,5.54,rushed,559,2012,1566,dark/warm,-28.7,18.1,some contrast,5.2,breathy/rough,0.618,0.47,clean stop
+C014,324.0,12.88,4.14,rising,very melodic,2,0.22,0.39,phrased with pauses,5.08,moderate,555,2350,2116,bright/thin,-26.2,20.3,strong volume swings,5.79,breathy/rough,0.54,0.29,clean stop
+C015,315.0,11.89,3.72,falling,moderate melody,1,0.28,0.28,phrased with pauses,6.08,rushed,598,2168,1910,neutral,-28.1,17.0,even volume,5.71,breathy/rough,0.73,0.21,clean stop
+C016,306.3,13.08,4.04,falling,very melodic,1,0.28,0.28,phrased with pauses,3.94,slow,578,2070,1841,neutral,-27.1,17.6,some contrast,4.59,breathy/rough,0.491,0.53,clean stop
+C017,294.2,14.8,4.42,rising at end,very melodic,1,0.3,0.3,phrased with pauses,4.68,slow,522,2265,1814,neutral,-29.0,18.9,strong volume swings,6.49,moderate,0.808,0.29,clean stop
+C018,308.1,15.88,4.91,falling,very melodic,0,0.0,0,no internal pauses,5.57,rushed,602,2148,1760,dark/warm,-32.0,18.1,some contrast,5.98,breathy/rough,0.785,0.27,clean stop
+C019,343.4,13.04,3.99,level,very melodic,1,0.21,0.21,phrased with pauses,4.76,slow,516,2084,1854,neutral,-28.9,20.8,strong volume swings,5.38,breathy/rough,0.582,0.69,trailing silence
+C020,422.5,16.44,5.43,rising,very melodic,5,0.33,1.32,"choppy, many pauses",4.15,slow,538,2322,2025,bright/thin,-24.8,17.3,even volume,6.63,moderate,0.518,1.13,keeps vocalizing after the line
+C021,354.6,15.53,4.86,level,very melodic,3,0.34,0.74,phrased with pauses,4.36,slow,556,2154,2047,bright/thin,-25.4,19.3,strong volume swings,5.45,breathy/rough,0.5,0.05,clean stop
+C022,281.7,9.94,2.82,level,monotone,3,3.59,8.37,phrased with pauses,5.57,rushed,546,2046,2913,bright/thin,-28.7,17.3,even volume,6.8,moderate,0.187,0.15,clean stop
+C023,266.0,10.4,3.48,falling,monotone,0,0.0,0,no internal pauses,5.09,moderate,518,2292,1785,dark/warm,-29.6,18.0,some contrast,5.43,breathy/rough,0.679,0.27,clean stop
+C024,282.7,11.4,3.71,falling,moderate melody,1,2.61,2.61,one long pause,5.3,moderate,591,2205,2437,bright/thin,-28.0,15.6,even volume,7.46,clear/pure,0.479,0.35,clean stop
+C025,308.3,12.26,3.63,falling,moderate melody,2,1.9,2.56,phrased with pauses,5.88,rushed,596,1895,2235,bright/thin,-28.0,20.1,strong volume swings,6.1,moderate,0.348,0.25,clean stop
+C026,284.8,9.5,3.19,level,monotone,0,0.0,0,no internal pauses,4.85,slow,540,2321,1837,neutral,-29.6,19.7,strong volume swings,6.25,moderate,0.7,0.49,clean stop
+C027,295.2,11.07,3.54,falling,moderate melody,1,2.2,2.2,one long pause,4.8,slow,557,2215,2392,bright/thin,-27.5,15.3,even volume,6.67,moderate,0.454,0.41,clean stop
+C028,357.4,9.42,3.13,falling,monotone,2,0.26,0.49,phrased with pauses,5.71,rushed,611,1944,1840,neutral,-24.7,17.4,even volume,6.32,moderate,0.565,0.37,clean stop
+C029,299.8,12.01,3.78,falling,moderate melody,1,0.31,0.31,phrased with pauses,5.07,moderate,566,2334,2088,bright/thin,-29.1,18.9,strong volume swings,5.39,breathy/rough,0.668,0.37,clean stop
+C030,255.6,6.76,2.15,falling,monotone,1,2.41,2.41,one long pause,5.65,rushed,492,2224,2049,bright/thin,-29.4,14.0,even volume,7.3,clear/pure,0.427,0.31,clean stop
+C031,350.6,14.5,4.35,falling,very melodic,1,0.17,0.17,phrased with pauses,4.41,slow,610,2027,1702,dark/warm,-25.6,18.7,strong volume swings,6.2,moderate,0.673,0.45,clean stop
+C032,285.1,11.8,3.89,level,moderate melody,0,0.0,0,no internal pauses,5.22,moderate,522,2366,1785,dark/warm,-28.9,15.4,even volume,4.54,breathy/rough,0.677,0.37,clean stop
+C033,251.8,10.49,3.2,rising at end,monotone,1,0.15,0.15,phrased with pauses,5.84,rushed,554,2225,1799,neutral,-29.0,18.4,some contrast,5.83,breathy/rough,0.799,0.21,clean stop
+C034,311.4,13.12,4.08,falling,very melodic,3,3.63,8.64,phrased with pauses,5.37,moderate,533,1999,2913,bright/thin,-27.0,19.0,strong volume swings,7.53,clear/pure,0.175,0.25,clean stop
+C035,292.9,9.72,3.28,level,monotone,0,0.0,0,no internal pauses,5.04,moderate,610,2331,1944,neutral,-30.5,18.4,some contrast,6.03,breathy/rough,0.71,0.39,clean stop
+C036,275.1,11.48,3.82,level,moderate melody,1,2.72,2.72,one long pause,5.19,moderate,552,2125,2533,bright/thin,-28.8,16.3,even volume,7.26,clear/pure,0.481,0.39,clean stop
+C037,325.0,12.2,3.54,level,moderate melody,3,0.32,0.68,phrased with pauses,5.16,moderate,589,1948,1767,dark/warm,-26.3,18.3,some contrast,5.34,breathy/rough,0.511,0.23,clean stop
+C038,280.8,8.97,3.1,level,monotone,0,0.0,0,no internal pauses,4.75,slow,570,2275,1885,neutral,-29.7,18.3,some contrast,6.93,clear/pure,0.68,0.11,clean stop
+C039,277.5,11.13,3.49,falling,moderate melody,1,0.38,0.38,phrased with pauses,5.44,moderate,526,2214,1914,neutral,-29.1,16.4,even volume,7.11,clear/pure,0.802,0.33,clean stop
+C040,290.9,11.68,3.55,falling,moderate melody,1,0.18,0.18,phrased with pauses,5.02,moderate,523,1877,1632,dark/warm,-27.0,18.1,some contrast,5.29,breathy/rough,0.631,0.29,clean stop
+C041,298.1,12.63,4.05,rising,very melodic,0,0.0,0,no internal pauses,4.73,slow,565,2312,1977,bright/thin,-28.9,18.1,some contrast,6.42,moderate,0.674,0.35,clean stop
+C042,281.2,11.2,3.87,falling,moderate melody,1,0.57,0.57,one long pause,5.42,moderate,613,2281,1968,bright/thin,-28.2,16.8,even volume,6.52,moderate,0.666,0.27,clean stop
+C043,323.3,10.71,3.55,falling,monotone,2,0.34,0.54,phrased with pauses,5.69,rushed,580,1870,1724,dark/warm,-26.3,19.4,strong volume swings,4.56,breathy/rough,0.58,0.43,clean stop
+C044,313.9,13.42,4.36,level,very melodic,1,0.21,0.21,phrased with pauses,5.01,moderate,587,2253,2026,bright/thin,-26.7,19.0,strong volume swings,6.3,moderate,0.701,0.37,clean stop
+C045,252.0,10.11,3.17,rising at end,monotone,1,0.16,0.16,phrased with pauses,5.88,rushed,584,2267,1760,dark/warm,-28.9,19.0,strong volume swings,5.7,breathy/rough,0.799,0.25,clean stop
+C046,275.9,11.67,3.27,falling,moderate melody,3,0.65,1.34,phrased with pauses,5.21,moderate,529,1971,1816,neutral,-27.0,16.9,even volume,6.2,moderate,0.549,0.25,clean stop
+C047,287.6,12.56,4.29,falling,moderate melody,0,0.0,0,no internal pauses,4.99,moderate,562,2327,1895,neutral,-29.6,18.3,some contrast,5.93,breathy/rough,0.691,0.45,clean stop
+C048,268.6,9.73,3.62,falling,monotone,0,0.0,0,no internal pauses,5.61,rushed,599,2238,1799,neutral,-30.4,17.3,even volume,5.9,breathy/rough,0.793,0.29,clean stop
+C049,291.7,9.71,2.76,falling,monotone,2,0.63,0.9,phrased with pauses,5.39,moderate,546,1886,1850,neutral,-27.3,15.9,even volume,6.09,moderate,0.489,0.21,clean stop
+C050,287.6,12.13,3.68,rising,moderate melody,0,0.0,0,no internal pauses,4.94,slow,508,2393,2009,bright/thin,-29.1,18.1,some contrast,5.5,breathy/rough,0.585,0.31,clean stop
+C051,290.3,11.1,3.55,falling,moderate melody,1,0.15,0.15,phrased with pauses,5.9,rushed,625,2136,1959,neutral,-29.2,19.5,strong volume swings,5.62,breathy/rough,0.776,0.37,clean stop
+C052,332.8,10.88,3.3,falling,moderate melody,3,0.21,0.56,phrased with pauses,5.37,moderate,583,1949,1779,dark/warm,-26.5,17.1,even volume,6.68,moderate,0.582,0.31,clean stop
+C053,296.2,11.83,3.94,rising at end,moderate melody,1,0.15,0.15,phrased with pauses,5.29,moderate,581,2328,2089,bright/thin,-28.7,17.0,even volume,6.62,moderate,0.61,0.19,clean stop
+C054,281.7,11.08,3.63,falling,moderate melody,0,0.0,0,no internal pauses,5.23,moderate,538,2151,1850,neutral,-28.8,16.4,even volume,6.98,clear/pure,0.801,0.21,clean stop
+C055,332.8,10.88,3.3,falling,moderate melody,3,0.21,0.56,phrased with pauses,5.37,moderate,583,1949,1779,dark/warm,-26.5,17.1,even volume,6.68,moderate,0.582,0.31,clean stop
+C056,299.0,12.1,3.91,rising at end,moderate melody,0,0.0,0,no internal pauses,5.07,moderate,588,2288,2006,bright/thin,-28.6,18.3,some contrast,6.04,breathy/rough,0.645,0.13,clean stop
+C057,281.7,11.08,3.63,falling,moderate melody,0,0.0,0,no internal pauses,5.23,moderate,538,2151,1850,neutral,-28.8,16.4,even volume,6.98,clear/pure,0.801,0.21,clean stop
+C058,332.8,10.88,3.3,falling,moderate melody,3,0.21,0.56,phrased with pauses,5.37,moderate,583,1949,1779,dark/warm,-26.5,17.1,even volume,6.68,moderate,0.582,0.31,clean stop
+C059,299.0,12.1,3.91,rising at end,moderate melody,0,0.0,0,no internal pauses,5.07,moderate,588,2288,2006,bright/thin,-28.6,18.3,some contrast,6.04,breathy/rough,0.645,0.13,clean stop
+C060,281.7,11.08,3.63,falling,moderate melody,0,0.0,0,no internal pauses,5.23,moderate,538,2151,1850,neutral,-28.8,16.4,even volume,6.98,clear/pure,0.801,0.21,clean stop
+C061,443.7,19.59,5.42,falling,very melodic,3,0.34,0.79,phrased with pauses,4.6,slow,619,1999,1964,bright/thin,-26.8,18.4,some contrast,6.2,moderate,0.557,0.19,clean stop
+C062,408.9,12.03,3.65,rising,moderate melody,1,0.18,0.18,phrased with pauses,4.58,slow,628,2451,2278,bright/thin,-30.0,19.3,strong volume swings,5.42,breathy/rough,0.655,0.41,clean stop
+C063,378.9,12.91,3.64,falling,very melodic,1,0.2,0.2,phrased with pauses,5.61,rushed,568,2218,2329,bright/thin,-28.1,16.1,even volume,5.99,breathy/rough,0.811,0.29,clean stop
+C064,288.5,12.96,3.93,level,very melodic,3,0.37,0.99,phrased with pauses,4.94,slow,595,2076,1803,neutral,-28.4,19.6,strong volume swings,5.87,breathy/rough,0.608,0.37,clean stop
+C065,314.1,10.12,3.38,rising at end,monotone,1,0.29,0.29,phrased with pauses,5.05,moderate,541,2311,1878,neutral,-28.5,16.8,even volume,6.94,clear/pure,0.61,0.29,clean stop
+C066,295.3,7.23,2.21,rising at end,monotone,1,0.24,0.24,phrased with pauses,5.65,rushed,526,2105,1999,bright/thin,-28.6,15.6,even volume,6.94,clear/pure,0.801,0.31,clean stop
+C067,414.9,15.58,4.83,falling,very melodic,2,0.32,0.57,phrased with pauses,3.84,slow,664,1789,2171,bright/thin,-28.8,17.5,even volume,5.94,breathy/rough,0.513,0.35,clean stop
+C068,399.5,12.57,3.98,rising at end,moderate melody,1,0.34,0.34,phrased with pauses,5.18,moderate,697,2161,2472,bright/thin,-29.2,16.6,even volume,5.47,breathy/rough,0.61,0.31,clean stop
+C069,401.1,10.8,4.02,falling,monotone,1,0.35,0.35,phrased with pauses,4.91,slow,702,2239,2341,bright/thin,-27.7,18.4,some contrast,5.58,breathy/rough,0.742,0.21,clean stop
+C070,356.7,16.53,5.25,falling,very melodic,1,0.34,0.34,phrased with pauses,4.22,slow,554,2096,1982,bright/thin,-29.6,18.4,some contrast,6.37,moderate,0.556,0.17,clean stop
+C071,328.7,15.29,4.63,falling,very melodic,1,0.32,0.32,phrased with pauses,5.37,moderate,526,2254,1995,bright/thin,-29.6,19.2,strong volume swings,6.2,moderate,0.601,0.25,clean stop
+C072,322.4,13.95,4.27,falling,very melodic,1,0.33,0.33,phrased with pauses,5.69,rushed,533,2147,2105,bright/thin,-29.6,16.0,even volume,6.68,moderate,0.749,0.15,clean stop
+C073,280.0,13.53,4.17,falling,very melodic,1,0.33,0.33,phrased with pauses,4.44,slow,584,2033,1597,dark/warm,-19.3,18.4,some contrast,5.91,breathy/rough,0.742,0.21,clean stop
+C074,268.7,11.59,3.62,rising at end,moderate melody,1,0.34,0.34,phrased with pauses,4.96,slow,631,2360,1782,dark/warm,-20.5,20.7,strong volume swings,4.9,breathy/rough,0.649,0.29,clean stop
+C075,268.3,11.35,3.62,falling,moderate melody,1,0.34,0.34,phrased with pauses,5.28,moderate,607,2163,1810,neutral,-20.6,16.5,even volume,7.0,clear/pure,0.775,0.09,clean stop
+C076,282.9,13.9,4.44,falling,very melodic,2,0.57,0.95,phrased with pauses,4.27,slow,572,1881,1779,dark/warm,-17.0,20.8,strong volume swings,6.67,moderate,0.577,0.31,clean stop
+C077,282.7,11.09,4.09,rising,moderate melody,1,0.36,0.36,phrased with pauses,4.13,slow,590,2301,1888,neutral,-22.0,18.6,some contrast,6.05,moderate,0.66,0.41,clean stop
+C078,274.2,13.66,4.16,falling,very melodic,1,0.47,0.47,phrased with pauses,5.25,moderate,638,2153,1853,neutral,-19.6,20.0,strong volume swings,6.78,moderate,0.715,0.21,clean stop
+C079,317.4,11.59,3.72,level,moderate melody,2,0.61,1.01,phrased with pauses,3.81,slow,576,1746,1764,dark/warm,-17.9,19.3,strong volume swings,6.78,moderate,0.495,0.43,clean stop
+C080,291.5,12.77,4.22,level,very melodic,1,0.33,0.33,phrased with pauses,4.12,slow,556,2302,1880,neutral,-19.4,19.6,strong volume swings,5.9,breathy/rough,0.626,0.25,clean stop
+C081,279.9,11.4,3.7,level,moderate melody,1,0.45,0.45,phrased with pauses,5.03,moderate,608,2149,1834,neutral,-20.0,15.5,even volume,7.73,clear/pure,0.753,0.13,clean stop
+C082,311.2,13.09,4.22,falling,very melodic,2,0.47,0.84,phrased with pauses,4.18,slow,591,1969,1806,neutral,-19.3,19.5,strong volume swings,6.43,moderate,0.576,0.29,clean stop
+C083,270.9,8.22,2.69,level,monotone,1,0.34,0.34,phrased with pauses,4.88,slow,533,2320,1842,neutral,-18.8,20.1,strong volume swings,6.65,moderate,0.646,0.29,clean stop
+C084,262.4,11.78,3.31,falling,moderate melody,1,0.33,0.33,phrased with pauses,5.14,moderate,571,2115,1807,neutral,-20.2,14.4,even volume,6.68,moderate,0.791,0.11,clean stop
+C085,288.5,14.0,4.85,falling,very melodic,2,0.36,0.65,phrased with pauses,4.72,slow,555,2027,1720,dark/warm,-19.7,20.2,strong volume swings,6.14,moderate,0.655,0.21,clean stop
+C086,265.0,10.6,3.63,rising at end,monotone,1,0.29,0.29,phrased with pauses,4.79,slow,614,2289,1871,neutral,-21.2,18.7,strong volume swings,6.36,moderate,0.704,0.33,clean stop
+C087,257.8,12.11,3.11,rising at end,moderate melody,1,0.31,0.31,phrased with pauses,5.61,rushed,547,2251,1758,dark/warm,-19.6,16.7,even volume,6.46,moderate,0.785,0.15,clean stop
+C088,252.8,13.2,3.65,level,very melodic,2,0.59,0.93,phrased with pauses,4.64,slow,551,2046,1759,dark/warm,-19.5,19.7,strong volume swings,6.5,moderate,0.626,0.27,clean stop
+C089,267.0,11.07,3.82,level,moderate melody,1,0.2,0.2,phrased with pauses,4.21,slow,601,2207,1946,neutral,-21.6,21.0,strong volume swings,6.49,moderate,0.682,0.35,clean stop
+C090,261.3,13.03,4.07,falling,very melodic,1,0.68,0.68,one long pause,5.73,rushed,600,2194,1808,neutral,-22.1,18.0,some contrast,6.97,clear/pure,0.7,0.19,clean stop
+C091,323.4,14.1,4.55,rising at end,very melodic,1,0.39,0.39,phrased with pauses,4.88,slow,573,1681,1596,dark/warm,-16.2,19.5,strong volume swings,6.7,moderate,0.644,0.23,clean stop
+C092,317.2,12.8,4.59,level,very melodic,1,0.44,0.44,phrased with pauses,4.67,slow,575,2299,2149,bright/thin,-20.1,19.5,strong volume swings,5.87,breathy/rough,0.559,0.25,clean stop
+C093,261.9,11.01,3.51,falling,moderate melody,1,0.36,0.36,phrased with pauses,5.28,moderate,599,2141,1822,neutral,-21.0,19.0,strong volume swings,6.69,moderate,0.793,0.35,clean stop
+C094,362.5,14.86,4.96,rising at end,very melodic,1,0.32,0.32,phrased with pauses,4.32,slow,528,1639,1702,dark/warm,-16.6,19.8,strong volume swings,6.24,moderate,0.596,0.25,clean stop
+C095,338.1,11.4,3.52,falling,moderate melody,0,0.0,0,no internal pauses,5.09,moderate,646,2294,1987,bright/thin,-16.7,18.3,some contrast,7.39,clear/pure,0.684,0.21,clean stop
+C096,291.5,13.47,4.86,falling,very melodic,1,0.37,0.37,phrased with pauses,4.78,slow,579,2232,1995,bright/thin,-18.7,17.3,even volume,5.93,breathy/rough,0.716,0.13,clean stop
+C097,536.7,6.81,2.62,rising at end,monotone,3,0.26,0.64,phrased with pauses,5.06,moderate,626,1717,1870,neutral,-12.8,19.0,strong volume swings,6.98,clear/pure,0.497,0.39,clean stop
+C098,425.1,13.78,4.24,rising,very melodic,3,0.28,0.65,phrased with pauses,4.22,slow,783,2143,2098,bright/thin,-12.8,18.5,some contrast,5.5,breathy/rough,0.506,0.23,clean stop
+C099,373.7,12.0,4.24,level,moderate melody,2,0.33,0.48,phrased with pauses,5.11,moderate,779,2079,2143,bright/thin,-14.4,17.1,even volume,5.89,breathy/rough,0.624,0.23,clean stop
+C100,499.1,10.6,3.48,falling,monotone,2,0.21,0.41,phrased with pauses,3.55,slow,725,1725,2121,bright/thin,-12.4,17.0,even volume,7.41,clear/pure,0.618,0.57,clean stop
+C101,422.4,13.46,4.18,level,very melodic,3,0.35,0.68,phrased with pauses,4.5,slow,815,1953,2230,bright/thin,-12.2,17.2,even volume,6.68,moderate,0.675,0.49,clean stop
+C102,388.0,16.78,4.96,level,very melodic,2,0.31,0.55,phrased with pauses,3.35,slow,611,2110,2183,bright/thin,-13.0,20.5,strong volume swings,5.97,breathy/rough,0.618,0.27,clean stop
+C103,121.4,10.43,3.4,falling,monotone,0,0.0,0,no internal pauses,5.93,rushed,477,2176,1012,dark/warm,-20.9,16.3,even volume,2.94,breathy/rough,0.676,0.7,trailing silence
+C104,120.3,10.54,3.29,falling,monotone,0,0.0,0,no internal pauses,6.29,rushed,450,2161,1026,dark/warm,-21.3,18.5,some contrast,3.77,breathy/rough,0.657,0.8,trailing silence
+C105,115.8,12.05,3.51,falling,moderate melody,0,0.0,0,no internal pauses,6.13,rushed,518,2102,1002,dark/warm,-21.8,16.3,even volume,3.5,breathy/rough,0.739,0.67,trailing silence
+C106,341.4,15.99,4.36,falling,very melodic,0,0.0,0,no internal pauses,5.95,rushed,583,1975,1783,dark/warm,-20.8,17.1,even volume,7.52,clear/pure,0.792,0.69,trailing silence
+C107,348.9,11.7,4.03,falling,moderate melody,0,0.0,0,no internal pauses,6.35,rushed,575,2166,2044,bright/thin,-20.5,17.7,some contrast,7.64,clear/pure,0.762,0.79,trailing silence
+C108,342.8,13.03,3.62,falling,very melodic,0,0.0,0,no internal pauses,6.2,rushed,589,2254,1854,neutral,-21.6,17.7,some contrast,8.08,clear/pure,0.785,0.65,trailing silence
+C109,346.0,13.35,4.4,falling,very melodic,0,0.0,0,no internal pauses,5.95,rushed,594,1971,1792,dark/warm,-20.6,16.5,even volume,7.29,clear/pure,0.819,0.69,trailing silence
+C110,349.4,11.67,4.0,falling,moderate melody,0,0.0,0,no internal pauses,6.35,rushed,610,2272,2087,bright/thin,-20.5,18.3,some contrast,7.81,clear/pure,0.753,0.79,trailing silence
+C111,340.8,14.67,3.93,falling,very melodic,0,0.0,0,no internal pauses,6.2,rushed,635,2203,1868,neutral,-21.0,18.6,some contrast,8.13,clear/pure,0.796,0.65,trailing silence
+C112,345.0,13.53,4.39,falling,very melodic,0,0.0,0,no internal pauses,5.95,rushed,618,2090,1802,neutral,-20.3,18.1,some contrast,7.28,clear/pure,0.805,0.69,trailing silence
+C113,350.0,11.58,3.99,falling,moderate melody,0,0.0,0,no internal pauses,6.35,rushed,547,2206,2064,bright/thin,-20.4,18.0,some contrast,7.61,clear/pure,0.752,0.77,trailing silence
+C114,337.9,14.74,4.24,falling,very melodic,0,0.0,0,no internal pauses,6.23,rushed,610,2241,1830,neutral,-20.7,19.2,strong volume swings,8.09,clear/pure,0.82,0.65,trailing silence
+C115,343.0,13.99,4.3,falling,very melodic,0,0.0,0,no internal pauses,5.95,rushed,581,1953,1760,dark/warm,-19.9,17.6,some contrast,7.63,clear/pure,0.795,0.69,trailing silence
+C116,350.5,11.61,4.02,falling,moderate melody,0,0.0,0,no internal pauses,6.35,rushed,575,2171,1988,bright/thin,-19.7,17.6,some contrast,8.09,clear/pure,0.767,0.77,trailing silence
+C117,341.7,14.38,3.83,falling,very melodic,0,0.0,0,no internal pauses,6.25,rushed,591,2174,1795,dark/warm,-20.1,16.8,even volume,8.15,clear/pure,0.803,0.65,trailing silence
+C118,346.2,13.68,4.38,falling,very melodic,0,0.0,0,no internal pauses,5.95,rushed,599,1988,1773,dark/warm,-20.4,18.3,some contrast,7.41,clear/pure,0.805,0.69,trailing silence
+C119,349.8,11.86,4.04,falling,moderate melody,0,0.0,0,no internal pauses,6.38,rushed,582,2200,2038,bright/thin,-19.9,18.1,some contrast,7.78,clear/pure,0.769,0.79,trailing silence
+C120,338.4,14.7,4.28,falling,very melodic,0,0.0,0,no internal pauses,6.23,rushed,670,2181,1791,dark/warm,-20.4,18.7,strong volume swings,8.09,clear/pure,0.806,0.65,trailing silence
+C121,345.8,13.1,4.35,falling,very melodic,0,0.0,0,no internal pauses,5.95,rushed,627,2048,1797,dark/warm,-20.1,18.9,strong volume swings,7.43,clear/pure,0.816,0.69,trailing silence
+C122,350.8,11.8,4.02,falling,moderate melody,0,0.0,0,no internal pauses,6.35,rushed,618,2186,1990,bright/thin,-20.0,18.4,some contrast,7.81,clear/pure,0.752,0.77,trailing silence
+C123,337.8,14.7,4.18,falling,very melodic,0,0.0,0,no internal pauses,6.23,rushed,631,2181,1826,neutral,-20.3,17.9,some contrast,7.99,clear/pure,0.799,0.65,trailing silence
+C124,343.1,12.81,4.31,falling,very melodic,0,0.0,0,no internal pauses,5.93,rushed,586,2022,1796,dark/warm,-20.0,16.8,even volume,7.34,clear/pure,0.816,0.69,trailing silence
+C125,348.9,13.99,4.13,falling,very melodic,0,0.0,0,no internal pauses,6.38,rushed,656,2184,1998,bright/thin,-20.0,18.1,some contrast,7.61,clear/pure,0.77,0.77,trailing silence
+C126,337.3,14.7,4.26,falling,very melodic,0,0.0,0,no internal pauses,6.23,rushed,636,2184,1840,neutral,-20.5,18.7,strong volume swings,7.94,clear/pure,0.803,0.65,trailing silence
+C127,344.3,12.65,4.25,falling,very melodic,0,0.0,0,no internal pauses,5.95,rushed,616,1996,1775,dark/warm,-21.6,17.3,even volume,7.48,clear/pure,0.802,0.69,trailing silence
+C128,346.0,11.68,4.03,falling,moderate melody,0,0.0,0,no internal pauses,6.35,rushed,536,2205,2011,bright/thin,-21.7,19.1,strong volume swings,8.04,clear/pure,0.752,0.77,trailing silence
+C129,338.6,14.7,4.13,falling,very melodic,0,0.0,0,no internal pauses,6.25,rushed,613,2234,1822,neutral,-22.2,18.2,some contrast,7.9,clear/pure,0.806,0.65,trailing silence
+C130,343.7,13.83,4.35,falling,very melodic,0,0.0,0,no internal pauses,5.93,rushed,584,1960,1797,dark/warm,-16.0,16.7,even volume,7.41,clear/pure,0.799,0.69,trailing silence
+C131,348.9,11.72,4.07,falling,moderate melody,0,0.0,0,no internal pauses,6.33,rushed,582,2157,2035,bright/thin,-15.5,17.7,some contrast,7.46,clear/pure,0.764,0.77,trailing breath/noise
+C132,340.2,14.7,3.9,falling,very melodic,0,0.0,0,no internal pauses,6.2,rushed,618,2165,1808,neutral,-15.8,15.1,even volume,7.77,clear/pure,0.801,0.63,trailing silence
+C133,329.7,13.57,3.93,falling,very melodic,3,0.42,1.18,phrased with pauses,5.52,rushed,644,1951,1872,neutral,-25.6,18.8,strong volume swings,6.29,moderate,0.49,0.29,clean stop
+C134,306.6,15.52,4.75,falling,very melodic,3,0.36,0.83,phrased with pauses,4.97,moderate,611,2076,1767,dark/warm,-26.1,18.4,some contrast,6.09,moderate,0.617,0.23,clean stop
+C135,309.7,13.66,4.24,level,very melodic,2,0.29,0.44,phrased with pauses,5.1,moderate,541,1928,1743,dark/warm,-27.2,20.6,strong volume swings,4.69,breathy/rough,0.581,0.19,clean stop
+C136,289.9,10.13,2.9,level,monotone,3,0.43,0.76,phrased with pauses,5.56,rushed,540,1921,1811,neutral,-28.0,19.1,strong volume swings,6.06,moderate,0.553,0.25,clean stop
+C137,314.9,12.3,3.6,falling,moderate melody,1,0.34,0.34,phrased with pauses,5.65,rushed,518,2028,1769,dark/warm,-27.9,18.8,strong volume swings,7.34,clear/pure,0.678,0.43,clean stop
+C138,317.4,10.71,3.43,falling,monotone,3,0.32,0.8,phrased with pauses,4.94,slow,621,1954,1733,dark/warm,-27.4,19.1,strong volume swings,6.61,moderate,0.526,0.19,clean stop
+C139,283.9,10.73,3.16,level,monotone,1,0.3,0.3,phrased with pauses,5.43,moderate,484,2494,1923,neutral,-28.2,18.6,some contrast,5.26,breathy/rough,0.656,0.27,clean stop
+C140,274.8,9.85,3.21,rising at end,monotone,0,0.0,0,no internal pauses,5.11,moderate,564,2279,1802,neutral,-28.6,18.5,some contrast,6.03,breathy/rough,0.723,0.47,clean stop
+C141,278.8,9.9,3.3,falling,monotone,0,0.0,0,no internal pauses,5.62,rushed,551,2294,1770,dark/warm,-29.6,18.0,some contrast,5.86,breathy/rough,0.751,0.51,clean stop
+C142,299.4,14.96,4.36,rising at end,very melodic,0,0.0,0,no internal pauses,5.43,moderate,527,2363,1855,neutral,-28.1,18.1,some contrast,5.76,breathy/rough,0.697,0.31,clean stop
+C143,293.0,9.41,3.02,falling,monotone,0,0.0,0,no internal pauses,5.15,moderate,616,2252,1799,neutral,-29.2,18.6,some contrast,5.85,breathy/rough,0.707,0.31,clean stop
+C144,268.7,8.2,2.52,level,monotone,0,0.0,0,no internal pauses,5.74,rushed,488,2317,1752,dark/warm,-28.9,18.3,some contrast,6.56,moderate,0.715,0.25,clean stop
+C145,272.2,11.6,3.76,rising at end,moderate melody,1,0.75,0.75,one long pause,5.03,moderate,546,2207,1937,neutral,-29.6,16.5,even volume,6.17,moderate,0.683,0.45,clean stop
+C146,276.5,12.29,4.37,falling,moderate melody,1,0.38,0.38,phrased with pauses,5.76,rushed,580,2141,1830,neutral,-30.2,16.1,even volume,7.16,clear/pure,0.804,0.31,clean stop
+C147,276.2,12.18,3.8,level,moderate melody,1,0.67,0.67,one long pause,5.26,moderate,568,2264,1808,neutral,-28.6,17.3,even volume,7.15,clear/pure,0.741,0.43,clean stop
+C148,277.7,10.41,3.49,falling,monotone,1,0.74,0.74,one long pause,5.88,rushed,525,2157,1975,bright/thin,-27.9,15.8,even volume,6.95,clear/pure,0.659,0.25,clean stop
+C149,301.9,13.08,4.36,level,very melodic,1,0.52,0.52,one long pause,6.25,rushed,549,2153,1955,neutral,-28.2,17.6,some contrast,7.47,clear/pure,0.767,0.47,clean stop
+C150,293.3,11.3,4.1,level,moderate melody,1,0.82,0.82,one long pause,5.93,rushed,572,2099,2009,bright/thin,-28.5,18.3,some contrast,7.13,clear/pure,0.699,0.31,clean stop
+C151,254.1,9.46,2.76,falling,monotone,0,0.0,0,no internal pauses,6.23,rushed,506,2237,1593,dark/warm,-30.6,17.4,even volume,6.18,moderate,0.709,0.29,clean stop
+C152,293.2,8.39,2.73,falling,monotone,0,0.0,0,no internal pauses,5.25,moderate,551,2138,1800,neutral,-27.9,18.0,some contrast,6.63,moderate,0.744,0.29,clean stop
+C153,268.8,8.8,2.98,rising,monotone,0,0.0,0,no internal pauses,6.45,rushed,580,2141,1769,dark/warm,-30.0,18.4,some contrast,6.63,moderate,0.802,0.27,clean stop
+C154,298.0,12.12,3.76,falling,moderate melody,1,0.26,0.26,phrased with pauses,5.06,moderate,530,2146,1979,bright/thin,-27.6,21.3,strong volume swings,5.69,breathy/rough,0.635,0.21,clean stop
+C155,298.5,14.0,4.3,falling,very melodic,1,0.25,0.25,phrased with pauses,4.49,slow,469,2118,1792,dark/warm,-26.5,17.8,some contrast,6.98,clear/pure,0.575,0.35,clean stop
+C156,276.0,7.67,2.23,level,monotone,0,0.0,0,no internal pauses,5.23,moderate,582,2093,1755,dark/warm,-28.4,20.3,strong volume swings,6.06,moderate,0.731,0.25,clean stop
+C157,251.8,8.8,2.45,falling,monotone,1,0.29,0.29,phrased with pauses,5.46,moderate,542,2101,1738,dark/warm,-30.1,21.3,strong volume swings,6.45,moderate,0.666,0.31,clean stop
+C158,260.9,11.06,3.3,rising at end,moderate melody,2,0.37,0.57,phrased with pauses,5.13,moderate,553,2168,2119,bright/thin,-30.7,18.6,some contrast,5.19,breathy/rough,0.565,0.37,clean stop
+C159,272.8,8.77,2.64,falling,monotone,0,0.0,0,no internal pauses,5.69,rushed,545,2181,1832,neutral,-28.8,19.0,strong volume swings,6.46,moderate,0.692,0.25,clean stop
+C160,301.5,8.58,2.3,falling,monotone,0,0.0,0,no internal pauses,5.41,moderate,513,2114,1857,neutral,-27.5,18.2,some contrast,6.93,clear/pure,0.723,0.39,clean stop
+C161,241.6,19.08,4.44,level,very melodic,0,0.0,0,no internal pauses,5.78,rushed,504,2049,1622,dark/warm,-30.2,19.0,strong volume swings,6.49,moderate,0.708,0.37,clean stop
+C162,267.8,9.12,2.77,falling,monotone,1,0.3,0.3,phrased with pauses,4.77,slow,583,2179,1846,neutral,-29.3,17.3,even volume,6.72,moderate,0.647,0.19,clean stop
+C163,298.3,10.24,2.85,level,monotone,0,0.0,0,no internal pauses,5.46,moderate,570,2090,1828,neutral,-27.5,15.9,even volume,6.25,moderate,0.763,0.37,clean stop
+C164,308.2,12.13,3.92,falling,moderate melody,1,0.42,0.42,phrased with pauses,4.07,slow,582,2172,1870,neutral,-27.9,19.5,strong volume swings,6.42,moderate,0.542,0.23,clean stop
+C165,279.5,11.0,3.58,falling,moderate melody,0,0.0,0,no internal pauses,5.2,moderate,454,2161,1783,dark/warm,-29.4,18.2,some contrast,5.9,breathy/rough,0.701,0.21,clean stop
+C166,289.3,10.89,3.91,level,moderate melody,0,0.0,0,no internal pauses,5.22,moderate,459,2160,1798,dark/warm,-27.4,18.4,some contrast,5.99,breathy/rough,0.695,0.23,clean stop
+C167,306.9,9.45,3.31,rising at end,monotone,1,0.18,0.18,phrased with pauses,5.37,moderate,570,2207,1853,neutral,-26.1,17.5,even volume,5.61,breathy/rough,0.658,0.17,clean stop
+C168,289.8,11.17,3.42,level,moderate melody,1,0.3,0.3,phrased with pauses,4.8,slow,551,2232,1762,dark/warm,-27.4,19.1,strong volume swings,6.63,moderate,0.599,0.27,clean stop
+C169,283.7,11.12,2.97,rising at end,moderate melody,1,0.28,0.28,phrased with pauses,3.75,slow,626,2325,1789,dark/warm,-27.0,18.6,some contrast,5.74,breathy/rough,0.609,0.27,clean stop
+C170,255.0,8.17,2.58,falling,monotone,0,0.0,0,no internal pauses,5.31,moderate,352,2241,1704,dark/warm,-30.6,17.2,even volume,6.19,moderate,0.758,0.33,clean stop
+C171,293.7,7.9,2.45,falling,monotone,1,0.31,0.31,phrased with pauses,5.2,moderate,523,2055,1744,dark/warm,-27.8,20.8,strong volume swings,6.89,clear/pure,0.669,0.17,clean stop
+C172,298.9,11.04,4.03,falling,moderate melody,1,0.5,0.5,one long pause,4.71,slow,506,2297,2036,bright/thin,-29.0,17.7,some contrast,5.77,breathy/rough,0.506,0.21,clean stop
+C173,251.3,6.86,2.14,falling,monotone,0,0.0,0,no internal pauses,4.91,slow,558,2184,1680,dark/warm,-29.8,19.6,strong volume swings,5.9,breathy/rough,0.761,0.25,clean stop
+C174,260.1,6.98,2.14,falling,monotone,0,0.0,0,no internal pauses,4.85,slow,541,2160,1725,dark/warm,-29.5,20.5,strong volume swings,6.64,moderate,0.823,0.35,clean stop
+C175,264.5,9.67,2.92,falling,monotone,0,0.0,0,no internal pauses,4.59,slow,556,2122,1803,neutral,-29.7,21.3,strong volume swings,5.97,breathy/rough,0.684,0.23,clean stop
+C176,270.1,9.63,2.96,level,monotone,1,0.23,0.23,phrased with pauses,4.26,slow,631,2096,1672,dark/warm,-27.6,17.3,even volume,6.96,clear/pure,0.668,0.27,clean stop
+C177,277.5,10.1,3.52,falling,monotone,0,0.0,0,no internal pauses,5.12,moderate,422,2182,1728,dark/warm,-29.7,18.7,strong volume swings,6.93,clear/pure,0.761,0.33,clean stop
+C178,267.4,8.5,2.79,falling,monotone,0,0.0,0,no internal pauses,4.11,slow,536,2222,1652,dark/warm,-29.2,18.4,some contrast,4.89,breathy/rough,0.641,0.29,clean stop
+C179,285.5,10.41,2.98,falling,monotone,0,0.0,0,no internal pauses,4.27,slow,468,2575,1956,neutral,-29.2,18.8,strong volume swings,7.01,clear/pure,0.704,0.29,clean stop
+C180,325.0,9.73,3.09,level,monotone,0,0.0,0,no internal pauses,4.88,slow,511,2541,2143,bright/thin,-28.8,17.7,some contrast,5.62,breathy/rough,0.706,0.39,clean stop
+C181,295.4,11.94,3.65,rising at end,moderate melody,0,0.0,0,no internal pauses,4.93,slow,481,2547,2170,bright/thin,-28.6,19.3,strong volume swings,6.43,moderate,0.752,0.35,clean stop
+C182,293.0,8.25,2.56,rising,monotone,1,0.3,0.3,phrased with pauses,4.63,slow,477,2365,2136,bright/thin,-30.1,17.4,even volume,7.61,clear/pure,0.673,0.25,clean stop
+C183,308.8,11.2,3.65,level,moderate melody,2,0.68,0.89,phrased with pauses,4.37,slow,433,2634,2214,bright/thin,-29.0,18.5,some contrast,7.18,clear/pure,0.599,0.27,clean stop
+C184,281.6,8.57,2.89,falling,monotone,0,0.0,0,no internal pauses,4.83,slow,486,2589,2247,bright/thin,-28.0,21.6,strong volume swings,6.43,moderate,0.7,0.57,clean stop
+C185,301.5,10.09,2.87,falling,monotone,1,0.24,0.24,phrased with pauses,3.91,slow,462,2251,2023,bright/thin,-27.1,18.4,some contrast,6.43,moderate,0.685,0.17,clean stop
+C186,319.8,18.19,4.9,level,very melodic,0,0.0,0,no internal pauses,4.1,slow,501,2420,2348,bright/thin,-30.4,21.1,strong volume swings,5.93,breathy/rough,0.7,0.25,clean stop
+C187,304.5,10.74,3.55,level,monotone,0,0.0,0,no internal pauses,4.37,slow,405,2313,1856,neutral,-29.7,18.2,some contrast,7.42,clear/pure,0.693,0.23,clean stop
+C188,248.3,5.85,1.68,rising at end,monotone,0,0.0,0,no internal pauses,4.85,slow,431,2690,2114,bright/thin,-30.0,17.6,some contrast,7.12,clear/pure,0.809,0.37,clean stop
+C189,302.5,8.9,2.8,falling,monotone,0,0.0,0,no internal pauses,4.57,slow,453,2338,2192,bright/thin,-30.1,20.9,strong volume swings,6.07,moderate,0.689,0.27,clean stop
+C190,276.6,6.92,2.22,level,monotone,1,0.15,0.15,phrased with pauses,4.51,slow,460,2240,1713,dark/warm,-28.8,17.9,some contrast,7.46,clear/pure,0.759,0.29,clean stop
+C191,273.8,7.64,2.47,rising,monotone,0,0.0,0,no internal pauses,3.88,slow,489,2325,1962,bright/thin,-30.0,17.4,even volume,7.67,clear/pure,0.737,0.27,clean stop
+C192,293.8,13.38,4.01,level,very melodic,1,0.32,0.32,phrased with pauses,3.51,slow,510,2424,1942,neutral,-27.2,19.5,strong volume swings,5.92,breathy/rough,0.644,0.29,clean stop

@@ -1,5 +1,5 @@
 {
-  "_comment": "Template for a new computer (e.g. the show PC): copy to machine.json and set root. Relative paths below are resolved against root. Leave base_python empty to use the py launcher (py -3.10) during setup.",
+  "_comment": "Template for a new computer (e.g. the show PC): copy to machine.json and set root. Relative paths below are resolved against root. Leave base_python empty to use the py launcher (py -3.10) during setup. gpus splits the work on a two-GPU computer (index, UUID, or part of the name); leave both empty on a single-GPU computer.",
   "root": "D:/Pinocchio",
   "paths": {
     "runtime": "runtime",
@@ -7,6 +7,10 @@
     "ollama_exe": "ollama/ollama.exe",
     "ollama_models": "ollama/models",
     "voice_training": "voice_training"
+  },
+  "gpus": {
+    "text": "2060",
+    "voice": "3070"
   },
   "base_python": ""
 }

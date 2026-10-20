@@ -1,0 +1,45 @@
+SettingID,Engine,Arm,VariableTested,LevelLabel,IsBaseline,Notes,Temperature,TopP,TopK,MinP,RepetitionPenalty,CFGWeight,Exaggeration,ConversionStrength,Protect,RmsMix,ReferenceClip,ReferenceStyle
+S01,Chatterbox Turbo,baseline,baseline,show defaults,True,Live show settings,0.8,0.95,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S02,Chatterbox Turbo,sampling,temperature,T=0.3,False,,0.3,0.95,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S03,Chatterbox Turbo,sampling,temperature,T=0.55,False,,0.55,0.95,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S04,Chatterbox Turbo,sampling,temperature,T=1.05,False,,1.05,0.95,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S05,Chatterbox Turbo,sampling,temperature,T=1.3,False,,1.3,0.95,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S06,Chatterbox Turbo,sampling,temperature,T=1.6,False,,1.6,0.95,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S07,Chatterbox Turbo,sampling,temperature,T=2.0,False,,2.0,0.95,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S08,Chatterbox Turbo,sampling,top_p,top_p=0.3,False,,0.8,0.3,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S09,Chatterbox Turbo,sampling,top_p,top_p=0.6,False,,0.8,0.6,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S10,Chatterbox Turbo,sampling,top_p,top_p=0.8,False,,0.8,0.8,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S11,Chatterbox Turbo,sampling,top_p,top_p=1.0,False,top_p=1.0 disables nucleus filtering; it is the reference for the top_k sweep,0.8,1.0,1000,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S12,Chatterbox Turbo,sampling,top_k,top_k=1,False,top_p held at 1.0 so top_k is the only active filter; top_k=1 is greedy decoding,0.8,1.0,1,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S13,Chatterbox Turbo,sampling,top_k,top_k=5,False,top_p held at 1.0 so top_k is the only active filter,0.8,1.0,5,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S14,Chatterbox Turbo,sampling,top_k,top_k=20,False,top_p held at 1.0 so top_k is the only active filter,0.8,1.0,20,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S15,Chatterbox Turbo,sampling,top_k,top_k=100,False,top_p held at 1.0 so top_k is the only active filter,0.8,1.0,100,,1.2,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S16,Chatterbox Turbo,sampling,repetition_penalty,rep=1.0,False,,0.8,0.95,1000,,1.0,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S17,Chatterbox Turbo,sampling,repetition_penalty,rep=1.1,False,,0.8,0.95,1000,,1.1,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S18,Chatterbox Turbo,sampling,repetition_penalty,rep=1.4,False,,0.8,0.95,1000,,1.4,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S19,Chatterbox Turbo,sampling,repetition_penalty,rep=1.7,False,,0.8,0.95,1000,,1.7,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S20,Chatterbox Turbo,sampling,repetition_penalty,rep=2.0,False,,0.8,0.95,1000,,2.0,,,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S21,Chatterbox Turbo,audio prompt,reference clip,chr_0196,False,,0.8,0.95,1000,,1.2,,,,,,chr_0196.wav,"bright and cheerful, ends on an exclamation"
+S22,Chatterbox Turbo,audio prompt,reference clip,chr_0198,False,,0.8,0.95,1000,,1.2,,,,,,chr_0198.wav,"slow, wistful storytelling"
+S23,Chatterbox Turbo,audio prompt,reference clip,chr_0169,False,,0.8,0.95,1000,,1.2,,,,,,chr_0169.wav,flat counting (one to ten)
+S24,Chatterbox Turbo,audio prompt,reference clip,chr_0204,False,,0.8,0.95,1000,,1.2,,,,,,chr_0204.wav,"plain, earnest explanation"
+S25,Chatterbox (original),guidance,baseline,cfg=0.5 exag=0.5,True,Original model defaults,0.8,1.0,,0.05,1.2,0.5,0.5,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S26,Chatterbox (original),guidance,cfg_weight,cfg=0.0,False,"cfg=0 turns classifier-free guidance off (run as 1e-6: this chatterbox version always samples a CFG batch, and 1e-6 makes the guided logits equal the conditional ones)",0.8,1.0,,0.05,1.2,0.0,0.5,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S27,Chatterbox (original),guidance,cfg_weight,cfg=0.25,False,,0.8,1.0,,0.05,1.2,0.25,0.5,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S28,Chatterbox (original),guidance,cfg_weight,cfg=0.75,False,,0.8,1.0,,0.05,1.2,0.75,0.5,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S29,Chatterbox (original),guidance,cfg_weight,cfg=1.0,False,,0.8,1.0,,0.05,1.2,1.0,0.5,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S30,Chatterbox (original),guidance,exaggeration,exag=0.25,False,,0.8,1.0,,0.05,1.2,0.5,0.25,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S31,Chatterbox (original),guidance,exaggeration,exag=0.75,False,,0.8,1.0,,0.05,1.2,0.5,0.75,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S32,Chatterbox (original),guidance,exaggeration,exag=1.0,False,,0.8,1.0,,0.05,1.2,0.5,1.0,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S33,Chatterbox (original),guidance,exaggeration,exag=1.5,False,,0.8,1.0,,0.05,1.2,0.5,1.5,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S34,Chatterbox (original),guidance,exaggeration,exag=2.0,False,,0.8,1.0,,0.05,1.2,0.5,2.0,,,,chr_0200.wav,"reflective, measured (baseline reference)"
+S35,Kokoro + RVC,conversion,control (no conversion),Kokoro only,False,Source speaker (Kokoro am_puck) before any conversion,,,,,,,,,,,,
+S36,Kokoro + RVC,conversion,conversion strength (index_rate),index=0.0,False,,,,,,,,,0.0,0.33,0.25,,
+S37,Kokoro + RVC,conversion,conversion strength (index_rate),index=0.25,False,,,,,,,,,0.25,0.33,0.25,,
+S38,Kokoro + RVC,conversion,conversion strength (index_rate),index=0.5,False,,,,,,,,,0.5,0.33,0.25,,
+S39,Kokoro + RVC,conversion,conversion strength (index_rate),index=1.0,False,,,,,,,,,1.0,0.33,0.25,,
+S40,Kokoro + RVC,conversion,baseline,index=0.75,True,Former show settings,,,,,,,,0.75,0.33,0.25,,
+S41,Kokoro + RVC,conversion,protect,protect=0.1,False,Lower protect converts breaths and consonants too; 0.5 disables protection,,,,,,,,0.75,0.1,0.25,,
+S42,Kokoro + RVC,conversion,protect,protect=0.5,False,Lower protect converts breaths and consonants too; 0.5 disables protection,,,,,,,,0.75,0.5,0.25,,
+S43,Kokoro + RVC,conversion,rms_mix_rate,rms=0.0,False,"0 keeps the source loudness envelope, 1 uses the converted voice's own",,,,,,,,0.75,0.33,0.0,,
+S44,Kokoro + RVC,conversion,rms_mix_rate,rms=1.0,False,"0 keeps the source loudness envelope, 1 uses the converted voice's own",,,,,,,,0.75,0.33,1.0,,

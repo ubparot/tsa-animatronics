@@ -138,6 +138,55 @@ voice, has much lower latency, and supports explicit paralinguistic tags such as
 `[chuckle]`, `[laugh]`, `[gasp]`, and `[sigh]`. It does not implement the
 original model's exaggeration or CFG sliders.
 
+### Faster synthesis (CUDA graph)
+
+Stock Chatterbox Turbo generates speech tokens one at a time from Python and is
+limited by kernel-launch overhead, not by the GPU. `t3_cuda_graph.py` replays
+each token step as a CUDA graph instead: on the RTX 5080 that is 43 -> 305
+tokens/s and roughly 3x faster synthesis (a short clause in ~0.35 s instead of
+~0.9 s), with intelligibility unchanged in a 40-clip Whisper comparison. At
+start-up it checks itself against stock decoding and falls back to stock if
+anything differs, so the status line shows either `CUDA graph bfloat16` or
+`stock decoding`. Seeds still repeat exactly. Keys in `audio_config.json`:
+
+- `chatterbox_cuda_graph`: `false` returns to stock decoding.
+- `chatterbox_bf16`: `false` keeps the graph in fp32 (about 30% slower).
+
+## Streaming speech and the two-GPU show PC
+
+With `stream_speech` on (the default), the control panel speaks a reply clause
+by clause while the model is still writing it, and plays it through this PC's
+speakers (the browser keeps it for replay). The first clause is kept short so
+speech starts fast; later clauses are sized to what the voice can synthesize
+before the audio already queued runs out, so there are no silent gaps.
+`stream_first_chunk_words` sets how soon the first clause leaves without
+punctuation; `output_device` picks the speaker (see `--list-devices`).
+
+The show PC splits the work across two cards: Ollama on the RTX 2060 (6 GB) and
+Whisper plus Chatterbox on the RTX 3070 (8 GB). Name them in `machine.json`:
+
+```json
+"gpus": { "text": "2060", "voice": "3070" }
+```
+
+The launchers pin each process to its card. Ollama reads the pin only when it
+starts, so quit any Ollama that is already running (including its tray icon)
+first; the launcher warns if it finds one.
+
+`run_stream_check.ps1` times streamed replies (first text, first audio, gaps
+between clauses) and checks VRAM against the 6 GB / 8 GB budgets:
+
+```powershell
+.\run_stream_check.ps1                      # real numbers on the show PC
+.\run_stream_check.ps1 --simulate-show-pc   # approximate it on one bigger GPU
+.\run_stream_check.ps1 --mute "Why do cats purr?"
+```
+
+`--simulate-show-pc` (also accepted by `run_ui.ps1`) caps the voice process at
+8 GB and slows text 3x and voice 1.8x. Those slowdowns are estimates from
+memory bandwidth; replace them in `streaming_speech.py` (`SHOW_PC`) with what
+the show PC actually measures.
+
 ## Voice benchmark
 
 `run_benchmark.ps1` loads the same stack as the UI (Whisper, the Ollama model,
@@ -155,7 +204,8 @@ synthesis time, real-time factor, peak GPU memory above the pre-load baseline,
 voice fallbacks, and a rough intelligibility score (Whisper word error rate on
 the generated audio). Run it on each computer and after every voice change so
 results stay comparable; the saved WAVs double as blind-listening-test clips.
-Current voices do not stream, so time to first audio equals synthesis time.
+The benchmark times whole lines; use `run_stream_check.ps1` for time to first
+audio with streaming.
 
 ## Audio Performance Lab
 

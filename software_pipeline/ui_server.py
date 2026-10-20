@@ -50,7 +50,8 @@ from voice_pipeline import (
     speak,
     transcribe,
 )
-from tts_chatterbox import VoiceEngine, create_voice, describe_voice
+from streaming_speech import SHOW_PC, StreamSettings, speak_streamed_turn
+from tts_chatterbox import VoiceEngine, create_voice, describe_voice, limit_voice_vram
 
 
 ROOT = Path(__file__).resolve().parent
@@ -68,9 +69,11 @@ MODEL_TIMEOUTS = {"pinocchio-fast": 8.0, "pinocchio-ai": 12.0}
 class PipelineRuntime:
     """Loads the local speech components once and runs one show turn at a time."""
 
-    def __init__(self, model_name: str) -> None:
+    def __init__(self, model_name: str, simulate_show_pc: bool = False) -> None:
         self.config = load_config()
         self.model_name = model_name
+        self.simulate_show_pc = simulate_show_pc
+        self.streaming = bool(self.config.get("stream_speech", True))
         self.turn = 0
         self.last_error: str | None = None
         self.ready = False
@@ -92,6 +95,9 @@ class PipelineRuntime:
 
     def load(self) -> None:
         RUNTIME_ROOT.mkdir(parents=True, exist_ok=True)
+        if self.simulate_show_pc:
+            cap = limit_voice_vram(SHOW_PC["voice_vram_gb"])
+            print(f"Simulating the show PC: voice PyTorch memory capped at {cap:.1f} GB, slower text and voice.")
         self.stt = WhisperModel(
             self.config["whisper_model"],
             device=self.config["whisper_device"],
@@ -113,6 +119,7 @@ class PipelineRuntime:
             "microphone": self.config.get("input_device"),
             "speechRecognition": f"Whisper {self.config['whisper_model']} ({self.config['whisper_device']})",
             "voice": describe_voice(self.voice) if self.voice else None,
+            "streaming": self.streaming,
             "lastError": self.last_error,
         }
 
@@ -132,6 +139,7 @@ class PipelineRuntime:
             self.warm_model(selected_model)
             transcript = text.strip() if text else ""
             timings = {"listen": 0.0, "transcribe": 0.0, "ai": 0.0, "voice": 0.0}
+            stream_report: dict[str, Any] | None = None
             try:
                 if not transcript:
                     started = time.perf_counter()
@@ -143,23 +151,47 @@ class PipelineRuntime:
                 if not transcript:
                     raise RuntimeError("Speech was not clear enough to transcribe.")
                 started = time.perf_counter()
-                packet, source = get_response(
-                    transcript,
-                    self.turn,
-                    selected_model,
-                    MODEL_TIMEOUTS[selected_model],
-                    force_tag,
-                )
-                timings["ai"] = time.perf_counter() - started
+                if self.streaming:
+                    # Speaks through this PC's speakers clause by clause while
+                    # the model is still writing; returns once speech is done.
+                    streamed = speak_streamed_turn(
+                        transcript,
+                        self.turn,
+                        selected_model,
+                        MODEL_TIMEOUTS[selected_model],
+                        force_tag,
+                        self.voice,
+                        StreamSettings.from_config(self.config, self.simulate_show_pc),
+                        SPEECH_PATH,
+                        started,
+                    )
+                    packet, source = streamed.packet, streamed.source
+                    stream_report = streamed.report.as_dict()
+                    timings["ai"] = streamed.report.text_done_s or 0.0
+                    timings["firstAudio"] = streamed.report.first_audio_s or 0.0
+                    timings["gaps"] = streamed.report.gap_total_s
+                    if streamed.report.errors:
+                        self.last_error = "; ".join(streamed.report.errors)
+                else:
+                    packet, source = get_response(
+                        transcript,
+                        self.turn,
+                        selected_model,
+                        MODEL_TIMEOUTS[selected_model],
+                        force_tag,
+                    )
+                    timings["ai"] = time.perf_counter() - started
             except (OSError, RuntimeError, ValueError) as exc:
                 self.last_error = str(exc)
                 packet = reprompt_packet()
                 source = "speech_fallback"
+                stream_report = None
 
             apply_simulation(packet)
-            started = time.perf_counter()
-            speak(self.voice, packet["spoken_text"], SPEECH_PATH, mute=True)
-            timings["voice"] = time.perf_counter() - started
+            if stream_report is None:
+                started = time.perf_counter()
+                speak(self.voice, packet["spoken_text"], SPEECH_PATH, mute=True)
+                timings["voice"] = time.perf_counter() - started
             voice_error = getattr(self.voice, "last_error", None)
             if voice_error and not self.last_error:
                 self.last_error = voice_error
@@ -172,6 +204,7 @@ class PipelineRuntime:
                 "recording": str(RECORDING_PATH),
                 "speech": str(SPEECH_PATH),
                 "ui": True,
+                "stream": stream_report,
             }
             for log_path in (VOICE_LOG_PATH, LOG_PATH):
                 with log_path.open("a", encoding="utf-8") as log:
@@ -183,6 +216,8 @@ class PipelineRuntime:
                 "packet": packet,
                 "audioUrl": f"/audio/last_response.wav?v={int(time.time() * 1000)}",
                 "fallback": source == "speech_fallback",
+                # Already played on this PC; the browser keeps it only for replay.
+                "streamed": stream_report is not None,
                 "error": self.last_error,
                 "timings": {name: round(seconds, 2) for name, seconds in timings.items()},
             }
@@ -600,11 +635,16 @@ def main() -> int:
     parser.add_argument("--model", default="pinocchio-fast", help="Local Ollama model name.")
     parser.add_argument("--port", type=int, default=8787, help="Local browser port.")
     parser.add_argument("--no-browser", action="store_true", help="Do not open the browser automatically.")
+    parser.add_argument(
+        "--simulate-show-pc",
+        action="store_true",
+        help="Mimic the 2060 + 3070 show PC on one GPU (voice VRAM cap, slower models).",
+    )
     args = parser.parse_args()
 
     if not UI_ROOT.is_dir():
         raise FileNotFoundError(f"UI files are missing: {UI_ROOT}")
-    runtime = PipelineRuntime(args.model)
+    runtime = PipelineRuntime(args.model, args.simulate_show_pc)
     print("Loading the local speech components...")
     runtime.load()
     ControlPanelHandler.runtime = runtime
