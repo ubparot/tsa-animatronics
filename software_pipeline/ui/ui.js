@@ -60,6 +60,8 @@ function showResult(result) {
     timing.listen ? `listen ${timing.listen}s` : '',
     timing.transcribe ? `speech ${timing.transcribe}s` : '',
     timing.ai ? `AI ${timing.ai}s` : '',
+    timing.firstAudio ? `first audio ${timing.firstAudio}s` : '',
+    timing.gaps ? `gaps ${timing.gaps}s` : '',
     timing.voice ? `voice ${timing.voice}s` : '',
   ].filter(Boolean).join(' · ');
   elements.helper.textContent = result.error || `Validated local show packet · ${timingText || `next state: ${packet.next_state}`}`;
@@ -77,7 +79,10 @@ function showResult(result) {
   }));
   elements.audio.hidden = false;
   elements.audio.src = result.audioUrl;
-  elements.audio.play().catch(() => {});
+  // Streamed replies were already spoken on the show PC; keep them for replay only.
+  if (!result.streamed) {
+    elements.audio.play().catch(() => {});
+  }
 }
 
 async function submit(path, payload, action) {

@@ -12,3 +12,7 @@ __pycache__/
 software_pipeline/machine.json
 software_pipeline/runs.jsonl
 software_pipeline/voice_runs.jsonl
+
+# Blender review scenes (~300 MB each, over GitHub's 100 MB file limit); canonical copies live in WORK_PRODUCT on Z:
+*.blend
+*.blend1

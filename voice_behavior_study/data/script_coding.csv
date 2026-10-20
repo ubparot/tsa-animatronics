@@ -1,0 +1,41 @@
+VariantID,ToneCode,FitsOutcome,PhrasingNote
+V01,cheerful / boastful,yes,"Well," opener; one exclamatory sentence; absurd food lie
+V02,plain / earnest,partial,breakfast is believable so it barely reads as a lie; three sentences; repeats "big"; cut off by length cap
+V03,cheerful,yes,"Well," opener; short single exclamation; mild lie
+V04,wistful / imaginative,yes,wraps the lie in a dream about becoming a real boy; longer clause chain
+V05,whimsical,yes,adds Geppetto and "magic bread"; slightly ungrammatical apposition
+V06,evasive / teasing,no,"never answers; ""dear visitor"" address; promises a reveal; cut off"
+V07,cheeky / nonsensical,partial,"calls it a ""silly question""; surreal image (breakfast was my bed); cut off"
+V08,cheerful / repetitive,yes,"repeats ""big, juicy carrot"" twice in one sentence"
+V09,cheerful / boastful,yes,same line as baseline plus "just like I always do!" tag
+V10,cheerful / boastful,yes,baseline line shortened (drops "for breakfast today")
+V11,cheerful / boastful,yes,identical to V10
+V12,plain / earnest,partial,identical to V02 (top_k=1 is greedy decoding like T=0)
+V13,cheerful / boastful,yes,identical to baseline V01
+V14,cheerful / boastful,yes,identical to V10
+V15,cheerful / boastful,yes,identical to V10
+V16,plain / cheerful,partial,ordinary breakfast (pancakes) so the lie is weak; "just like always!"
+V17,stuck / repetitive,partial,same sentence looped three times
+V18,playful,yes,"Well," opener; invented "silly soup"; single sentence
+V19,childlike / cheerful,partial,"""Oh,"" opener; believable breakfast; ends with ""Yum yum!"""
+V20,cheerful,yes,two sentences; "big" repeated; cake for breakfast
+V21,sheepish / confessional,yes,"Well, I did ... but" concession; self-deprecating joke; two sentences
+V22,earnest / confessional,yes,straight admission naming friends; cut off mid-name ("Ge-")
+V23,proud / boastful,no,"brags (""quite a feat, wasn't it?""); tag question; no admission; cut off"
+V24,earnest / descriptive,yes,"""bit by bit, like a woodcarver""; credits Geppetto and locals; cut off"
+V25,evasive / vague,partial,"""Well, you see""; refers to an earlier lie without saying what it was; tag question"
+V26,proud / doubling down,no,keeps the lie going instead of confessing; one exclamation
+V27,rambling,partial,"opens with a tag question about logs and wheels; admits ""teamwork"" late; cut off"
+V28,earnest / confessional,yes,same structure as V22; cut off
+V29,rambling / self-deprecating,partial,"""so eager to make it look grand""; confession never arrives before the cut"
+V30,sheepish / confessional,yes,identical to baseline V21
+V31,sheepish / confessional,yes,identical to baseline V21
+V32,earnest / confessional,yes,identical to V22 (greedy decoding)
+V33,rambling / self-deprecating,partial,identical to V29
+V34,sheepish / confessional,yes,identical to baseline V21
+V35,sheepish / confessional,yes,identical to baseline V21
+V36,earnest / humble,yes,complete sentence; credits Geppetto; "still learning"
+V37,proud / boastful,no,"""Yes, I built this whole workshop by myself"" is the opposite of a confession; cut off"
+V38,sheepish,partial,"""a bit of a misstep""; trails off before admitting help"
+V39,playful / sheepish,partial,silly excuse (grew too fast); admits forgetting to ask for help
+V40,earnest / confessional,yes,"credits ""my friends Geppetto and the other wood""; odd phrasing; cut off"

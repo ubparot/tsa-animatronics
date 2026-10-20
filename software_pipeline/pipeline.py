@@ -687,6 +687,10 @@ def validate_packet(packet: Any) -> tuple[bool, str]:
             return False, "motion position/speed must be between 0 and 1"
         if not isinstance(command["duration_ms"], int) or not 0 <= command["duration_ms"] <= 5000:
             return False, "duration_ms must be an integer from 0 to 5000"
+    if "mouth_track" in packet:
+        from mouth_track import validate_mouth_track
+
+        return validate_mouth_track(packet["mouth_track"])
     return True, "ok"
 
 
@@ -777,14 +781,17 @@ def normalize_packet(packet: Any, tag_override: str | None = None) -> dict[str, 
     }
 
 
-def call_ollama(
+def build_ollama_request(
     question: str,
     model: str,
-    timeout: float,
     tag_override: str | None = None,
-    recent_lines: tuple[str, ...] = (),
     variation_index: int = 0,
-) -> dict[str, Any]:
+) -> tuple[str, str, dict[str, Any]]:
+    """Return (truth tag, user message, /api/chat payload) for one visitor question.
+
+    Shared by the whole-line call below and the streaming path in
+    streaming_speech.py so both send the model exactly the same prompt.
+    """
     tag = choose_show_tag(question, tag_override)
     outcome_instruction = {
         "TRUTH": "Answer honestly and directly. If you do not know, say so simply.",
@@ -839,6 +846,18 @@ def call_ollama(
         },
         "keep_alive": os.getenv("OLLAMA_KEEP_ALIVE", "30m"),
     }
+    return tag, user_message, payload
+
+
+def call_ollama(
+    question: str,
+    model: str,
+    timeout: float,
+    tag_override: str | None = None,
+    recent_lines: tuple[str, ...] = (),
+    variation_index: int = 0,
+) -> dict[str, Any]:
+    tag, user_message, payload = build_ollama_request(question, model, tag_override, variation_index)
     model_reply: dict[str, Any] | None = None
     last_valid_reply: dict[str, Any] | None = None
     recent_normalized = {complete_show_line(line).casefold() for line in recent_lines}
@@ -930,6 +949,20 @@ def get_response(
     return remember_spoken_line(fallback_response(question, turn, tag_override)), "fallback"
 
 
+def attach_mouth_track(
+    packet: dict[str, Any], expression: str | None = None, duration_s: float | None = None
+) -> dict[str, Any]:
+    """Add the 7-channel mouth servo track for the packet's line (host-derived; the model never sets it).
+
+    The legacy `jaw` motion command stays in packet["motion"] for controllers without the new mouth.
+    Opt-in because it needs numpy and 18_Mouth_Revamp/mouth_poses.py (see mouth_track.py).
+    """
+    from mouth_track import mouth_track_for_packet
+
+    packet["mouth_track"] = mouth_track_for_packet(packet, expression, duration_s)
+    return packet
+
+
 def apply_simulation(packet: dict[str, Any]) -> None:
     print(f"  state  -> {packet['next_state']}")
     print(f"  speech -> {packet['spoken_text']}")
@@ -937,6 +970,13 @@ def apply_simulation(packet: dict[str, Any]) -> None:
         print(
             f"  motion -> {command['axis']} position={command['position']:.2f} "
             f"speed={command['speed']:.2f} duration={command['duration_ms']}ms"
+        )
+    if "mouth_track" in packet:
+        track = packet["mouth_track"]
+        expression = track["expression"]["name"] if track["expression"] else "none"
+        print(
+            f"  mouth  -> {len(track['channels'])} channels, {len(track['tracks']['JAW_OPEN_DEG'])} frames "
+            f"@ {track['rate_hz']:g} Hz, expression={expression}"
         )
 
 
@@ -949,6 +989,8 @@ def main() -> int:
         choices=sorted(VALID_TAGS),
         help="Use this during a planned demo to make the truth/lie outcome repeatable.",
     )
+    parser.add_argument("--mouth", action="store_true", help="Also emit the 7-channel mouth servo track (mouth_track.py).")
+    parser.add_argument("--expression", help="Mouth expression override, e.g. smile, frown:0.5, surprise.")
     args = parser.parse_args()
 
     print("Pinocchio AI pipeline. Type a question; type 'quit' to exit.")
@@ -971,11 +1013,24 @@ def main() -> int:
             print(f"[blocked invalid response: {reason}]", file=sys.stderr)
             packet = fallback_response(question, turn)
             source = "fallback_after_validation"
+        if args.mouth:
+            try:
+                attach_mouth_track(packet, args.expression)
+                ok, reason = validate_packet(packet)
+                if not ok:
+                    raise ValueError(reason)
+            except (ImportError, ValueError) as exc:
+                print(f"[mouth track skipped: {exc}]", file=sys.stderr)
+                packet.pop("mouth_track", None)
         record = {"time": time.time(), "question": question, "source": source, "packet": packet}
+        if "mouth_track" in packet:
+            from mouth_track import track_summary
+
+            record["packet"] = {**packet, "mouth_track": track_summary(packet["mouth_track"])}
         with LOG_PATH.open("a", encoding="utf-8") as log:
             log.write(json.dumps(record) + "\n")
         print(f"\nSource: {source}")
-        print(json.dumps(packet, indent=2))
+        print(json.dumps({key: value for key, value in packet.items() if key != "mouth_track"}, indent=2))
         apply_simulation(packet)
     return 0
 

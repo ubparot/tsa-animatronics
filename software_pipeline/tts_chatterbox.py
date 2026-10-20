@@ -12,6 +12,7 @@ import soundfile as sf
 import torch
 from chatterbox.tts_turbo import ChatterboxTurboTTS
 
+import t3_cuda_graph
 from machine_paths import MACHINE
 
 
@@ -54,6 +55,12 @@ class ChatterboxVoice:
             str(self.reference_path.resolve()).lower(): self.model.conds,
         }
         self.sample_rate = int(self.model.sr)
+        # Replays each speech-token step as a CUDA graph (t3_cuda_graph.py):
+        # ~3x faster synthesis. Verified against stock decoding at start-up;
+        # if that check fails, stock decoding is used and nothing changes.
+        self.graph_decoder: t3_cuda_graph.T3GraphDecoder | None = None
+        if self.device == "cuda" and bool(config.get("chatterbox_cuda_graph", True)):
+            self.graph_decoder = t3_cuda_graph.install(self.model, bf16=bool(config.get("chatterbox_bf16", True)))
 
     @classmethod
     def from_config(cls, config: dict[str, Any]) -> "ChatterboxVoice":
@@ -64,6 +71,10 @@ class ChatterboxVoice:
     def synthesize_to_wav(self, text: str, output_path: Path) -> None:
         self.synthesize_variant_to_wav(text, output_path, {})
 
+    def synthesize_samples(self, text: str) -> np.ndarray:
+        """Generate one clause with the live settings and return float32 samples."""
+        return self._generate(text, {})
+
     def synthesize_variant_to_wav(
         self,
         text: str,
@@ -71,6 +82,11 @@ class ChatterboxVoice:
         settings: dict[str, Any],
     ) -> None:
         """Generate one audition variant without changing the live defaults."""
+        samples = self._generate(text, settings)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        sf.write(str(output_path), samples, self.sample_rate, subtype="PCM_16")
+
+    def _generate(self, text: str, settings: dict[str, Any]) -> np.ndarray:
         clean_text = text.strip()
         if not clean_text:
             raise ValueError("Chatterbox cannot synthesize empty text.")
@@ -88,7 +104,6 @@ class ChatterboxVoice:
         seed = int(settings.get("seed", self.seed))
         if not 1 <= top_k <= 5000:
             raise ValueError("top_k must be between 1 and 5000.")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
         with self._lock:
             self._activate_reference(reference)
             self._set_seed(seed)
@@ -103,7 +118,7 @@ class ChatterboxVoice:
         samples = waveform.squeeze().detach().float().cpu().numpy()
         if samples.size == 0 or not np.isfinite(samples).all():
             raise RuntimeError("Chatterbox produced invalid audio.")
-        sf.write(str(output_path), samples, self.sample_rate, subtype="PCM_16")
+        return samples
 
     def apply_settings(self, settings: dict[str, Any]) -> None:
         """Make a rated variant the default for later live generations."""
@@ -149,6 +164,34 @@ class ChatterboxVoice:
             torch.cuda.manual_seed_all(seed)
 
 
+# The cap below only covers PyTorch's allocator. The CUDA context and Whisper's
+# CTranslate2 buffers sit outside it, so they are reserved from the budget.
+UNCAPPED_VOICE_OVERHEAD_GB = 1.0
+
+
+def limit_voice_vram(budget_gb: float) -> float:
+    """Cap this process's PyTorch GPU memory to mimic a smaller voice card.
+
+    Call before loading any model. Returns the cap in GB actually applied to
+    PyTorch, or 0 when no cap applies (no budget, or the GPU is smaller anyway).
+    """
+    if budget_gb <= 0 or not torch.cuda.is_available():
+        return 0.0
+    total_gb = torch.cuda.get_device_properties(0).total_memory / 1024**3
+    cap_gb = budget_gb - UNCAPPED_VOICE_OVERHEAD_GB
+    if cap_gb >= total_gb:
+        return 0.0
+    torch.cuda.set_per_process_memory_fraction(cap_gb / total_gb, 0)
+    return cap_gb
+
+
+def voice_peak_vram_gb() -> float:
+    """Peak PyTorch memory reserved by the voice since start-up."""
+    if not torch.cuda.is_available():
+        return 0.0
+    return torch.cuda.max_memory_reserved(0) / 1024**3
+
+
 VoiceEngine = ChatterboxVoice
 
 
@@ -157,8 +200,10 @@ def create_voice(config: dict[str, Any]) -> VoiceEngine:
 
 
 def describe_voice(voice: VoiceEngine) -> str:
+    decoder = voice.graph_decoder
+    decoding = "stock decoding" if decoder is None else f"CUDA graph {str(decoder.dtype).replace('torch.', '')}"
     return (
-        f"Chatterbox Turbo | {voice.reference_path.stem} | {voice.device} | "
+        f"Chatterbox Turbo | {voice.reference_path.stem} | {voice.device} | {decoding} | "
         f"temperature {voice.temperature:.2f} | top-p {voice.top_p:.2f}"
     )
 

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice Listening Session</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --card: #ffffff; --ink: #1f1d1a; --muted: #6d675e; --line: #e2ddd3;
+    --accent: #8a4b1f; --accent-ink: #ffffff; --chip: #f1ede5; --ok: #2f6b3a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #171614; --card: #211f1c; --ink: #ece7de; --muted: #a39b8f; --line: #36322c;
+            --accent: #d68a4f; --accent-ink: #1b1209; --chip: #2b2824; --ok: #7fbf8a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .progress { height: 6px; background: var(--chip); border-radius: 3px; overflow: hidden; margin: 8px 0 18px; }
+  .progress > div { height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 13px; }
+  .line { font-size: 19px; margin: 10px 0 4px; }
+  .emotion { color: var(--muted); margin-bottom: 14px; }
+  audio { width: 100%; margin-bottom: 8px; }
+  .q { margin: 16px 0 0; }
+  .q > label { display: block; font-weight: 600; margin-bottom: 6px; }
+  .q > label span { font-weight: 400; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chips button { border: 1px solid var(--line); background: var(--chip); color: var(--ink);
+                  border-radius: 999px; padding: 6px 12px; font: inherit; cursor: pointer; }
+  .chips button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .scale { display: grid; grid-template-columns: auto 1fr auto; gap: 8px; align-items: center; }
+  .scale .ends { color: var(--muted); font-size: 13px; }
+  .scale .chips button { width: 40px; padding: 6px 0; text-align: center; }
+  textarea, input[type=text] { width: 100%; border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+                               border-radius: 8px; padding: 8px 10px; font: inherit; }
+  .actions { display: flex; gap: 10px; align-items: center; margin-top: 20px; }
+  .primary { background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 8px;
+             padding: 10px 18px; font: inherit; font-weight: 600; cursor: pointer; }
+  .primary:disabled { opacity: .45; cursor: not-allowed; }
+  .ghost { background: transparent; border: 1px solid var(--line); color: var(--ink); border-radius: 8px;
+           padding: 10px 14px; font: inherit; cursor: pointer; }
+  .hint { color: var(--muted); font-size: 13px; }
+  .done { color: var(--ok); font-weight: 600; }
+  @media (max-width: 520px) {
+    .scale { grid-template-columns: 1fr; }
+    .scale .ends { display: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Voice listening session</h1>
+  <p class="sub">Listen to each clip and describe how it <em>sounds</em>. There are no right answers and the settings are hidden. About 15 minutes.</p>
+
+  <section class="card" id="start">
+    <div class="q" style="margin-top:0">
+      <label for="who">Your name or initials <span>(lets teammates rate too, and lets you resume later)</span></label>
+      <input type="text" id="who" autocomplete="off" placeholder="e.g. AM">
+    </div>
+    <div class="actions"><button class="primary" id="begin">Start</button></div>
+  </section>
+
+  <section class="card" id="rate" hidden>
+    <div class="meta"><span id="count"></span></div>
+    <div class="progress"><div id="bar"></div></div>
+    <div class="line" id="text"></div>
+    <div class="emotion">Intended feeling: <span id="emotion"></span></div>
+    <audio id="player" controls></audio>
+    <div class="hint">Space replays · Enter saves when every required answer is picked</div>
+
+    <div class="q"><label>Tone you hear <span>(pick one)</span></label>
+      <div class="chips" data-key="tone" data-type="one"></div></div>
+    <div class="q"><label>Does it match the intended feeling?</label>
+      <div class="scale"><span class="ends">not at all</span><div class="chips" data-key="emotion_match" data-type="scale"></div><span class="ends">exactly</span></div></div>
+    <div class="q"><label>Expressiveness</label>
+      <div class="scale"><span class="ends">monotone</span><div class="chips" data-key="expressiveness" data-type="scale"></div><span class="ends">very animated</span></div></div>
+    <div class="q"><label>Naturalness</label>
+      <div class="scale"><span class="ends">robotic</span><div class="chips" data-key="naturalness" data-type="scale"></div><span class="ends">human</span></div></div>
+    <div class="q"><label>Breathiness</label>
+      <div class="scale"><span class="ends">clear</span><div class="chips" data-key="breathiness" data-type="scale"></div><span class="ends">very breathy</span></div></div>
+    <div class="q"><label>Articulation</label>
+      <div class="scale"><span class="ends">mumbled</span><div class="chips" data-key="articulation" data-type="scale"></div><span class="ends">crisp</span></div></div>
+    <div class="q"><label>Sounds like the Pinocchio character</label>
+      <div class="scale"><span class="ends">not at all</span><div class="chips" data-key="character_fit" data-type="scale"></div><span class="ends">completely</span></div></div>
+    <div class="q"><label>Pacing</label>
+      <div class="chips" data-key="pacing" data-type="one"></div></div>
+    <div class="q"><label>Anything odd? <span>(optional, pick any)</span></label>
+      <div class="chips" data-key="oddities" data-type="many"></div></div>
+    <div class="q"><label for="note">Notes <span>(optional)</span></label>
+      <textarea id="note" rows="2" placeholder="e.g. sounds sarcastic, voice cracks on 'braver'"></textarea></div>
+
+    <div class="actions">
+      <button class="primary" id="save" disabled>Save &amp; next</button>
+      <button class="ghost" id="replay">Replay</button>
+      <span class="hint" id="status"></span>
+    </div>
+  </section>
+
+  <section class="card" id="finished" hidden>
+    <p class="done">All clips rated. Thank you!</p>
+    <p>Your answers are saved. You can close this tab and tell Claude you're done, or hand the page to a teammate to rate under their own name.</p>
+  </section>
+</main>
+<script>
+const OPTIONS = {
+  tone: ["cheerful", "warm", "remorseful / sad", "nervous", "sarcastic / dry", "excited", "whispery", "flat / robotic", "strange / uncanny"],
+  pacing: ["too slow", "natural", "too fast", "uneven"],
+  oddities: ["glitch / static", "wrong or missing words", "long silence", "metallic / robotic", "cut off at end",
+             "odd emphasis", "unexpected laugh or noise", "voice changes mid-line", "shouting"],
+};
+const REQUIRED = ["tone", "emotion_match", "expressiveness", "naturalness", "breathiness", "articulation", "character_fit", "pacing"];
+let clips = [], idx = 0, listener = "", answers = {};
+
+document.querySelectorAll(".chips").forEach(group => {
+  const key = group.dataset.key, type = group.dataset.type;
+  const values = type === "scale" ? ["1", "2", "3", "4", "5"] : OPTIONS[key];
+  values.forEach(v => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = v; b.setAttribute("aria-pressed", "false");
+    b.onclick = () => {
+      if (type === "many") {
+        const on = b.getAttribute("aria-pressed") !== "true";
+        b.setAttribute("aria-pressed", String(on));
+        const set = new Set(answers[key] || []);
+        on ? set.add(v) : set.delete(v);
+        answers[key] = [...set];
+      } else {
+        group.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", "false"));
+        b.setAttribute("aria-pressed", "true");
+        answers[key] = type === "scale" ? Number(v) : v;
+      }
+      refresh();
+    };
+    group.appendChild(b);
+  });
+});
+
+function refresh() { document.getElementById("save").disabled = !REQUIRED.every(k => answers[k] !== undefined); }
+
+function show() {
+  while (idx < clips.length && clips[idx].done) idx++;
+  if (idx >= clips.length) {
+    document.getElementById("rate").hidden = true;
+    document.getElementById("finished").hidden = false;
+    return;
+  }
+  const c = clips[idx], doneCount = clips.filter(x => x.done).length;
+  answers = {};
+  document.querySelectorAll(".chips button").forEach(b => b.setAttribute("aria-pressed", "false"));
+  document.getElementById("note").value = "";
+  document.getElementById("count").textContent = `Clip ${doneCount + 1} of ${clips.length}`;
+  document.getElementById("bar").style.width = `${100 * doneCount / clips.length}%`;
+  document.getElementById("text").textContent = `“${c.text}”`;
+  document.getElementById("emotion").textContent = c.emotion;
+  const player = document.getElementById("player");
+  player.src = `/audio/${c.clip}`;
+  player.play().catch(() => {});
+  document.getElementById("status").textContent = "";
+  refresh();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+document.getElementById("begin").onclick = async () => {
+  listener = document.getElementById("who").value.trim();
+  if (!listener) { document.getElementById("who").focus(); return; }
+  try { localStorage.setItem("listener", listener); } catch (e) {}
+  clips = await (await fetch(`/api/session?listener=${encodeURIComponent(listener)}`)).json();
+  document.getElementById("start").hidden = true;
+  document.getElementById("rate").hidden = false;
+  idx = 0; show();
+};
+
+document.getElementById("save").onclick = async () => {
+  const c = clips[idx];
+  const body = { listener, clip: c.clip, ...answers, oddities: answers.oddities || [], note: document.getElementById("note").value.trim() };
+  document.getElementById("status").textContent = "Saving…";
+  const r = await fetch("/api/rate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  if (!r.ok) { document.getElementById("status").textContent = "Could not save. Is the server still running?"; return; }
+  c.done = true; idx++; show();
+};
+document.getElementById("replay").onclick = () => { const p = document.getElementById("player"); p.currentTime = 0; p.play(); };
+document.addEventListener("keydown", e => {
+  if (document.getElementById("rate").hidden || e.target.tagName === "TEXTAREA") return;
+  if (e.code === "Space") { e.preventDefault(); document.getElementById("replay").click(); }
+  if (e.key === "Enter" && !document.getElementById("save").disabled) document.getElementById("save").click();
+});
+try { const saved = localStorage.getItem("listener"); if (saved) document.getElementById("who").value = saved; } catch (e) {}
+</script>
+</body>
+</html>
